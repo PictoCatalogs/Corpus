@@ -9,7 +9,9 @@ This repository is under construction. For the moment, it only contains catalogs
 
 ## Workflow 
 
-IIIF -- eScriptorium -- ALTO -- TEI -- CSV 
+<p align="center">
+  <img src="images/workflow.png" width="1000"/>
+</p>
 
 ## Repository
 
