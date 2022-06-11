@@ -33,7 +33,7 @@
                                                                                                               <publisher>Photo-Club de Paris</publisher>
                                                                                                               <pubPlace>44, rue des Mathurins, Paris</pubPlace>
                                                                                                               <date when="1906">1906</date>
-                                                                                                              <extent>1 vol. (91 p.) ; [11] leaves of plates ; 19 cm</extent>
+                                                                                                              <extent> 1 vol. (91 p.), [11] leaves of plates : ill. ; 19 cm</extent>
                                                                                                               <relatedItem>
                                                                                                                                     <msDesc>
                                                                                                                                                           <msIdentifier>
@@ -497,14 +497,14 @@
                                                   <entry n="46" xml:id="PCP_1906_e46"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6969/full/full/0/default.jpg">
                                                   <desc><name>CAUMIL (A.)</name><trait>
-                                                  <p> S. P. DE MARSEILLE. 22, rue des Covalescents, Marseille (Bouches-du-Rhône).</p>
+                                                  <p> S. P. DE MARSEILLE. 22, rue des Convalescents, Marseille (Bouches-du-Rhône).</p>
                                                   </trait></desc>
                                                   <item n="107" xml:id="PCP_1906_e46_i107"><num>107</num><title>Brume matinale.</title><desc> A. Ch.</desc></item>
                                                   </entry>
                                                   <entry n="47" xml:id="PCP_1906_e47"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6969/full/full/0/default.jpg">
                                                   <desc><name>CAUTIN</name><trait>
-                                                  <p>55, rue de Châteaudrun, Paris.</p>
+                                                  <p>55, rue de Châteaudun, Paris.</p>
                                                   </trait></desc>
                                                   <item n="108" xml:id="PCP_1906_e47_i108"><num>108</num><title>Étude.</title><desc> D. Ch.</desc></item>
                                                   <item n="109" xml:id="PCP_1906_e47_i109"><num>109</num><title>Portrait de Mlle P.</title><desc> D. Ch.</desc></item>
@@ -752,7 +752,7 @@
                                                   <entry n="78" xml:id="PCP_1906_e78"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6977/full/full/0/default.jpg">
                                                   <desc><name>DESQUARTIERS (Ad.)</name><trait>
-                                                  <p> S. P. DE. DUNKERQUE. Villa Bertje Madeleine, rue Rombont, Marlo-les-Bains (Nord).</p>
+                                                  <p> S. P. DE. DUNKERQUE. Villa Berthe Madeleine, rue Rombont, Malo-les-Bains (Nord).</p>
                                                   </trait></desc>
                                                   <item n="170" xml:id="PCP_1906_e78_i170"><num>170</num><title>Neige.</title><desc> D. Gb.</desc></item>
                                                   <item n="171" xml:id="PCP_1906_e78_i171"><num>171</num><title>Ventes du large.</title><desc> A. Br.</desc></item>
@@ -2309,7 +2309,7 @@
                                                   <entry n="257" xml:id="PCP_1906_e257"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/7026/full/full/0/default.jpg">
                                                   <desc><name>VAN BAER (Aug.)</name><trait>
-                                                  <p>8, rue Legrouvé, Paris.</p>
+                                                  <p>8, rue Legouvé, Paris.</p>
                                                   </trait></desc>
                                                   <item n="652" xml:id="PCP_1906_e257_i652"><num>652</num><title>Prière du soir. D. Br.</title><desc> D. Br.</desc></item>
                                                   </entry>
