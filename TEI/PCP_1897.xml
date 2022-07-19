@@ -1,0 +1,4294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/carolinecorbieres/Memoire_TNAH/master/2_Workflow/5_ImproveGROBIDoutput/ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/carolinecorbieres/Memoire_TNAH/master/2_Workflow/5_ImproveGROBIDoutput/ODD/ODD_VisualContagions.rng" type="application/xml"="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PCP_1897_TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Catalogue du Quatrième Salon de Photographie du Photo-Club de Paris</title>
+        <editor role="metadata">
+          <persName>Frédérine Pradier</persName>
+        </editor>
+        <editor role="data">
+          <persName>Frédérine Pradier</persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <!-- === Nom du projet, directeur/directrice, organisme et adresse === -->
+          <name>Picto Catalogs</name>
+          <persName type="director">Frédérine Pradier</persName>
+          <orgName>UNIGE</orgName>
+          <address>
+            <addrLine>5 rue des Battoirs 7</addrLine>
+            <postCode>1205</postCode>
+            <settlement>Genève</settlement>
+          </address>
+        </publisher>
+        <date when="2022">2022</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+          <licence target="https://www.metmuseum.org/information/terms-and-conditions"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="exhibition_catalog">
+          <title>Salon de photographie, 4e année 1897 : catalogue / Photo-Club de Paris</title>
+          <author>Photo-Club de Paris</author>
+          <publisher>Photo-Club de Paris</publisher>
+          <pubPlace>40, rue des Mathurins, Paris</pubPlace>
+          <date when="1897">1897</date>
+          <extent>96 p. : ill., plates ; 18 cm</extent>
+          <relatedItem>
+            <msDesc>
+              <!-- === organisme conservant l'objet numérisé === -->
+              <msIdentifier>
+                <repository>Metropolitan Museum of Art (New-York, N.Y.)</repository>
+              </msIdentifier>
+              <additional>
+                <surrogates>
+                  <ref facs="https://cdm16028.contentdm.oclc.org/iiif/p15324coll19/manifest.json"/>
+                  <name role="digitisation">Metropolitan Museum of Art (New-York, N.Y.)</name>
+                </surrogates>
+              </additional>
+            </msDesc>
+          </relatedItem>
+          <extent/>
+        </bibl>
+        <listEvent>
+          <!-- === informations sur l'événement référé par le catalogue. Attributs obligatoires === -->
+          <event type="exhibition" subtype="fixed" from="1897-04-13" to="1897-04-28">
+            <head>Quatrième Salon de Photographie</head>
+            <head type="society">Photo-Club de Paris</head>
+            <desc>
+              <listPlace>
+                <!-- Repeatable chaining of tags (if there are several sections (= addresses) for the same exhibition catalog) -->
+                <place><head/>
+                  <placeName>
+                    <orgName type="gallery">Galerie des Champs-Élysées</orgName>
+                    <!-- Two addresses are encoded: the first one is indicated in the printout and the second one
+                                                                                                                                                                                      corresponds to its standardized version -->
+                    <choice>
+                      <orig>
+                        <address n="address_from_source">
+                          <addrLine>72 avenue des Champs-Élysées</addrLine>
+                        </address>
+                      </orig>
+                      <reg>
+                        <address n="section_address">
+                          <street>72 avenue des Champs-Élysées</street>
+                          <addrLine n="locality"/>
+                          <settlement>Paris</settlement>
+                          <country>France</country>
+                          <region/>
+                        </address>
+                      </reg>
+                    </choice>
+                  </placeName>
+                  <note></note>
+                </place>
+                <place>
+                  <!-- Repeatable tags -->
+                </place>
+              </listPlace>
+            </desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc/>
+    <encodingDesc>
+      <samplingDecl>
+        <p>This electronic version of the catalog only reproduces the entries that
+                            correspond to exhibited works. All text preceding or succeeding the list
+                            of documents is not reproduced below.</p>
+      </samplingDecl>
+      <appInfo>
+        <!-- === logiciel utilisé pour la transcription. Attributs obligatoires === -->
+        <application version="0.10.3b" ident="FoNDUE-eScriptorium">
+          <label>FoNDUE-eScriptorium</label>
+          <ptr target="https://test2.fondue.unige.ch"/>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <list>
+        <entry n="1" xml:id="PCP_1897_TEI_e1" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4562/27,481,415,128/full/0/default.jpg">
+          <desc>
+            <name>ABERCRON (Fritz von)</name>
+            <trait>
+              <p>Grossborstel. Niendorferweg, près Hambourg (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="1" xml:id="PCP_1897_TEI_e1_i1">
+            <num>1</num>
+            <title>Première Neige.</title><desc>A. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="2" xml:id="PCP_1897_TEI_e2" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4562/27,634,422,101/full/0/default.jpg">
+          <desc>
+            <name>ADAM (H.)</name>
+            <trait>
+              <p>3, Impasse Cauvigny, Caen (Calvados).</p>
+            </trait>
+          </desc>
+          <item n="2" xml:id="PCP_1897_TEI_e2_i2">
+            <num>2</num>
+            <title>Sur les Bords de l'Orne.</title><desc>D. Al.</desc>
+          </item>
+        </entry>
+        <entry n="3" xml:id="PCP_1897_TEI_e3" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4562/29,765,382,126/full/0/default.jpg">
+          <desc>
+            <name>ALEXANDRE</name>
+            <trait>
+              <p>L. R. 268, rue Haute, Bruxelles.</p>
+            </trait>
+          </desc>
+          <item n="3" xml:id="PCP_1897_TEI_e3_i3">
+            <num>3</num>
+            <title>Éclaircie.</title>
+          </item>
+          <item n="4" xml:id="PCP_1897_TEI_e3_i4">
+            <num>4</num>
+            <title>Le Pêcheur de crevettes.</title>
+          </item>
+        </entry>
+        <entry n="4" xml:id="PCP_1897_TEI_e4" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4563/99,112,414,104/full/0/default.jpg">
+          <desc>
+            <name>AMENOS (Domingo)</name>
+            <trait>
+              <p>Pelayo, 2, 3°, 2°, Barcelone.</p>
+            </trait>
+          </desc>
+          <item n="5" xml:id="PCP_1897_TEI_e4_i5">
+            <num>5</num>
+            <title>Méditation.</title><desc>D. Ch. V.</desc>
+          </item>
+        </entry>
+        <entry n="5" xml:id="PCP_1897_TEI_e5" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4563/97,257,443,156/full/0/default.jpg">
+          <desc>
+            <name>ASHTON (E.-R.)</name>
+            <trait>
+              <p>L. R. Camden Park. Tunbridge Wells (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="6" xml:id="PCP_1897_TEI_e5_i6">
+            <num>6</num>
+            <title>Un Fidèle.</title>
+          </item>
+          <item n="7" xml:id="PCP_1897_TEI_e5_i7">
+            <num>7</num>
+            <title>Le Soir près des Pyramides.</title>
+          </item>
+          <item n="8" xml:id="PCP_1897_TEI_e5_i8">
+            <num>8</num>
+            <title>L'Heure de la Prière.</title>
+          </item>
+        </entry>
+        <entry n="6" xml:id="PCP_1897_TEI_e6" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4563/87,454,453,118/full/0/default.jpg">
+          <desc>
+            <name>ASHTON HAND (S.)</name>
+            <trait>
+              <p>1213, Filbert Street, Philadelphie (U. S. A).</p>
+            </trait>
+          </desc>
+          <item n="9" xml:id="PCP_1897_TEI_e6_i9">
+            <num>9</num>
+            <title>A la Remorque.</title>
+          </item>
+        </entry>
+        <entry n="7" xml:id="PCP_1897_TEI_e7" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4563/101,611,439,124/full/0/default.jpg">
+          <desc>
+            <name>ATKINSON (Edward)</name>
+            <trait>
+              <p>23, Wyatt Road, Highbury, Londres.</p>
+            </trait>
+          </desc>
+          <item n="10" xml:id="PCP_1897_TEI_e7_i10">
+            <num>10</num>
+            <title>Doucement la nuit tomba.</title><desc>A. Br.</desc>
+          </item>
+          <item n="10" xml:id="PCP_1897_TEI_e7_i10b">
+            <num>10</num>
+            <title>bis Le Brûleur d'herbes.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="8" xml:id="PCP_1897_TEI_e8" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4563/90,774,440,100/full/0/default.jpg">
+          <desc>
+            <name>BAKHUIS (Joh. A.)</name>
+            <trait>
+              <p>Olst (Hollande).</p>
+            </trait>
+          </desc>
+          <item n="11" xml:id="PCP_1897_TEI_e8_i11">
+            <num>11</num>
+            <title>Étude d'éclairage.</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="9" xml:id="PCP_1897_TEI_e9" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4564/26,124,457,116/full/0/default.jpg">
+          <desc>
+            <name>BALLIF (Henry)</name>
+            <trait>
+              <p>2, rue Balzac, Tours.</p>
+            </trait>
+          </desc>
+          <item n="12" xml:id="PCP_1897_TEI_e9_i12">
+            <num>12</num>
+            <title> Vue de la Loire à Saint-Denishors (lndre-et-Loire).</title><desc>D. Gb.</desc>
+          </item>
+        </entry>
+        <entry n="10" xml:id="PCP_1897_TEI_e10" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4564/23,277,446,98/full/0/default.jpg">
+          <desc>
+            <name>BARBICHON </name>
+            <trait>
+              <p>S. F. P. Rue Saint-Pierre, 19, Versailles.</p>
+            </trait>
+          </desc>
+          <item n="13" xml:id="PCP_1897_TEI_e10_i13">
+            <num>13</num>
+            <title>Claire Matinée d'hiver.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="11" xml:id="PCP_1897_TEI_e11" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4564/16,407,453,175/full/0/default.jpg">
+          <desc>
+            <name>BARRON (E.-E.)</name>
+            <trait>
+              <p>55, Lincolns lnn Fields, Londres.</p>
+            </trait>
+          </desc>
+          <item n="14" xml:id="PCP_1897_TEI_e11_i14">
+            <num>14</num>
+            <title>Temps pluvieux aux terrains bas.</title>
+          </item>
+          <item n="15" xml:id="PCP_1897_TEI_e11_i15">
+            <num>15</num>
+            <title>Le Moissonneur.</title>
+          </item>
+          <item n="16" xml:id="PCP_1897_TEI_e11_i16">
+            <num>16</num>
+            <title>Au-dessous des collines de Surrey.</title>
+          </item>
+          <item n="17" xml:id="PCP_1897_TEI_e11_i17">
+            <num>17</num>
+            <title>Charriage du printemps.</title>
+          </item>
+          <item n="18" xml:id="PCP_1897_TEI_e11_i18">
+            <num>18</num>
+            <title>Pâturage en chemin.</title>
+          </item>
+        </entry>
+        <entry n="12" xml:id="PCP_1897_TEI_e12" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4564/19,617,392,118/full/0/default.jpg">
+          <desc>
+            <name>BARRON (Perey)</name>
+            <trait>
+              <p>Kavensdene Barnet, Londres.</p>
+            </trait>
+          </desc>
+          <item n="19" xml:id="PCP_1897_TEI_e12_i19">
+            <num>19</num>
+            <title>Brume d'hiver.</title>
+          </item>
+          <item n="20" xml:id="PCP_1897_TEI_e12_i20">
+            <num>20</num>
+            <title>L’Automne.</title>
+          </item>
+        </entry>
+        <entry n="13" xml:id="PCP_1897_TEI_e13" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4564/17,762,435,122/full/0/default.jpg">
+          <desc>
+            <name>BAYXTON (Charles-S.)</name>
+            <trait>
+              <p>School Road, Moseley, Birmingham.</p>
+            </trait>
+          </desc>
+          <item n="21" xml:id="PCP_1897_TEI_e13_i21">
+            <num>21</num>
+            <title>Parc de Sutton.</title>
+          </item>
+          <item n="22" xml:id="PCP_1897_TEI_e13_i22">
+            <num>22</num>
+            <title>Bolton Abbey.</title>
+          </item>
+        </entry>
+        <entry n="14" xml:id="PCP_1897_TEI_e14" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4565/131,114,396,122/full/0/default.jpg">
+          <desc>
+            <name>BÉGOZ (Alfred)</name>
+            <trait>
+              <p>24, cité Trévise, Paris.</p>
+            </trait>
+          </desc>
+          <item n="23" xml:id="PCP_1897_TEI_e14_i23">
+            <num>23</num>
+            <title>Bords du Léman.</title><desc>A. Br.</desc>
+          </item>
+          <item n="24" xml:id="PCP_1897_TEI_e14_i24">
+            <num>24</num>
+            <title>Paysanne.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="15" xml:id="PCP_1897_TEI_e15" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4565/125,294,429,197/full/0/default.jpg">
+          <desc>
+            <name>BELLIENI (H.)</name>
+            <trait>
+              <p>17, place Carnot, Nancy (Meurthe-et-Moselle).</p>
+            </trait>
+          </desc>
+          <item n="25" xml:id="PCP_1897_TEI_e15_i25">
+            <num>25</num>
+            <title>Sous la Neige.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="26" xml:id="PCP_1897_TEI_e15_i26">
+            <num>26</num>
+            <title>Sous Bois.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="27" xml:id="PCP_1897_TEI_e15_i27">
+            <num>27</num>
+            <title>Défilé au galop à la revue de Mirecourt.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="28" xml:id="PCP_1897_TEI_e15_i28">
+            <num>28</num>
+            <title>Chute de Neige.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="16" xml:id="PCP_1897_TEI_e16" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4565/115,550,439,148/full/0/default.jpg">
+          <desc>
+            <name>BENNETT (L.)</name>
+            <trait>
+              <p>L. R. 11, Fairbawn Park, Chiswick, Londres.</p>
+            </trait>
+          </desc>
+          <item n="29" xml:id="PCP_1897_TEI_e16_i29">
+            <num>29</num>
+            <title>Un Quai (Essex).</title>
+          </item>
+          <item n="30" xml:id="PCP_1897_TEI_e16_i30">
+            <num>30</num>
+            <title>Novembre.</title>
+          </item>
+          <item n="31" xml:id="PCP_1897_TEI_e16_i31">
+            <num>31</num>
+            <title>Le Poteau télégraphique.</title>
+          </item>
+        </entry>
+        <entry n="17" xml:id="PCP_1897_TEI_e17" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4565/116,757,421,124/full/0/default.jpg">
+          <desc>
+            <name>BERG (Charles-J.)</name>
+            <trait>
+              <p>10, West, 23 th. Street, New-York.</p>
+            </trait>
+          </desc>
+          <item n="32" xml:id="PCP_1897_TEI_e17_i32">
+            <num>32</num>
+            <title>Lumières et Ombres.</title><desc>Pl.</desc>
+          </item>
+          <item n="33" xml:id="PCP_1897_TEI_e17_i33">
+            <num>33</num>
+            <title>Magdalen.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="18" xml:id="PCP_1897_TEI_e18" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4566/10,117,435,214/full/0/default.jpg">
+          <desc>
+            <name>BERGON (Paul)</name>
+            <trait>
+              <p>S. F. P. 40, boulevard Haussmann, Paris.</p>
+            </trait>
+          </desc>
+          <item n="34" xml:id="PCP_1897_TEI_e18_i34">
+            <num>34</num>
+            <title>Étude de tête.</title>
+          </item>
+          <item n="35" xml:id="PCP_1897_TEI_e18_i35">
+            <num>35</num>
+            <title>Étude de tête.</title>
+          </item>
+          <item n="36" xml:id="PCP_1897_TEI_e18_i36">
+            <num>36</num>
+            <title>Mélancolie.</title>
+          </item>
+          <item n="37" xml:id="PCP_1897_TEI_e18_i37">
+            <num>37</num>
+            <title>Fleur de rêve.</title>
+          </item>
+          <item n="38" xml:id="PCP_1897_TEI_e18_i38">
+            <num>38</num>
+            <title>Le Modèle.</title>
+          </item>
+          <item n="39" xml:id="PCP_1897_TEI_e18_i39">
+            <num>39</num>
+            <title>Étude de plein air.</title>
+          </item>
+          <item n="40" xml:id="PCP_1897_TEI_e18_i40">
+            <num>40</num>
+            <title>Étude.</title>
+          </item>
+        </entry>
+        <entry n="19" xml:id="PCP_1897_TEI_e19" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4566/14,379,445,122/full/0/default.jpg">
+          <desc>
+            <name>BERL (Oscar)</name>
+            <trait>
+              <p>1, Schottenring, 7, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="41" xml:id="PCP_1897_TEI_e19_i41">
+            <num>41</num>
+            <title>Matinée d'automne.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="42" xml:id="PCP_1897_TEI_e19_i42">
+            <num>42</num>
+            <title>Coucher de soleil.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="20" xml:id="PCP_1897_TEI_e20" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4566/17,539,421,148/full/0/default.jpg">
+          <desc>
+            <name>BERT (Auguste)</name>
+            <trait>
+              <p>18, rue Raymond IV, Toulouse.</p>
+            </trait>
+          </desc>
+          <item n="43" xml:id="PCP_1897_TEI_e20_i43">
+            <num>43</num>
+            <title>La Part du chef.</title><desc>A. Br.</desc>
+          </item>
+          <item n="44" xml:id="PCP_1897_TEI_e20_i44">
+            <num>44</num>
+            <title>Profil.</title><desc>A. Br.</desc>
+          </item>
+          <item n="45" xml:id="PCP_1897_TEI_e20_i45">
+            <num>45</num>
+            <title>Salomé.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="21" xml:id="PCP_1897_TEI_e21" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4566/23,725,439,153/full/0/default.jpg">
+          <desc>
+            <name>BERTEAUX (Georges)</name>
+            <trait>
+              <p>P. C. P. - S. F. P. 73, avenue du Roule, Neuilly-sur-Seine.</p>
+            </trait>
+          </desc>
+          <item n="46" xml:id="PCP_1897_TEI_e21_i46">
+            <num>46</num>
+            <title>Sur la Jetée, à Baja (Italie). </title><desc>A. Ch.</desc>
+          </item>
+          <item n="47" xml:id="PCP_1897_TEI_e21_i47">
+            <num>47</num>
+            <title>Portrait de M. M.</title><desc>D. Ch. V.</desc>
+          </item>
+          <item n="48" xml:id="PCP_1897_TEI_e21_i48">
+            <num>48</num>
+            <title>Une Rue à Pouzzoles (Italie).</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="22" xml:id="PCP_1897_TEI_e22" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4567/121,97,433,202/full/0/default.jpg">
+          <desc>
+            <name>BINDER MESTRO (Madame)</name>
+            <trait>
+              <p>P. C. P. 7, rue des Écuries-d'Artois, Paris.</p>
+            </trait>
+          </desc>
+          <item n="49" xml:id="PCP_1897_TEI_e22_i49">
+            <num>49</num>
+            <title>Vieille Chanson.</title><desc>G. cl.</desc>
+          </item>
+          <item n="50" xml:id="PCP_1897_TEI_e22_i50">
+            <num>50</num>
+            <title>Laveuses (Choisy au bac).</title><desc>A. Ch.</desc>
+          </item>
+          <item n="51" xml:id="PCP_1897_TEI_e22_i51">
+            <num>51</num>
+            <title>Mignon.</title><desc>A. Br.</desc>
+          </item>
+          <item n="52" xml:id="PCP_1897_TEI_e22_i52">
+            <num>52</num>
+            <title>Coquetterie.</title><desc>D. Ch. V.</desc>
+          </item>
+          <item n="53" xml:id="PCP_1897_TEI_e22_i53">
+            <num>53</num>
+            <title>Dans le Parc (contre-jour).</title><desc>D. Ch.</desc>
+          </item>
+          <item n="54" xml:id="PCP_1897_TEI_e22_i54">
+            <num>54</num>
+            <title>Étude.</title><desc>D. G. cl.</desc>
+          </item>
+        </entry>
+        <entry n="23" xml:id="PCP_1897_TEI_e23" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4567/117,313,340,104/full/0/default.jpg">
+          <desc>
+            <name>BISPINCK (Ign.)</name>
+            <trait>
+              <p>90, Rokin, Amsterdam.</p>
+            </trait>
+          </desc>
+          <item n="55" xml:id="PCP_1897_TEI_e23_i55">
+            <num>55</num>
+            <title>Paysage de Neige.</title><desc>G. cl.</desc>
+          </item>
+        </entry>
+        <entry n="24" xml:id="PCP_1897_TEI_e24" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4567/114,428,422,161/full/0/default.jpg">
+          <desc>
+            <name>BLAND (W.-R.)</name>
+            <trait>
+              <p>Duffield, Derby (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="56" xml:id="PCP_1897_TEI_e24_i56">
+            <num>56</num>
+            <title>Une Lande en Yorkshire.</title><desc>Pl.</desc>
+          </item>
+          <item n="57" xml:id="PCP_1897_TEI_e24_i57">
+            <num>57</num>
+            <title>L'Étang des Sirènes.</title><desc>Pl.</desc>
+          </item>
+          <item n="58" xml:id="PCP_1897_TEI_e24_i58">
+            <num>58</num>
+            <title>Monument Curzon dans l'église, à Kedleston. </title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="25" xml:id="PCP_1897_TEI_e25" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4567/117,600,337,108/full/0/default.jpg">
+          <desc>
+            <name>BODEREAU.</name>
+            <trait>
+              <p>2, rue la Trémoïlle, Paris.</p>
+            </trait>
+          </desc>
+          <item n="59" xml:id="PCP_1897_TEI_e25_i59">
+            <num>59</num>
+            <title>La Seine à Poissy.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="26" xml:id="PCP_1897_TEI_e26" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4567/111,714,373,154/full/0/default.jpg">
+          <desc>
+            <name>BOISSONNAS (Fréd.)</name>
+            <trait>
+              <p>4, quai de la Poste, Genève.</p>
+            </trait>
+          </desc>
+          <item n="60" xml:id="PCP_1897_TEI_e26_i60">
+            <num>60</num>
+            <title>Nuit de Janvier.</title><desc>A. Ch. V.</desc>
+          </item>
+          <item n="61" xml:id="PCP_1897_TEI_e26_i61">
+            <num>61</num>
+            <title>La Liseuse.</title><desc>A. Ch. V.</desc>
+          </item>
+          <item n="62" xml:id="PCP_1897_TEI_e26_i62">
+            <num>62</num>
+            <title>Profil de jeune fille.</title><desc>D. Ch. V.</desc>
+          </item>
+        </entry>
+        <entry n="27" xml:id="PCP_1897_TEI_e27" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4569/23,111,453,123/full/0/default.jpg">
+          <desc>
+            <name>BOIVIN (André)</name>
+            <trait>
+              <p>P. C. P. 64, rue de Lisbonne, Paris.</p>
+            </trait>
+          </desc>
+          <item n="63" xml:id="PCP_1897_TEI_e27_i63">
+            <num>63</num>
+            <title>Brumes du matin.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="64" xml:id="PCP_1897_TEI_e27_i64">
+            <num>64</num>
+            <title>La Renarde.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="28" xml:id="PCP_1897_TEI_e28" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4569/30,274,446,118/full/0/default.jpg">
+          <desc>
+            <name>BOIVIN (Madame Henriette)</name>
+            <trait>
+              <p>64, rue de Lisbonne, Paris.</p>
+            </trait>
+          </desc>
+          <item n="65" xml:id="PCP_1897_TEI_e28_i65">
+            <num>65</num>
+            <title>Avant l’Orage.</title><desc>A. Br.</desc>
+          </item>
+          <item n="66" xml:id="PCP_1897_TEI_e28_i66">
+            <num>66</num>
+            <title>Lac de Genève.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="29" xml:id="PCP_1897_TEI_e29" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4569/19,434,460,125/full/0/default.jpg">
+          <desc>
+            <name>BOLTON (Francis-A.)</name>
+            <trait>
+              <p>Moor Court, Oakamoor (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="67" xml:id="PCP_1897_TEI_e29_i67">
+            <num>67</num>
+            <title>Le Sommet de la colline.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="68" xml:id="PCP_1897_TEI_e29_i68">
+            <num>68</num>
+            <title>La Rivière calme.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="30" xml:id="PCP_1897_TEI_e30" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4569/27,604,381,100/full/0/default.jpg">
+          <desc>
+            <name>BOULLOCHE (G.)</name>
+            <trait>
+              <p>20, rue de Navarin, Paris.</p>
+            </trait>
+          </desc>
+          <item n="69" xml:id="PCP_1897_TEI_e30_i69">
+            <num>69</num>
+            <title>Étude.</title>
+          </item>
+        </entry>
+        <entry n="31" xml:id="PCP_1897_TEI_e31" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4569/23,743,456,128/full/0/default.jpg">
+          <desc>
+            <name>BOURGEOIS (Paul)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 80, boulevard Malesherbes, Paris.</p>
+            </trait>
+          </desc>
+          <item n="70" xml:id="PCP_1897_TEI_e31_i70">
+            <num>70</num>
+            <title>Retour des champs.</title><desc>D. S.</desc>
+          </item>
+          <item n="71" xml:id="PCP_1897_TEI_e31_i71">
+            <num>71</num>
+            <title>Étang.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="32" xml:id="PCP_1897_TEI_e32" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4570/118,115,429,121/full/0/default.jpg">
+          <desc>
+            <name>BOUTIQUE (Augustin)</name>
+            <trait>
+              <p>S. DU NORD DE LA FRANCE. 24, rue Saint-Thomas, Douai (Nord).</p>
+            </trait>
+          </desc>
+          <item n="72" xml:id="PCP_1897_TEI_e32_i72">
+            <num>72</num>
+            <title>En Hiver.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="33" xml:id="PCP_1897_TEI_e33" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4570/115,281,412,101/full/0/default.jpg">
+          <desc>
+            <name>BOVIER (L.)</name>
+            <trait>
+              <p>168, boulevard Anspach. Bruxelles.</p>
+            </trait>
+          </desc>
+          <item n="73" xml:id="PCP_1897_TEI_e33_i73">
+            <num>73</num>
+            <title>L'Ensevelissement du Christ.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="34" xml:id="PCP_1897_TEI_e34" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4570/112,424,428,114/full/0/default.jpg">
+          <desc>
+            <name>BRACQ (Victor)</name>
+            <trait>
+              <p>Villa, des Falaises, Boulogne-sur-Mer (Pas-de-Calais).</p>
+            </trait>
+          </desc>
+          <item n="74" xml:id="PCP_1897_TEI_e34_i74">
+            <num>74</num>
+            <title>Pauvre Mousse.</title><desc>A. G. cl.</desc>
+          </item>
+        </entry>
+        <entry n="35" xml:id="PCP_1897_TEI_e35" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4570/101,589,409,115/full/0/default.jpg">
+          <desc>
+            <name>BRANDSEPH (Hermann)</name>
+            <trait>
+              <p>36, Marienstrasse, Stuttgart (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="75" xml:id="PCP_1897_TEI_e35_i75">
+            <num>75</num>
+            <title>La Couturière.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="36" xml:id="PCP_1897_TEI_e36" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4570/91,756,446,115/full/0/default.jpg">
+          <desc>
+            <name>BRARD (Jules)</name>
+            <trait>
+              <p>S. F. P. - S. A. E. Méru (Oise).</p>
+            </trait>
+          </desc>
+          <item n="76" xml:id="PCP_1897_TEI_e36_i76">
+            <num>76</num>
+            <title>Brume de matin (Fresneau Montchevriol).</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="37" xml:id="PCP_1897_TEI_e37" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4571/20,124,456,272/full/0/default.jpg">
+          <desc>
+            <name>BRÉMARD (Maurice)</name>
+            <trait>
+              <p>P. C. P. 41, boulevard Haussmann, Paris.</p>
+            </trait>
+          </desc>
+          <item n="77" xml:id="PCP_1897_TEI_e37_i77">
+            <num>77</num>
+            <title>Portrait de Mlle Y. B.</title><desc>Gb.</desc>
+          </item>
+          <item n="78" xml:id="PCP_1897_TEI_e37_i78">
+            <num>78</num>
+            <title>Sanguine. Étude de nu.</title><desc>Gb.</desc>
+          </item>
+          <item n="79" xml:id="PCP_1897_TEI_e37_i79">
+            <num>79</num>
+            <title>Portraits.</title><desc>Gb.</desc>
+          </item>
+          <item n="80" xml:id="PCP_1897_TEI_e37_i80">
+            <num>80</num>
+            <title>Mandolinata.</title><desc>Gb.</desc>
+          </item>
+          <item n="81" xml:id="PCP_1897_TEI_e37_i81">
+            <num>81</num>
+            <title>Profil perdu.</title><desc>Gb.</desc>
+          </item>
+          <item n="82" xml:id="PCP_1897_TEI_e37_i82">
+            <num>82</num>
+            <title>Sanguine.</title><desc>Gb.</desc>
+          </item>
+          <item n="83" xml:id="PCP_1897_TEI_e37_i83">
+            <num>83</num>
+            <title>Étude.</title><desc>Gb.</desc>
+          </item>
+          <item n="84" xml:id="PCP_1897_TEI_e37_i84">
+            <num>84</num>
+            <title>Étude.</title><desc>Gb.</desc>
+          </item>
+          <item n="85" xml:id="PCP_1897_TEI_e37_i85">
+            <num>85</num>
+            <title>Étude.</title><desc>Gb.</desc>
+          </item>
+          <item n="86" xml:id="PCP_1897_TEI_e37_i86">
+            <num>86</num>
+            <title>Étude.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="38" xml:id="PCP_1897_TEI_e38" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4571/22,438,450,141/full/0/default.jpg">
+          <desc>
+            <name>BRETENET (J.)</name>
+            <trait>
+              <p>60, rue Pelegrin, Bordeaux.</p>
+            </trait>
+          </desc>
+          <item n="87" xml:id="PCP_1897_TEI_e38_i87">
+            <num>87</num>
+            <title>Études d'arbres, à Vayres (Gironde).</title><desc>D. Ch. V.</desc>
+          </item>
+          <item n="88" xml:id="PCP_1897_TEI_e38_i88">
+            <num>88</num>
+            <title>Sous Bois. L'avenue de Vayres.</title><desc>D. Ch. V.</desc>
+          </item>
+        </entry>
+        <entry n="39" xml:id="PCP_1897_TEI_e39" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4571/26,614,446,124/full/0/default.jpg">
+          <desc>
+            <name>BRETONNIÈRE (Gui de la)</name>
+            <trait>
+              <p>P. C. P. S. A. E. 31, rue de Lisbonne. Paris.</p>
+            </trait>
+          </desc>
+          <item n="89" xml:id="PCP_1897_TEI_e39_i89">
+            <num>89</num>
+            <title>Ophélie. </title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="40" xml:id="PCP_1897_TEI_e40" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4571/22,770,444,111/full/0/default.jpg">
+          <desc>
+            <name>BROOKS THORNLEY</name>
+            <trait>
+              <p>The Laboratory, Jeffcott street, Melbourne (Australie).</p>
+            </trait>
+          </desc>
+          <item n="90" xml:id="PCP_1897_TEI_e40_i90">
+            <num>90</num>
+            <title>La Fin du roman.</title>
+          </item>
+        </entry>
+        <entry n="41" xml:id="PCP_1897_TEI_e41" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4572/98,111,429,213/full/0/default.jpg">
+          <desc>
+            <name>BROWNRIGG</name>
+            <trait>
+              <p>L. R. Artington House, Guildford (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="91" xml:id="PCP_1897_TEI_e41_i91">
+            <num>91</num>
+            <title>Soir d'automne sur la Wey.</title><desc>Pl. Dm.</desc>
+          </item>
+          <item n="92" xml:id="PCP_1897_TEI_e41_i92">
+            <num>92</num>
+            <title>Ile de Wight.</title><desc>Pl. Dm.</desc>
+          </item>
+          <item n="93" xml:id="PCP_1897_TEI_e41_i93">
+            <num>93</num>
+            <title>Chaland sur la plage, Pin Mill (Suffolk).</title><desc>Pl. Dm.</desc>
+          </item>
+          <item n="94" xml:id="PCP_1897_TEI_e41_i94">
+            <num>94</num>
+            <title>Chaland sur l'Orwell, le soir (Suffolk).</title><desc>Pl. Dm.</desc>
+          </item>
+        </entry>
+        <entry n="42" xml:id="PCP_1897_TEI_e42" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4572/94,383,395,125/full/0/default.jpg">
+          <desc>
+            <name>BUCQUET (Mademoiselle A.)</name>
+            <trait>
+              <p>12, rue Paul-Baudry, Paris.</p>
+            </trait>
+          </desc>
+          <item n="95" xml:id="PCP_1897_TEI_e42_i95">
+            <num>95</num>
+            <title>Lac de Côme.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="96" xml:id="PCP_1897_TEI_e42_i96">
+            <num>96</num>
+            <title>Sur la Seine, à Triel.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="43" xml:id="PCP_1897_TEI_e43" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4572/95,566,429,305/full/0/default.jpg">
+          <desc>
+            <name>BUCQUET (Maurice)</name>
+            <trait>
+              <p>P. C. P. - S. F. P. S. A. E. - L. R. 12, rue Paul-Baudry, Paris.</p>
+            </trait>
+          </desc>
+          <item n="97" xml:id="PCP_1897_TEI_e43_i97">
+            <num>97</num>
+            <title>Coucher de soleil, en Beauce.</title><desc>A. Br.</desc>
+          </item>
+          <item n="98" xml:id="PCP_1897_TEI_e43_i98">
+            <num>98</num>
+            <title>Avant le Grain.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="99" xml:id="PCP_1897_TEI_e43_i99">
+            <num>99</num>
+            <title>Marée montante.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="100" xml:id="PCP_1897_TEI_e43_i100">
+            <num>100</num>
+            <title>Étude de tête.</title>
+          </item>
+          <item n="101" xml:id="PCP_1897_TEI_e43_i101">
+            <num>101</num>
+            <title>Échoué.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="102" xml:id="PCP_1897_TEI_e43_i102">
+            <num>102</num>
+            <title>Le Marais.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="103" xml:id="PCP_1897_TEI_e43_i103">
+            <num>103</num>
+            <title>La Moisson.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="104" xml:id="PCP_1897_TEI_e43_i104">
+            <num>104</num>
+            <title>Attendant la Soupe.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="105" xml:id="PCP_1897_TEI_e43_i105">
+            <num>105</num>
+            <title>Marée basse.</title><desc>A. Br.</desc>
+          </item>
+          <item n="106" xml:id="PCP_1897_TEI_e43_i106">
+            <num>106</num>
+            <title>Rentrée au camp.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="44" xml:id="PCP_1897_TEI_e44" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4574/21,128,445,158/full/0/default.jpg">
+          <desc>
+            <name>CAMERON (H.)</name>
+            <trait>
+              <p>L. R. 70, Mortimer street, Londres.</p>
+            </trait>
+          </desc>
+          <item n="107" xml:id="PCP_1897_TEI_e44_i107">
+            <num>107</num>
+            <title>Master Charlie Boyle.</title>
+          </item>
+          <item n="108" xml:id="PCP_1897_TEI_e44_i108">
+            <num>108</num>
+            <title>Master Jimmie Marshall.</title>
+          </item>
+          <item n="109" xml:id="PCP_1897_TEI_e44_i109">
+            <num>109</num>
+            <title>J. Watts, Esq. (R. A.).</title>
+          </item>
+          <item n="110" xml:id="PCP_1897_TEI_e44_i110">
+            <num>110</num>
+            <title>Violet.</title>
+          </item>
+        </entry>
+        <entry n="45" xml:id="PCP_1897_TEI_e45" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4574/18,306,462,145/full/0/default.jpg">
+          <desc>
+            <name>CANFYN (Albert)</name>
+            <trait>
+              <p>A. B. DE PH. 3, place du Lion-d'Or, Gand (Belgique).</p>
+            </trait>
+          </desc>
+          <item n="111" xml:id="PCP_1897_TEI_e45_i111">
+            <num>111</num>
+            <title>Causerie.</title><desc>A. Br.</desc>
+          </item>
+          <item n="112" xml:id="PCP_1897_TEI_e45_i112">
+            <num>112</num>
+            <title>Le Soir à la mer.</title><desc>A. Br.</desc>
+          </item>
+          <item n="113" xml:id="PCP_1897_TEI_e45_i113">
+            <num>113</num>
+            <title>Le Lys en octobre.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="46" xml:id="PCP_1897_TEI_e46" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4574/23,475,457,161/full/0/default.jpg">
+          <desc>
+            <name>CASIER (Joseph)</name>
+            <trait>
+              <p>A. B. DE PH. 91, rue des Rémouleurs, Gand (Belgique).</p>
+            </trait>
+          </desc>
+          <item n="114" xml:id="PCP_1897_TEI_e46_i114">
+            <num>114</num>
+            <title>Temps orageux.</title><desc>Br.</desc>
+          </item>
+          <item n="115" xml:id="PCP_1897_TEI_e46_i115">
+            <num>115</num>
+            <title>Qui vive?</title><desc>Br.</desc>
+          </item>
+          <item n="116" xml:id="PCP_1897_TEI_e46_i116">
+            <num>116</num>
+            <title>Dans les rues de Damas.</title><desc>Br.</desc>
+          </item>
+        </entry>
+        <entry n="47" xml:id="PCP_1897_TEI_e47" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4574/18,660,455,103/full/0/default.jpg">
+          <desc>
+            <name>CHAFFIN (John)</name>
+            <trait>
+              <p>65, East Street, Taunton (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="117" xml:id="PCP_1897_TEI_e47_i117">
+            <num>117</num>
+            <title>Un Connaisseur.</title>
+          </item>
+        </entry>
+        <entry n="48" xml:id="PCP_1897_TEI_e48" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4574/20,782,453,117/full/0/default.jpg">
+          <desc>
+            <name>CHATELAIN (Madame Cécile)</name>
+            <trait>
+              <p>31, rue Vallier, Levallois-Perret (Seine).</p>
+            </trait>
+          </desc>
+          <item n="118" xml:id="PCP_1897_TEI_e48_i118">
+            <num>118</num>
+            <title>Bords de l'Andelle.</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="49" xml:id="PCP_1897_TEI_e49" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4575/112,118,381,98/full/0/default.jpg">
+          <desc>
+            <name>CHEVRIER (Jacques)</name>
+            <trait>
+              <p>P. C. P. 13, rue de Téhéran, Paris.</p>
+            </trait>
+          </desc>
+          <item n="119" xml:id="PCP_1897_TEI_e49_i119">
+            <num>119</num>
+            <title>La Mer, au coucher du soleil.</title>
+          </item>
+        </entry>
+        <entry n="50" xml:id="PCP_1897_TEI_e50" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4575/101,251,436,179/full/0/default.jpg">
+          <desc>
+            <name>CLARK (Lyonel)</name>
+            <trait>
+              <p>L. R. 58, Overstrand Mansions, Battersea Park, Londres.</p>
+            </trait>
+          </desc>
+          <item n="120" xml:id="PCP_1897_TEI_e50_i120">
+            <num>120</num>
+            <title>Esquisse.</title>
+          </item>
+          <item n="121" xml:id="PCP_1897_TEI_e50_i121">
+            <num>121</num>
+            <title>Tête de vieille femme. Étude.</title>
+          </item>
+          <item n="122" xml:id="PCP_1897_TEI_e50_i122">
+            <num>122</num>
+            <title>Paysage dans le pays de Constable.</title>
+          </item>
+          <item n="123" xml:id="PCP_1897_TEI_e50_i123">
+            <num>123</num>
+            <title>Paysage. L'avant-garde de la montagne.</title>
+          </item>
+        </entry>
+        <entry n="51" xml:id="PCP_1897_TEI_e51" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4575/91,461,439,118/full/0/default.jpg">
+          <desc>
+            <name>CLÉRAULT (Mlle Germaine)</name>
+            <trait>
+              <p>42, rue de Monceau, Paris.</p>
+            </trait>
+          </desc>
+          <item n="124" xml:id="PCP_1897_TEI_e51_i124">
+            <num>124</num>
+            <title> Orage et Tempête dans la baie de Biscaye.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="52" xml:id="PCP_1897_TEI_e52" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4575/95,620,405,91/full/0/default.jpg">
+          <desc>
+            <name>COHEN (Lewis)</name>
+            <trait>
+              <p>L. R. 146, Fellows Road, Londres.</p>
+            </trait>
+          </desc>
+          <item n="125" xml:id="PCP_1897_TEI_e52_i125">
+            <num>125</num>
+            <title> Étude de tête.</title>
+          </item>
+        </entry>
+        <entry n="53" xml:id="PCP_1897_TEI_e53" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4575/91,757,436,114/full/0/default.jpg">
+          <desc>
+            <name>COLLAS (Ch.)</name>
+            <trait>
+              <p>24, rue Saint-Martin, Cognac (Charente).</p>
+            </trait>
+          </desc>
+          <item n="126" xml:id="PCP_1897_TEI_e53_i126">
+            <num>126</num>
+            <title>Printemps.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="54" xml:id="PCP_1897_TEI_e54" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4576/17,108,432,101/full/0/default.jpg">
+          <desc>
+            <name>COLON (Henri)</name>
+            <trait>
+              <p>19, rue des Douze-Mois, Anvers.</p>
+            </trait>
+          </desc>
+          <item n="127" xml:id="PCP_1897_TEI_e54_i127">
+            <num>127</num>
+            <title>Approche de l'Orage.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="55" xml:id="PCP_1897_TEI_e55" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4576/20,248,449,100/full/0/default.jpg">
+          <desc>
+            <name>CORBIN (Paul)</name>
+            <trait>
+              <p>P. C. P. 155, boulevard Haussmann, Paris.</p>
+            </trait>
+          </desc>
+          <item n="128" xml:id="PCP_1897_TEI_e55_i128">
+            <num>128</num>
+            <title>L’Automne sur la Seine.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="56" xml:id="PCP_1897_TEI_e56" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4576/21,387,441,97/full/0/default.jpg">
+          <desc>
+            <name>CORDONNIER (Ed.)</name>
+            <trait>
+              <p>51, avenue Henri-Martin, Paris.</p>
+            </trait>
+          </desc>
+          <item n="129" xml:id="PCP_1897_TEI_e56_i129">
+            <num>129</num>
+            <title>Le vieux Garde.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="57" xml:id="PCP_1897_TEI_e57" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4576/20,528,456,106/full/0/default.jpg">
+          <desc>
+            <name>CORNUBERT DE TEMPEST</name>
+            <trait>
+              <p>87, rue Nationale, Châteauroux (Indre).</p>
+            </trait>
+          </desc>
+          <item n="130" xml:id="PCP_1897_TEI_e57_i130">
+            <num>130</num>
+            <title>Effet de Neige.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="58" xml:id="PCP_1897_TEI_e58" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4576/24,668,445,204/full/0/default.jpg">
+          <desc>
+            <name>COSTE (Ferdinard)</name>
+            <trait>
+              <p>P. C. P. Lacanche, par Arnay-le-Duc, (Côte-d'Or).</p>
+            </trait>
+          </desc>
+          <item n="131" xml:id="PCP_1897_TEI_e58_i131">
+            <num>131</num>
+            <title>Matinée de Mai en Morvan.</title><desc>A. Br.</desc>
+          </item>
+          <item n="132" xml:id="PCP_1897_TEI_e58_i132">
+            <num>132</num>
+            <title>La Rentrée au chenil.</title><desc>D. Ch. V.</desc>
+          </item>
+          <item n="133" xml:id="PCP_1897_TEI_e58_i133">
+            <num>133</num>
+            <title>Sur la Lisière du Bois.</title><desc>D. Ch. V.</desc>
+          </item>
+          <item n="134" xml:id="PCP_1897_TEI_e58_i134">
+            <num>134</num>
+            <title>Tournée d'hiver.</title><desc>D. Ch. V.</desc>
+          </item>
+          <item n="135" xml:id="PCP_1897_TEI_e58_i135">
+            <num>135</num>
+            <title>Une Alerte.</title><desc>D. Ch. V.</desc>
+          </item>
+        </entry>
+        <entry n="59" xml:id="PCP_1897_TEI_e59" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4577/105,95,418,179/full/0/default.jpg">
+          <desc>
+            <name>CRAIG ANNAN</name>
+            <trait>
+              <p>L. R. 230, Sauchiehall Street, Glasgow.</p>
+            </trait>
+          </desc>
+          <item n="136" xml:id="PCP_1897_TEI_e59_i136">
+            <num>136</num>
+            <title>Éléonore.</title><desc>Ch.</desc>
+          </item>
+          <item n="137" xml:id="PCP_1897_TEI_e59_i137">
+            <num>137</num>
+            <title>L'Église ou le Monde.</title><desc>Ch.</desc>
+          </item>
+          <item n="138" xml:id="PCP_1897_TEI_e59_i138">
+            <num>138</num>
+            <title>Sœurs.</title><desc>Ch.</desc>
+          </item>
+          <item n="139" xml:id="PCP_1897_TEI_e59_i139">
+            <num>139</num>
+            <title>Une Dame en blanc.</title><desc>Ch.</desc>
+          </item>
+          <item n="140" xml:id="PCP_1897_TEI_e59_i140">
+            <num>140</num>
+            <title>Venise.</title><desc>Ch.</desc>
+          </item>
+        </entry>
+        <entry n="60" xml:id="PCP_1897_TEI_e60" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4577/101,308,443,142/full/0/default.jpg">
+          <desc>
+            <name>CRAIGIE (W. Réginald)</name>
+            <trait>
+              <p>L. R. Camera Club, 28, Charing Cross-Road, Londres.</p>
+            </trait>
+          </desc>
+          <item n="141" xml:id="PCP_1897_TEI_e60_i141">
+            <num>141</num>
+            <title>George Batten. Étude.</title>
+          </item>
+          <item n="142" xml:id="PCP_1897_TEI_e60_i142">
+            <num>142</num>
+            <title>Edward Alexander.</title>
+          </item>
+        </entry>
+        <entry n="61" xml:id="PCP_1897_TEI_e61" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4577/95,485,401,158/full/0/default.jpg">
+          <desc>
+            <name>CREVAUX (Émile)</name>
+            <trait>
+              <p>5, rue Vavin, Paris.</p>
+            </trait>
+          </desc>
+          <item n="143" xml:id="PCP_1897_TEI_e61_i143">
+            <num>143</num>
+            <title>Brumes d'automne.</title><desc>A. Br.</desc>
+          </item>
+          <item n="144" xml:id="PCP_1897_TEI_e61_i144">
+            <num>144</num>
+            <title>Octobre.</title><desc>A. Br.</desc>
+          </item>
+          <item n="145" xml:id="PCP_1897_TEI_e61_i145">
+            <num>145</num>
+            <title>Pluie en Septembre.</title><desc>A. Br.</desc>
+          </item>
+          <item n="146" xml:id="PCP_1897_TEI_e61_i146">
+            <num>146</num>
+            <title>La Neige.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="62" xml:id="PCP_1897_TEI_e62" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4577/91,685,453,176/full/0/default.jpg">
+          <desc>
+            <name>CROFT (J.-Page)</name>
+            <trait>
+              <p>23, Quadrants Chambers, New-Street, Birmingham (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="147" xml:id="PCP_1897_TEI_e62_i147">
+            <num>147</num>
+            <title>Étude.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="148" xml:id="PCP_1897_TEI_e62_i148">
+            <num>148</num>
+            <title>Rêverie.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="149" xml:id="PCP_1897_TEI_e62_i149">
+            <num>149</num>
+            <title>Le mauvais Chemin.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="150" xml:id="PCP_1897_TEI_e62_i150">
+            <num>150</num>
+            <title>Approche de la nuit.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="63" xml:id="PCP_1897_TEI_e63" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4579/44,140,432,174/full/0/default.jpg">
+          <desc>
+            <name>CROOKE (W.)</name>
+            <trait>
+              <p>L. R. 103, Princes Street, Édimburgh (Écosse).</p>
+            </trait>
+          </desc>
+          <item n="151" xml:id="PCP_1897_TEI_e63_i151">
+            <num>151</num>
+            <title>Lady Mary Lygon.</title>
+          </item>
+          <item n="152" xml:id="PCP_1897_TEI_e63_i152">
+            <num>152</num>
+            <title>Alexandre Curle Esq.</title>
+          </item>
+          <item n="153" xml:id="PCP_1897_TEI_e63_i153">
+            <num>153</num>
+            <title>David Bispham.</title>
+          </item>
+          <item n="154" xml:id="PCP_1897_TEI_e63_i154">
+            <num>154</num>
+            <title>Jean Mac Farlane.</title>
+          </item>
+        </entry>
+        <entry n="64" xml:id="PCP_1897_TEI_e64" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4579/40,346,429,137/full/0/default.jpg">
+          <desc>
+            <name>CRUWYS RICHARDS (J.)</name>
+            <trait>
+              <p>134, Saint-Lukes Road, Birmingham.</p>
+            </trait>
+          </desc>
+          <item n="155" xml:id="PCP_1897_TEI_e64_i155">
+            <num>155</num>
+            <title>Portrait.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="156" xml:id="PCP_1897_TEI_e64_i156">
+            <num>156</num>
+            <title>Le vieux Moine.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="65" xml:id="PCP_1897_TEI_e65" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4579/38,510,421,243/full/0/default.jpg">
+          <desc>
+            <name>DA CUNHA (A.)</name>
+            <trait>
+              <p>P. C. P. - S. F. P. 3, rue Meissonier, Paris.</p>
+            </trait>
+          </desc>
+          <item n="157" xml:id="PCP_1897_TEI_e65_i157">
+            <num>157</num>
+            <title>Portrait de Mme M.</title>
+          </item>
+          <item n="158" xml:id="PCP_1897_TEI_e65_i158">
+            <num>158</num>
+            <title>Septembre en Normandie.</title>
+          </item>
+          <item n="159" xml:id="PCP_1897_TEI_e65_i159">
+            <num>159</num>
+            <title>Une Rue à Caen.</title>
+          </item>
+          <item n="160" xml:id="PCP_1897_TEI_e65_i160">
+            <num>160</num>
+            <title>Pêcheuse.</title>
+          </item>
+          <item n="161" xml:id="PCP_1897_TEI_e65_i161">
+            <num>161</num>
+            <title>La Fin d'une journée.</title>
+          </item>
+          <item n="162" xml:id="PCP_1897_TEI_e65_i162">
+            <num>162</num>
+            <title>L'Age heureux.</title>
+          </item>
+          <item n="163" xml:id="PCP_1897_TEI_e65_i163">
+            <num>163</num>
+            <title>Langrune.</title>
+          </item>
+          <item n="164" xml:id="PCP_1897_TEI_e65_i164">
+            <num>164</num>
+            <title>Le Sommeil du juste.</title>
+          </item>
+        </entry>
+        <entry n="66" xml:id="PCP_1897_TEI_e66" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4579/46,778,420,121/full/0/default.jpg">
+          <desc>
+            <name>DARDONVILLE (Louis)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 5, place de la République, Paris.</p>
+            </trait>
+          </desc>
+          <item n="165" xml:id="PCP_1897_TEI_e66_i165">
+            <num>165</num>
+            <title>Barrage du Loing, à Moret.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="67" xml:id="PCP_1897_TEI_e67" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4580/116,111,372,182/full/0/default.jpg">
+          <desc>
+            <name>DARNIS (Ach.)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 4, rue Marbeuf, Paris.</p>
+            </trait>
+          </desc>
+          <item n="166" xml:id="PCP_1897_TEI_e67_i166">
+            <num>166</num>
+            <title>Fou Rire.</title>
+          </item>
+          <item n="167" xml:id="PCP_1897_TEI_e67_i167">
+            <num>167</num>
+            <title>Petite Chouette.</title>
+          </item>
+          <item n="168" xml:id="PCP_1897_TEI_e67_i168">
+            <num>168</num>
+            <title>Au Quartier. </title><desc>A. Br.</desc>
+          </item>
+          <item n="169" xml:id="PCP_1897_TEI_e67_i169">
+            <num>169</num>
+            <title>L'Avenue de l'Alma.</title><desc> A. Pl.</desc>
+          </item>
+          <item n="170" xml:id="PCP_1897_TEI_e67_i170">
+            <num>170</num>
+            <title>La Berge inondée.</title><desc>A. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="68" xml:id="PCP_1897_TEI_e68" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4580/115,366,385,138/full/0/default.jpg">
+          <desc>
+            <name>DAVID (Ludwig)</name>
+            <trait>
+              <p>C. C. V. - L. R. Camera Club, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="171" xml:id="PCP_1897_TEI_e68_i171">
+            <num>171</num>
+            <title>Les Foins.</title><desc>Pl.</desc>
+          </item>
+          <item n="172" xml:id="PCP_1897_TEI_e68_i172">
+            <num>172</num>
+            <title>Un Village.</title><desc>Pl.</desc>
+          </item>
+          <item n="173" xml:id="PCP_1897_TEI_e68_i173">
+            <num>173</num>
+            <title>Crépuscule.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="69" xml:id="PCP_1897_TEI_e69" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4580/98,575,439,300/full/0/default.jpg">
+          <desc>
+            <name>DAVISON (Geo.)</name>
+            <trait>
+              <p>L. R. Camera Club, 28, Charing Cross Road, Londres.</p>
+            </trait>
+          </desc>
+          <item n="174" xml:id="PCP_1897_TEI_e69_i174">
+            <num>174</num>
+            <title>Pont de piétons à Charing Cross.</title>
+          </item>
+          <item n="175" xml:id="PCP_1897_TEI_e69_i175">
+            <num>175</num>
+            <title>Vue prise de l'embarcadère.</title>
+          </item>
+          <item n="176" xml:id="PCP_1897_TEI_e69_i176">
+            <num>176</num>
+            <title>Un Lac dans le parc de Whiston.</title>
+          </item>
+          <item n="177" xml:id="PCP_1897_TEI_e69_i177">
+            <num>177</num>
+            <title>Paysage avec des bestiaux.</title>
+          </item>
+          <item n="178" xml:id="PCP_1897_TEI_e69_i178">
+            <num>178</num>
+            <title>Quai en ruines.</title>
+          </item>
+          <item n="179" xml:id="PCP_1897_TEI_e69_i179">
+            <num>179</num>
+            <title>Champ d’avoine.</title>
+          </item>
+          <item n="180" xml:id="PCP_1897_TEI_e69_i180">
+            <num>180</num>
+            <title>Marée basse.</title>
+          </item>
+          <item n="181" xml:id="PCP_1897_TEI_e69_i181">
+            <num>181</num>
+            <title>Reflets.</title>
+          </item>
+          <item n="182" xml:id="PCP_1897_TEI_e69_i182">
+            <num>182</num>
+            <title>Un Portrait.</title>
+          </item>
+          <item n="183" xml:id="PCP_1897_TEI_e69_i183">
+            <num>183</num>
+            <title>Un Canal en Berkshire.</title>
+          </item>
+        </entry>
+        <entry n="70" xml:id="PCP_1897_TEI_e70" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4581/45,135,452,116/full/0/default.jpg">
+          <desc>
+            <name>DAWES (W.)</name>
+            <trait>
+              <p>145, Chesnut Road, Plumstead (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="184" xml:id="PCP_1897_TEI_e70_i184">
+            <num>184</num>
+            <title>Un Champ de chardons.</title><desc>Br.</desc>
+          </item>
+        </entry>
+        <entry n="71" xml:id="PCP_1897_TEI_e71" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4581/50,283,444,119/full/0/default.jpg">
+          <desc>
+            <name>DEAN (Fred)</name>
+            <trait>
+              <p>Hawarden-Burgesshill (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="185" xml:id="PCP_1897_TEI_e71_i185">
+            <num>185</num>
+            <title>Après l'Orage.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="186" xml:id="PCP_1897_TEI_e71_i186">
+            <num>186</num>
+            <title>Le Soir, à marée basse.</title><desc>A. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="72" xml:id="PCP_1897_TEI_e72" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4581/47,431,447,181/full/0/default.jpg">
+          <desc>
+            <name>DE CLERCQ (Désiré)</name>
+            <trait>
+              <p>A. B. DE PH. Grandplace, Grammont (Belgique).</p>
+            </trait>
+          </desc>
+          <item n="187" xml:id="PCP_1897_TEI_e72_i187">
+            <num>187</num>
+            <title>La Fille du pêcheur.</title><desc>Pl.</desc>
+          </item>
+          <item n="188" xml:id="PCP_1897_TEI_e72_i188">
+            <num>188</num>
+            <title>Matinée de Septembre.</title><desc>Pl.</desc>
+          </item>
+          <item n="189" xml:id="PCP_1897_TEI_e72_i189">
+            <num>189</num>
+            <title>Le Charron-Tourneur.</title><desc>Pl.</desc>
+          </item>
+          <item n="190" xml:id="PCP_1897_TEI_e72_i190">
+            <num>190</num>
+            <title>Matinée d’Octobre. Brouillard ensoleillé.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="73" xml:id="PCP_1897_TEI_e73" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4581/46,642,437,104/full/0/default.jpg">
+          <desc>
+            <name>DEGRYSE (Albert)</name>
+            <trait>
+              <p>A. B. DE PH. rue de boulevard de Lille, Courtrai.</p>
+            </trait>
+          </desc>
+          <item n="191" xml:id="PCP_1897_TEI_e73_i191">
+            <num>191</num>
+            <title>Avant la Pluie.</title>
+          </item>
+        </entry>
+        <entry n="74" xml:id="PCP_1897_TEI_e74" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4581/38,777,449,119/full/0/default.jpg">
+          <desc>
+            <name>DELCOMINETE</name>
+            <trait>
+              <p>23, rue des Ponts, Nancy (Meurthe-et-Moselle).</p>
+            </trait>
+          </desc>
+          <item n="192" xml:id="PCP_1897_TEI_e74_i192">
+            <num>192</num>
+            <title>Un Artiste dans sa chambre.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="75" xml:id="PCP_1897_TEI_e75" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4582/98,111,418,278/full/0/default.jpg">
+          <desc>
+            <name>DEMACHY (Robert)</name>
+            <trait>
+              <p>P. C. P. - L. R. 13, rue François 1er, Paris.</p>
+            </trait>
+          </desc>
+          <item n="193" xml:id="PCP_1897_TEI_e75_i193">
+            <num>193</num>
+            <title>Tête de face.</title><desc>Gb.</desc>
+          </item>
+          <item n="194" xml:id="PCP_1897_TEI_e75_i194">
+            <num>194</num>
+            <title>Étude d'éclairage.</title><desc>Gb.</desc>
+          </item>
+          <item n="195" xml:id="PCP_1897_TEI_e75_i195">
+            <num>195</num>
+            <title>Éventail.</title><desc>Gb.</desc>
+          </item>
+          <item n="196" xml:id="PCP_1897_TEI_e75_i196">
+            <num>196</num>
+            <title>Zaandam.</title><desc>Gb.</desc>
+          </item>
+          <item n="197" xml:id="PCP_1897_TEI_e75_i197">
+            <num>197</num>
+            <title>Liseuse.</title><desc>Gb.</desc>
+          </item>
+          <item n="198" xml:id="PCP_1897_TEI_e75_i198">
+            <num>198</num>
+            <title>Profil.</title><desc>Gb.</desc>
+          </item>
+          <item n="199" xml:id="PCP_1897_TEI_e75_i199">
+            <num>199</num>
+            <title>Médaillon.</title><desc>Gb.</desc>
+          </item>
+          <item n="200" xml:id="PCP_1897_TEI_e75_i200">
+            <num>200</num>
+            <title>Les Tuileries l'hiver.</title><desc>Gb.</desc>
+          </item>
+          <item n="201" xml:id="PCP_1897_TEI_e75_i201">
+            <num>201</num>
+            <title>Étude.</title><desc>Gb.</desc>
+          </item>
+          <item n="202" xml:id="PCP_1897_TEI_e75_i202">
+            <num>202</num>
+            <title>Paysage d'automne.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="76" xml:id="PCP_1897_TEI_e76" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4582/101,406,439,98/full/0/default.jpg">
+          <desc>
+            <name>DESCAMPS (Jules)</name>
+            <trait>
+              <p>22, rue de la Paix, Boulogne-s.-Mer.</p>
+            </trait>
+          </desc>
+          <item n="203" xml:id="PCP_1897_TEI_e76_i203">
+            <num>203</num>
+            <title>A L'Abreuvoir.</title><desc>D. S.</desc>
+          </item>
+        </entry>
+        <entry n="77" xml:id="PCP_1897_TEI_e77" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4582/88,532,449,139/full/0/default.jpg">
+          <desc>
+            <name>DESMAREST (Henri)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 227, boulevard Saint-Germain, Paris.</p>
+            </trait>
+          </desc>
+          <item n="204" xml:id="PCP_1897_TEI_e77_i204">
+            <num>204</num>
+            <title>Régates de Dives.</title><desc>D.</desc>
+          </item>
+          <item n="205" xml:id="PCP_1897_TEI_e77_i205">
+            <num>205</num>
+            <title>Inondations de la Seine, au Point-du-Jour.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="78" xml:id="PCP_1897_TEI_e78" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4582/87,693,447,178/full/0/default.jpg">
+          <desc>
+            <name>DEWIT (Charles)</name>
+            <trait>
+              <p>A. B. DE PH. 49, Longue rue de Ruysbroeck. Anvers.</p>
+            </trait>
+          </desc>
+          <item n="206" xml:id="PCP_1897_TEI_e78_i206">
+            <num>206</num>
+            <title>Fin du jour.</title><desc>A. Br.</desc>
+          </item>
+          <item n="207" xml:id="PCP_1897_TEI_e78_i207">
+            <num>207</num>
+            <title>Étude de tête.</title><desc>Br.</desc>
+          </item>
+          <item n="208" xml:id="PCP_1897_TEI_e78_i208">
+            <num>208</num>
+            <title>Dolce Farniente.</title><desc>Br.</desc>
+          </item>
+          <item n="209" xml:id="PCP_1897_TEI_e78_i209">
+            <num>209</num>
+            <title>Jour de fête.</title><desc>Br.</desc>
+          </item>
+        </entry>
+        <entry n="79" xml:id="PCP_1897_TEI_e79" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4583/27,132,463,102/full/0/default.jpg">
+          <desc>
+            <name>DIEHL (Ernest)</name>
+            <trait>
+              <p>5, avenue Matignon, Paris.</p>
+            </trait>
+          </desc>
+          <item n="210" xml:id="PCP_1897_TEI_e79_i210">
+            <num>210</num>
+            <title>Vallée de la Kerka (Dalmatie).</title><desc>A. Vu.</desc>
+          </item>
+        </entry>
+        <entry n="80" xml:id="PCP_1897_TEI_e80" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4583/21,254,438,105/full/0/default.jpg">
+          <desc>
+            <name>DODGE (W.-H.)</name>
+            <trait>
+              <p>Lowell (U. S. A.).</p>
+            </trait>
+          </desc>
+          <item n="211" xml:id="PCP_1897_TEI_e80_i211">
+            <num>211</num>
+            <title>Le Soir sur le lac de Mooschead.</title>
+          </item>
+        </entry>
+        <entry n="81" xml:id="PCP_1897_TEI_e81" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4583/27,384,460,121/full/0/default.jpg">
+          <desc>
+            <name>DODSON (W.-Mariott)</name>
+            <trait>
+              <p>Bettws-y-Coed, North Wales (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="212" xml:id="PCP_1897_TEI_e81_i212">
+            <num>212</num>
+            <title>Le Soir. Br.</title>
+          </item>
+        </entry>
+        <entry n="82" xml:id="PCP_1897_TEI_e82" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4583/31,525,452,101/full/0/default.jpg">
+          <desc>
+            <name>DROUET</name>
+            <trait>
+              <p>S. F. P. - S. A. E. 107, boulevard Malesherbes, Paris.</p>
+            </trait>
+          </desc>
+          <item n="213" xml:id="PCP_1897_TEI_e82_i213">
+            <num>213</num>
+            <title>L'Orne à Thury-Harcourt.</title><desc>D. Ch. V.</desc>
+          </item>
+        </entry>
+        <entry n="83" xml:id="PCP_1897_TEI_e83" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4583/25,655,434,119/full/0/default.jpg">
+          <desc>
+            <name>DUBREUIL (Pierre)</name>
+            <trait>
+              <p>15, rue Solférino, Lille (Nord).</p>
+            </trait>
+          </desc>
+          <item n="214" xml:id="PCP_1897_TEI_e83_i214">
+            <num>214</num>
+            <title>Le Marais en hiver.</title><desc>A. Gb.</desc>
+          </item>
+          <item n="215" xml:id="PCP_1897_TEI_e83_i215">
+            <num>215</num>
+            <title>Dans le Port d’Ostende.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="84" xml:id="PCP_1897_TEI_e84" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4583/27,796,439,108/full/0/default.jpg">
+          <desc>
+            <name>DUMONT (John-E.)</name>
+            <trait>
+              <p>Trust Building, Rochester (U. S. A.).</p>
+            </trait>
+          </desc>
+          <item n="216" xml:id="PCP_1897_TEI_e84_i216">
+            <num>216</num>
+            <title>Lever de soleil sur lac Ontario.</title>
+          </item>
+        </entry>
+        <entry n="85" xml:id="PCP_1897_TEI_e85" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4584/83,115,406,97/full/0/default.jpg">
+          <desc>
+            <name>DUMONT (Oscar)</name>
+            <trait>
+              <p>60, rue Ratisbonne, Lille (Nord).</p>
+            </trait>
+          </desc>
+          <item n="217" xml:id="PCP_1897_TEI_e85_i217">
+            <num>217</num>
+            <title>Pâturages à Wimille.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="86" xml:id="PCP_1897_TEI_e86" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4584/85,240,418,118/full/0/default.jpg">
+          <desc>
+            <name>DUPLESSIS (Jules)</name>
+            <trait>
+              <p>Newtown Park, Hymengton, Hants (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="218" xml:id="PCP_1897_TEI_e86_i218">
+            <num>218</num>
+            <title>Bords de Rivière (Andover).</title><desc>Ch.</desc>
+          </item>
+        </entry>
+        <entry n="87" xml:id="PCP_1897_TEI_e87" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4584/67,388,450,143/full/0/default.jpg">
+          <desc>
+            <name>ELLIS (Thomas-R.)</name>
+            <trait>
+              <p>5, Cambridge Terrace, Woolwich, Londres.</p>
+            </trait>
+          </desc>
+          <item n="219" xml:id="PCP_1897_TEI_e87_i219">
+            <num>219</num>
+            <title>Herbes et Roseaux.</title><desc>D.</desc>
+          </item>
+          <item n="220" xml:id="PCP_1897_TEI_e87_i220">
+            <num>220</num>
+            <title>Echoué.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="88" xml:id="PCP_1897_TEI_e88" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4584/70,563,447,137/full/0/default.jpg">
+          <desc>
+            <name>EMANUEL (Charles-H.-L.)</name>
+            <trait>
+              <p>L. R. 145, Gloucester Terrace, Hyde Park. Londres.</p>
+            </trait>
+          </desc>
+          <item n="221" xml:id="PCP_1897_TEI_e88_i221">
+            <num>221</num>
+            <title>Le Village condamné.</title><desc>Pl.</desc>
+          </item>
+          <item n="222" xml:id="PCP_1897_TEI_e88_i222">
+            <num>222</num>
+            <title>Jardinier.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="89" xml:id="PCP_1897_TEI_e89" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4584/74,732,419,139/full/0/default.jpg">
+          <desc>
+            <name>FAIRMAN (Chas.-E.)</name>
+            <trait>
+              <p>511, Eleventh Street, Washington. (U. S. A.).</p>
+            </trait>
+          </desc>
+          <item n="223" xml:id="PCP_1897_TEI_e89_i223">
+            <num>223</num>
+            <title>Octobre.</title>
+          </item>
+          <item n="224" xml:id="PCP_1897_TEI_e89_i224">
+            <num>224</num>
+            <title>Après-midi d'été.</title>
+          </item>
+        </entry>
+        <entry n="90" xml:id="PCP_1897_TEI_e90" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4585/26,119,468,255/full/0/default.jpg">
+          <desc>
+            <name>FARNSWORTH (Emma)</name>
+            <trait>
+              <p>26, Elk Street, Albany, New-York.</p>
+            </trait>
+          </desc>
+          <item n="225" xml:id="PCP_1897_TEI_e90_i225">
+            <num>225</num>
+            <title>"But Rose crossed de road" (Austin Dickson).</title>
+          </item>
+          <item n="226" xml:id="PCP_1897_TEI_e90_i226">
+            <num>226</num>
+            <title>Quand le printemps arrive souriant dansle vallon et sur la colline.</title>
+          </item>
+          <item n="227" xml:id="PCP_1897_TEI_e90_i227">
+            <num>227</num>
+            <title>Étude.</title>
+          </item>
+          <item n="228" xml:id="PCP_1897_TEI_e90_i228">
+            <num>228</num>
+            <title>Vent du Sud.</title>
+          </item>
+          <item n="229" xml:id="PCP_1897_TEI_e90_i229">
+            <num>229</num>
+            <title>La Brise.</title>
+          </item>
+          <item n="230" xml:id="PCP_1897_TEI_e90_i230">
+            <num>230</num>
+            <title>Le Chant de la grève.</title>
+          </item>
+          <item n="231" xml:id="PCP_1897_TEI_e90_i231">
+            <num>231</num>
+            <title>La Cigale (été).</title>
+          </item>
+        </entry>
+        <entry n="91" xml:id="PCP_1897_TEI_e91" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4585/28,431,452,105/full/0/default.jpg">
+          <desc>
+            <name>FLORIANSCHUTZ (Ch. de)</name>
+            <trait>
+              <p>Landongasse, 39, Vienne VIII.</p>
+            </trait>
+          </desc>
+          <item n="232" xml:id="PCP_1897_TEI_e91_i232">
+            <num>232</num>
+            <title>Ravin de la Cascade de "Nixen".</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="92" xml:id="PCP_1897_TEI_e92" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4585/41,584,404,105/full/0/default.jpg">
+          <desc>
+            <name>GARGAM (Albert)</name>
+            <trait>
+              <p>9, rue de Tournon, Paris.</p>
+            </trait>
+          </desc>
+          <item n="233" xml:id="PCP_1897_TEI_e92_i233">
+            <num>233</num>
+            <title>Coucher de soleil.</title>
+          </item>
+        </entry>
+        <entry n="93" xml:id="PCP_1897_TEI_e93" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4585/39,746,430,143/full/0/default.jpg">
+          <desc>
+            <name>GASPAR (Charles)</name>
+            <trait>
+              <p>8, rue de l'Hôtel-de-Ville, Arlon (Belgique).</p>
+            </trait>
+          </desc>
+          <item n="234" xml:id="PCP_1897_TEI_e93_i234">
+            <num>234</num>
+            <title>Les Pavots. Panneau décoratif.</title><desc>D. Br.</desc>
+          </item>
+          <item n="235" xml:id="PCP_1897_TEI_e93_i235">
+            <num>235</num>
+            <title>Les Pavots. Panneau décoratif.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="94" xml:id="PCP_1897_TEI_e94" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4586/94,96,429,132/full/0/default.jpg">
+          <desc>
+            <name>GAY DU PALLAND (Georges de)</name>
+            <trait>
+              <p>P. C. P. 1, rue d'Obligado, Paris.</p>
+            </trait>
+          </desc>
+          <item n="236" xml:id="PCP_1897_TEI_e94_i236">
+            <num>236</num>
+            <title>Groupe d'Arabes à Esneh.</title>
+          </item>
+        </entry>
+        <entry n="95" xml:id="PCP_1897_TEI_e95" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4586/96,241,420,145/full/0/default.jpg">
+          <desc>
+            <name>GEISSE (W.)</name>
+            <trait>
+              <p>Emlem Street, above Pelham Road, Germantown (U. S. A.).</p>
+            </trait>
+          </desc>
+          <item n="237" xml:id="PCP_1897_TEI_e95_i237">
+            <num>237</num>
+            <title>Étude en plein air.</title><desc>Pl.</desc>
+          </item>
+          <item n="238" xml:id="PCP_1897_TEI_e95_i238">
+            <num>238</num>
+            <title>Portrait d'enfant.</title><desc>Pl.</desc>
+          </item>
+          <item n="239" xml:id="PCP_1897_TEI_e95_i239">
+            <num>239</num>
+            <title>Le Repas des Poules.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="96" xml:id="PCP_1897_TEI_e96" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4586/92,400,418,116/full/0/default.jpg">
+          <desc>
+            <name>GENIAUX</name>
+            <trait>
+              <p>9, rue Cochardière. Rennes (Ille-et-Vilaine).</p>
+            </trait>
+          </desc>
+          <item n="240" xml:id="PCP_1897_TEI_e96_i240">
+            <num>240</num>
+            <title>L'Heure de la Soupe.</title>
+          </item>
+        </entry>
+        <entry n="97" xml:id="PCP_1897_TEI_e97" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4586/74,532,415,203/full/0/default.jpg">
+          <desc>
+            <name>GOERKE (Franz)</name>
+            <trait>
+              <p>32, Maassenstrasse, Berlin.</p>
+            </trait>
+          </desc>
+          <item n="241" xml:id="PCP_1897_TEI_e97_i241">
+            <num>241</num>
+            <title>Blankenese</title><desc> A.</desc>
+          </item>
+          <item n="242" xml:id="PCP_1897_TEI_e97_i242">
+            <num>242</num>
+            <title>Contre-jour en mer.</title><desc>A.</desc>
+          </item>
+          <item n="243" xml:id="PCP_1897_TEI_e97_i243">
+            <num>243</num>
+            <title>Le Lac.</title><desc>Hél.</desc>
+          </item>
+          <item n="243" xml:id="PCP_1897_TEI_e97_i243b">
+            <num>243</num>
+            <title>bis Sous-Bois.</title>
+          </item>
+          <item n="244" xml:id="PCP_1897_TEI_e97_i244">
+            <num>244</num>
+            <title>La Falaise.</title><desc>A.</desc>
+          </item>
+          <item n="245" xml:id="PCP_1897_TEI_e97_i245">
+            <num>245</num>
+            <title>Étude.</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="98" xml:id="PCP_1897_TEI_e98" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4586/64,753,442,101/full/0/default.jpg">
+          <desc>
+            <name>GOLDIE (Archibald)</name>
+            <trait>
+              <p>95, Mansel Street, Swansea (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="246" xml:id="PCP_1897_TEI_e98_i246">
+            <num>246</num>
+            <title>Vieux Amis.</title><desc>D. G. cl.</desc>
+          </item>
+        </entry>
+        <entry n="99" xml:id="PCP_1897_TEI_e99" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4588/28,119,459,157/full/0/default.jpg">
+          <desc>
+            <name>GRAHL (Mademoiselle Alex)</name>
+            <trait>
+              <p>281, Wienerstrasse, Dresde (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="247" xml:id="PCP_1897_TEI_e99_i247">
+            <num>247</num>
+            <title>Inondations de l'Elbe en 1890.</title><desc>D.</desc>
+          </item>
+          <item n="248" xml:id="PCP_1897_TEI_e99_i248">
+            <num>248</num>
+            <title>Fleurs.</title><desc>A. Br.</desc>
+          </item>
+          <item n="249" xml:id="PCP_1897_TEI_e99_i249">
+            <num>249</num>
+            <title>Fleurs.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="100" xml:id="PCP_1897_TEI_e100" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4588/27,315,460,168/full/0/default.jpg">
+          <desc>
+            <name>GREGER (Karl)</name>
+            <trait>
+              <p>L. R. 17, Gordon Street, Islington, Londres.</p>
+            </trait>
+          </desc>
+          <item n="250" xml:id="PCP_1897_TEI_e100_i250">
+            <num>250</num>
+            <title>Idylle en Forêt.</title>
+          </item>
+          <item n="251" xml:id="PCP_1897_TEI_e100_i251">
+            <num>251</num>
+            <title>Cathédrale de Dordrecht.</title>
+          </item>
+          <item n="252" xml:id="PCP_1897_TEI_e100_i252">
+            <num>252</num>
+            <title>Sur la Plage, dans le pays de Galles.</title>
+          </item>
+          <item n="253" xml:id="PCP_1897_TEI_e100_i253">
+            <num>253</num>
+            <title>Derniers rayons de lumière.</title>
+          </item>
+        </entry>
+        <entry n="101" xml:id="PCP_1897_TEI_e101" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4588/29,518,447,149/full/0/default.jpg">
+          <desc>
+            <name>GROVE (M.-O.)</name>
+            <trait>
+              <p>L. R. Castle grove, Letterkenny (Irlande).</p>
+            </trait>
+          </desc>
+          <item n="254" xml:id="PCP_1897_TEI_e101_i254">
+            <num>254</num>
+            <title>L'Éte sur la mer.</title>
+          </item>
+          <item n="235" xml:id="PCP_1897_TEI_e101_i235">
+            <num>235</num>
+            <title>Vers l’Ouest au coucher du soleil.</title>
+          </item>
+          <item n="256" xml:id="PCP_1897_TEI_e101_i256">
+            <num>256</num>
+            <title>La Magie du brouillard.</title>
+          </item>
+        </entry>
+        <entry n="102" xml:id="PCP_1897_TEI_e102" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4588/18,700,444,186/full/0/default.jpg">
+          <desc>
+            <name>GUÉRIN (Henri)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 3, rue d'Argenson, Paris.</p>
+            </trait>
+          </desc>
+          <item n="257" xml:id="PCP_1897_TEI_e102_i257">
+            <num>257</num>
+            <title>Chaumières normandes.</title>
+          </item>
+          <item n="258" xml:id="PCP_1897_TEI_e102_i258">
+            <num>258</num>
+            <title>Reflets.</title>
+          </item>
+          <item n="259" xml:id="PCP_1897_TEI_e102_i259">
+            <num>259</num>
+            <title>Laveuse à Louanec (Bretagne).</title>
+          </item>
+          <item n="260" xml:id="PCP_1897_TEI_e102_i260">
+            <num>260</num>
+            <title>A la Fontaine.</title>
+          </item>
+          <item n="261" xml:id="PCP_1897_TEI_e102_i261">
+            <num>261</num>
+            <title>Grand Morin.</title>
+          </item>
+        </entry>
+        <entry n="103" xml:id="PCP_1897_TEI_e103" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4589/108,98,378,97/full/0/default.jpg">
+          <desc>
+            <name>GUILLAUME (Georges)</name>
+            <trait>
+              <p>P. C. P. 24, rue Raynouard, Paris.</p>
+            </trait>
+          </desc>
+          <item n="262" xml:id="PCP_1897_TEI_e103_i262">
+            <num>262</num>
+            <title>Soir d’automne.</title>
+          </item>
+        </entry>
+        <entry n="104" xml:id="PCP_1897_TEI_e104" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4589/112,230,422,155/full/0/default.jpg">
+          <desc>
+            <name>HANKINS (Georges)</name>
+            <trait>
+              <p>199, Evering Road, Upper Clapton, Londres.</p>
+            </trait>
+          </desc>
+          <item n="263" xml:id="PCP_1897_TEI_e104_i263">
+            <num>263</num>
+            <title>Étude.</title><desc>Br.</desc>
+          </item>
+          <item n="264" xml:id="PCP_1897_TEI_e104_i264">
+            <num>264</num>
+            <title>Portrait de M. H. Moy. Thomas. Esq.</title><desc>Pl.</desc>
+          </item>
+          <item n="265" xml:id="PCP_1897_TEI_e104_i265">
+            <num>265</num>
+            <title>Supplications.</title><desc>Br.</desc>
+          </item>
+        </entry>
+        <entry n="105" xml:id="PCP_1897_TEI_e105" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4589/98,420,408,118/full/0/default.jpg">
+          <desc>
+            <name>HANNON (Edouard)</name>
+            <trait>
+              <p>43, rue de la Concorde, Bruxelles.</p>
+            </trait>
+          </desc>
+          <item n="266" xml:id="PCP_1897_TEI_e105_i266">
+            <num>266</num>
+            <title>Au Pacage.</title><desc>A.</desc>
+          </item>
+          <item n="267" xml:id="PCP_1897_TEI_e105_i267">
+            <num>267</num>
+            <title>Après l'Orage.</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="106" xml:id="PCP_1897_TEI_e106" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4589/95,573,381,118/full/0/default.jpg">
+          <desc>
+            <name>HARRISON (W.-M.)</name>
+            <trait>
+              <p>Falmouth (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="268" xml:id="PCP_1897_TEI_e106_i268">
+            <num>268</num>
+            <title>Le Lever du jour.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="269" xml:id="PCP_1897_TEI_e106_i269">
+            <num>269</num>
+            <title>En Remorque.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="107" xml:id="PCP_1897_TEI_e107" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4589/95,726,401,131/full/0/default.jpg">
+          <desc>
+            <name>HEID (Veuve H.)</name>
+            <trait>
+              <p>33, Hauptstrasse III, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="270" xml:id="PCP_1897_TEI_e107_i270">
+            <num>270</num>
+            <title>Étude.</title>
+          </item>
+          <item n="271" xml:id="PCP_1897_TEI_e107_i271">
+            <num>271</num>
+            <title>A la Fontaine.</title>
+          </item>
+        </entry>
+        <entry n="108" xml:id="PCP_1897_TEI_e108" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4590/49,105,431,227/full/0/default.jpg">
+          <desc>
+            <name>HENNEBERG (Hugo)</name>
+            <trait>
+              <p>P. C. P.- L. R. - C. C. V. Camera Club, 1, Elisabethstrasse, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="272" xml:id="PCP_1897_TEI_e108_i272">
+            <num>272</num>
+            <title>Birken.</title><desc>A. Gb.</desc>
+          </item>
+          <item n="273" xml:id="PCP_1897_TEI_e108_i273">
+            <num>273</num>
+            <title>Sur la Route.</title><desc>A. Gb.</desc>
+          </item>
+          <item n="274" xml:id="PCP_1897_TEI_e108_i274">
+            <num>274</num>
+            <title>Temps de pluie au Chiemsee.</title><desc>A. Gb.</desc>
+          </item>
+          <item n="275" xml:id="PCP_1897_TEI_e108_i275">
+            <num>275</num>
+            <title>Avant l’Orage.</title><desc>A. Gb.</desc>
+          </item>
+          <item n="276" xml:id="PCP_1897_TEI_e108_i276">
+            <num>276</num>
+            <title>Étude en couleur.</title><desc>A. Gb.</desc>
+          </item>
+        </entry>
+        <entry n="109" xml:id="PCP_1897_TEI_e109" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4590/52,353,428,119/full/0/default.jpg">
+          <desc>
+            <name>HERMAND (Paul)</name>
+            <trait>
+              <p>P. C. P. La Bucaille, par Fontenay-Saint-Père (Seine-et-Oise).</p>
+            </trait>
+          </desc>
+          <item n="277" xml:id="PCP_1897_TEI_e109_i277">
+            <num>277</num>
+            <title>Eau dormante.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="110" xml:id="PCP_1897_TEI_e110" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4590/45,485,431,127/full/0/default.jpg">
+          <desc>
+            <name>HILDESHEIMER (L.)</name>
+            <trait>
+              <p>C. C. V. - L. R. Camera-Club, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="278" xml:id="PCP_1897_TEI_e110_i278">
+            <num>278</num>
+            <title>Étude.</title>
+          </item>
+          <item n="279" xml:id="PCP_1897_TEI_e110_i279">
+            <num>279</num>
+            <title>Étude.</title>
+          </item>
+        </entry>
+        <entry n="111" xml:id="PCP_1897_TEI_e111" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4590/45,625,396,124/full/0/default.jpg">
+          <desc>
+            <name>HINSDALE SMITH</name>
+            <trait>
+              <p>Springfield (U. S. A.).</p>
+            </trait>
+          </desc>
+          <item n="280" xml:id="PCP_1897_TEI_e111_i280">
+            <num>280</num>
+            <title>En Haut de la côte.</title>
+          </item>
+          <item n="281" xml:id="PCP_1897_TEI_e111_i281">
+            <num>281</num>
+            <title>Moissonneurs.</title>
+          </item>
+        </entry>
+        <entry n="112" xml:id="PCP_1897_TEI_e112" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4590/41,761,439,107/full/0/default.jpg">
+          <desc>
+            <name>HOFFMANN (Carl-Friedrich)</name>
+            <trait>
+              <p>Hernalserhof XVII, Vienne(Autriche).</p>
+            </trait>
+          </desc>
+          <item n="282" xml:id="PCP_1897_TEI_e112_i282">
+            <num>282</num>
+            <title>La dernière issue.</title><desc>D. Al.</desc>
+          </item>
+        </entry>
+        <entry n="113" xml:id="PCP_1897_TEI_e113" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4591/69,84,431,142/full/0/default.jpg">
+          <desc>
+            <name>HOLLYER (J.)</name>
+            <trait>
+              <p>L. R. 9, Pembroke Square, Kensington, Londres.</p>
+            </trait>
+          </desc>
+          <item n="283" xml:id="PCP_1897_TEI_e113_i283">
+            <num>283</num>
+            <title>Portrait en chapeau.</title>
+          </item>
+          <item n="284" xml:id="PCP_1897_TEI_e113_i284">
+            <num>284</num>
+            <title>Gleeson White, Esq.</title>
+          </item>
+        </entry>
+        <entry n="114" xml:id="PCP_1897_TEI_e114" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4591/73,285,413,182/full/0/default.jpg">
+          <desc>
+            <name>HORSLEY HINTON</name>
+            <trait>
+              <p>L. R. Guilford, Surrey (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="285" xml:id="PCP_1897_TEI_e114_i285">
+            <num>285</num>
+            <title>Requiem.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="286" xml:id="PCP_1897_TEI_e114_i286">
+            <num>286</num>
+            <title>Tide bereft.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="287" xml:id="PCP_1897_TEI_e114_i287">
+            <num>287</num>
+            <title>Plage de Feldel.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="288" xml:id="PCP_1897_TEI_e114_i288">
+            <num>288</num>
+            <title>Lever du jour.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="289" xml:id="PCP_1897_TEI_e114_i289">
+            <num>289</num>
+            <title>Déclin du jour.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="115" xml:id="PCP_1897_TEI_e115" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4591/81,528,422,156/full/0/default.jpg">
+          <desc>
+            <name>HOWARD ESLER</name>
+            <trait>
+              <p>4, Queen's Road, Peckham (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="290" xml:id="PCP_1897_TEI_e115_i290">
+            <num>290</num>
+            <title>Un Jour gris.</title><desc>D. Br.</desc>
+          </item>
+          <item n="291" xml:id="PCP_1897_TEI_e115_i291">
+            <num>291</num>
+            <title>Le vieux Garçon.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="292" xml:id="PCP_1897_TEI_e115_i292">
+            <num>292</num>
+            <title>Au Bord de l'étang.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="293" xml:id="PCP_1897_TEI_e115_i293">
+            <num>293</num>
+            <title>Marée du soir.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="116" xml:id="PCP_1897_TEI_e116" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4591/74,753,419,97/full/0/default.jpg">
+          <desc>
+            <name>HOWELL</name>
+            <trait>
+              <p>81, High Street, Londres.</p>
+            </trait>
+          </desc>
+          <item n="294" xml:id="PCP_1897_TEI_e116_i294">
+            <num>294</num>
+            <title>Les Vieux à la maison.</title>
+          </item>
+        </entry>
+        <entry n="117" xml:id="PCP_1897_TEI_e117" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4592/32,106,441,121/full/0/default.jpg">
+          <desc>
+            <name>HUBERT (J.)</name>
+            <trait>
+              <p>S. A. E. 8 bis, rue Dieu, Paris.</p>
+            </trait>
+          </desc>
+          <item n="295" xml:id="PCP_1897_TEI_e117_i295">
+            <num>295</num>
+            <title>Venise. A. Br.</title>
+          </item>
+          <item n="296" xml:id="PCP_1897_TEI_e117_i296">
+            <num>296</num>
+            <title>En Normandie, "La Moisson".</title>
+          </item>
+        </entry>
+        <entry n="118" xml:id="PCP_1897_TEI_e118" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4592/31,259,459,122/full/0/default.jpg">
+          <desc>
+            <name>HUNTINGDON (Olivier)</name>
+            <trait>
+              <p>Cloyne House, Newport (États-Unis).</p>
+            </trait>
+          </desc>
+          <item n="297" xml:id="PCP_1897_TEI_e118_i297">
+            <num>297</num>
+            <title>Accordant sa harpe.</title>
+          </item>
+          <item n="298" xml:id="PCP_1897_TEI_e118_i298">
+            <num>298</num>
+            <title>Portrait de M. U. T. R.</title>
+          </item>
+        </entry>
+        <entry n="119" xml:id="PCP_1897_TEI_e119" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4592/36,410,433,139/full/0/default.jpg">
+          <desc>
+            <name>HUYSSER (Joh.-F.-J.)</name>
+            <trait>
+              <p>Bloemendaal, près, Haarlem (Hollande).</p>
+            </trait>
+          </desc>
+          <item n="299" xml:id="PCP_1897_TEI_e119_i299">
+            <num>299</num>
+            <title>Soirée d'hiver.</title>
+          </item>
+          <item n="300" xml:id="PCP_1897_TEI_e119_i300">
+            <num>300</num>
+            <title>Grand'mère.</title>
+          </item>
+        </entry>
+        <entry n="120" xml:id="PCP_1897_TEI_e120" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4592/35,581,424,140/full/0/default.jpg">
+          <desc>
+            <name>ICKX (R.)</name>
+            <trait>
+              <p>A. B. DE PH. 1, rue Porte-d'Eau, Courtrai (Belgique).</p>
+            </trait>
+          </desc>
+          <item n="301" xml:id="PCP_1897_TEI_e120_i301">
+            <num>301</num>
+            <title>Hiver, temps sombre. </title><desc>A. Br.</desc>
+          </item>
+          <item n="302" xml:id="PCP_1897_TEI_e120_i302">
+            <num>302</num>
+            <title>Brouillard d'automne. </title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="121" xml:id="PCP_1897_TEI_e121" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4592/32,751,434,121/full/0/default.jpg">
+          <desc>
+            <name>INSINGER (H.-A.)</name>
+            <trait>
+              <p>86, boulevard Haussmann, Paris.</p>
+            </trait>
+          </desc>
+          <item n="303" xml:id="PCP_1897_TEI_e121_i303">
+            <num>303</num>
+            <title>La Vague.</title><desc>A. Br.</desc>
+          </item>
+          <item n="304" xml:id="PCP_1897_TEI_e121_i304">
+            <num>304</num>
+            <title>Avant l'Orage.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="122" xml:id="PCP_1897_TEI_e122" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4593/86,84,414,118/full/0/default.jpg">
+          <desc>
+            <name>IROTH (Henry)</name>
+            <trait>
+              <p>330, Chestnut Street, Philadelphie.</p>
+            </trait>
+          </desc>
+          <item n="305" xml:id="PCP_1897_TEI_e122_i305">
+            <num>305</num>
+            <title>La Plage solitaire.</title>
+          </item>
+          <item n="306" xml:id="PCP_1897_TEI_e122_i306">
+            <num>306</num>
+            <title>Abandonné.</title>
+          </item>
+        </entry>
+        <entry n="123" xml:id="PCP_1897_TEI_e123" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4593/81,234,415,175/full/0/default.jpg">
+          <desc>
+            <name>JACQUIN (Ch.)</name>
+            <trait>
+              <p>S. F. P. - S. A. E. 5, rue des Moulins, Paris.</p>
+            </trait>
+          </desc>
+          <item n="307" xml:id="PCP_1897_TEI_e123_i307">
+            <num>307</num>
+            <title>Portrait de F. Bracquemond.</title>
+          </item>
+          <item n="308" xml:id="PCP_1897_TEI_e123_i308">
+            <num>308</num>
+            <title>Baie de Buccari (Adriatique).</title>
+          </item>
+          <item n="309" xml:id="PCP_1897_TEI_e123_i309">
+            <num>309</num>
+            <title>Lever de soleil, lac de Wallanstadt.</title>
+          </item>
+          <item n="310" xml:id="PCP_1897_TEI_e123_i310">
+            <num>310</num>
+            <title>Route Dauphine (Forêt de Marly).</title>
+          </item>
+          <item n="311" xml:id="PCP_1897_TEI_e123_i311">
+            <num>311</num>
+            <title>Dans le Port, à Trieste.</title>
+          </item>
+        </entry>
+        <entry n="124" xml:id="PCP_1897_TEI_e124" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4593/81,444,405,118/full/0/default.jpg">
+          <desc>
+            <name>JAMES (Georges-H.)</name>
+            <trait>
+              <p>L. R. 61, Battersea Rise, Londres.</p>
+            </trait>
+          </desc>
+          <item n="312" xml:id="PCP_1897_TEI_e124_i312">
+            <num>312</num>
+            <title>Nuit d’été, à Cowes.</title>
+          </item>
+          <item n="313" xml:id="PCP_1897_TEI_e124_i313">
+            <num>313</num>
+            <title>Fleurs d’Écosse.</title>
+          </item>
+        </entry>
+        <entry n="125" xml:id="PCP_1897_TEI_e125" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4593/74,597,422,97/full/0/default.jpg">
+          <desc>
+            <name>JESSÉ-CURELY (René)</name>
+            <trait>
+              <p>20, rue de Provence, Versailles.</p>
+            </trait>
+          </desc>
+          <item n="314" xml:id="PCP_1897_TEI_e125_i314">
+            <num>314</num>
+            <title>Les Bords de la Sauldre.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="126" xml:id="PCP_1897_TEI_e126" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4593/64,729,463,111/full/0/default.jpg">
+          <desc>
+            <name>JOB (Charles)</name>
+            <trait>
+              <p>Milton House, Lingfield, Sussex (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="315" xml:id="PCP_1897_TEI_e126_i315">
+            <num>315</num>
+            <title>Une vieille Carène.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="127" xml:id="PCP_1897_TEI_e127" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4594/57,105,443,114/full/0/default.jpg">
+          <desc>
+            <name>JUNCKER (Ernest)</name>
+            <trait>
+              <p>Chalet Friedeik, Davos,-Dorf (Suisse).</p>
+            </trait>
+          </desc>
+          <item n="316" xml:id="PCP_1897_TEI_e127_i316">
+            <num>316</num>
+            <title>Au Bord du Lac.</title><desc>Ch.</desc>
+          </item>
+          <item n="317" xml:id="PCP_1897_TEI_e127_i317">
+            <num>317</num>
+            <title>Contente.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="128" xml:id="PCP_1897_TEI_e128" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4594/60,254,440,145/full/0/default.jpg">
+          <desc>
+            <name>KEENE (Richard)</name>
+            <trait>
+              <p>Iron Gate, Derby (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="318" xml:id="PCP_1897_TEI_e128_i318">
+            <num>318</num>
+            <title>Un Vallon en Derbyshire.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="319" xml:id="PCP_1897_TEI_e128_i319">
+            <num>319</num>
+            <title>Dovedale.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="320" xml:id="PCP_1897_TEI_e128_i320">
+            <num>320</num>
+            <title>Bords de la Lathkil.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="129" xml:id="PCP_1897_TEI_e129" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4594/70,434,413,121/full/0/default.jpg">
+          <desc>
+            <name>KETELAAR (J.-F.)</name>
+            <trait>
+              <p>Arnhem (Hollande).</p>
+            </trait>
+          </desc>
+          <item n="321" xml:id="PCP_1897_TEI_e129_i321">
+            <num>321</num>
+            <title>Automne en Hollande.</title><desc>Pl.</desc>
+          </item>
+          <item n="322" xml:id="PCP_1897_TEI_e129_i322">
+            <num>322</num>
+            <title>Bords du ruisseau.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="130" xml:id="PCP_1897_TEI_e130" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4594/75,589,442,122/full/0/default.jpg">
+          <desc>
+            <name>KNIGHT BRUCE</name>
+            <trait>
+              <p>Camera Club, 28, Charing Cross Road, Londres.</p>
+            </trait>
+          </desc>
+          <item n="323" xml:id="PCP_1897_TEI_e130_i323">
+            <num>323</num>
+            <title>Portrait d’Audrey.</title>
+          </item>
+        </entry>
+        <entry n="131" xml:id="PCP_1897_TEI_e131" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4594/81,740,425,127/full/0/default.jpg">
+          <desc>
+            <name>KUHN (Heinrich)</name>
+            <trait>
+              <p>C. C. V. 6, Zalkstrasse, Innsbruck, Tyrol.</p>
+            </trait>
+          </desc>
+          <item n="324" xml:id="PCP_1897_TEI_e131_i324">
+            <num>324</num>
+            <title>Crépuscule.</title><desc>Gb.</desc>
+          </item>
+          <item n="325" xml:id="PCP_1897_TEI_e131_i325">
+            <num>325</num>
+            <title>Tête d'étude.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="132" xml:id="PCP_1897_TEI_e132" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4595/63,84,403,125/full/0/default.jpg">
+          <desc>
+            <name>KUNDT (Madame)</name>
+            <trait>
+              <p>Genthinerstrasse, 42, Berlin.</p>
+            </trait>
+          </desc>
+          <item n="325" xml:id="PCP_1897_TEI_e132_i325">
+            <num>325</num>
+            <title>bis Portrait.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="326" xml:id="PCP_1897_TEI_e132_i326">
+            <num>326</num>
+            <title>Portrait.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="133" xml:id="PCP_1897_TEI_e133" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4595/72,274,414,159/full/0/default.jpg">
+          <desc>
+            <name>LAMBERT (Rey. A.-C.)</name>
+            <trait>
+              <p>L. R. 6, Ormonde Terrace, Londres.</p>
+            </trait>
+          </desc>
+          <item n="326" xml:id="PCP_1897_TEI_e133_i326">
+            <num>326</num>
+            <title>bis Le Vent.</title><desc>D.</desc>
+          </item>
+          <item n="327" xml:id="PCP_1897_TEI_e133_i327">
+            <num>327</num>
+            <title>Brouillard.</title><desc>D.</desc>
+          </item>
+          <item n="328" xml:id="PCP_1897_TEI_e133_i328">
+            <num>328</num>
+            <title>Bosham.</title><desc>Hél.</desc>
+          </item>
+          <item n="329" xml:id="PCP_1897_TEI_e133_i329">
+            <num>329</num>
+            <title>Pluie et Vent.</title><desc>Hél.</desc>
+          </item>
+        </entry>
+        <entry n="134" xml:id="PCP_1897_TEI_e134" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4595/61,498,442,159/full/0/default.jpg">
+          <desc>
+            <name>LANGFIELD (A.-B.)</name>
+            <trait>
+              <p>82, Fellows Road, South Hampsted, Haverstock Hill, Londres.</p>
+            </trait>
+          </desc>
+          <item n="330" xml:id="PCP_1897_TEI_e134_i330">
+            <num>330</num>
+            <title>Jeune Grecque.</title><desc>A. Br.</desc>
+          </item>
+          <item n="331" xml:id="PCP_1897_TEI_e134_i331">
+            <num>331</num>
+            <title>Œnone.</title><desc>A. Br.</desc>
+          </item>
+          <item n="332" xml:id="PCP_1897_TEI_e134_i332">
+            <num>332</num>
+            <title>Le Jardin de Proserpine.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="135" xml:id="PCP_1897_TEI_e135" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4595/54,726,446,124/full/0/default.jpg">
+          <desc>
+            <name>LAS CASES (Comte de)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 61, rue d'Anjou, Paris.</p>
+            </trait>
+          </desc>
+          <item n="333" xml:id="PCP_1897_TEI_e135_i333">
+            <num>333</num>
+            <title>La Boucherie d'El-Kantara.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="136" xml:id="PCP_1897_TEI_e136" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4596/45,114,456,204/full/0/default.jpg">
+          <desc>
+            <name>LE BÈGUE (René)</name>
+            <trait>
+              <p>51, rue Le Peletier, Paris.</p>
+            </trait>
+          </desc>
+          <item n="334" xml:id="PCP_1897_TEI_e136_i334">
+            <num>334</num>
+            <title>Solitude.</title>
+          </item>
+          <item n="335" xml:id="PCP_1897_TEI_e136_i335">
+            <num>335</num>
+            <title>Nerée.</title>
+          </item>
+          <item n="336" xml:id="PCP_1897_TEI_e136_i336">
+            <num>336</num>
+            <title>Dans la Prairie.</title>
+          </item>
+          <item n="337" xml:id="PCP_1897_TEI_e136_i337">
+            <num>337</num>
+            <title>Après le Bain.</title>
+          </item>
+          <item n="338" xml:id="PCP_1897_TEI_e136_i338">
+            <num>338</num>
+            <title>Étude de Nu, Plein air.</title>
+          </item>
+          <item n="339" xml:id="PCP_1897_TEI_e136_i339">
+            <num>339</num>
+            <title>Bouquet de Grèves.</title>
+          </item>
+        </entry>
+        <entry n="137" xml:id="PCP_1897_TEI_e137" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4596/35,374,413,105/full/0/default.jpg">
+          <desc>
+            <name>LEBLANC (Émile)</name>
+            <trait>
+              <p>13, rue de Seine, Paris.</p>
+            </trait>
+          </desc>
+          <item n="340" xml:id="PCP_1897_TEI_e137_i340">
+            <num>340</num>
+            <title>Une veille Nounou.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="138" xml:id="PCP_1897_TEI_e138" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4596/34,529,446,160/full/0/default.jpg">
+          <desc>
+            <name>LEDARD (René)</name>
+            <trait>
+              <p>P. C. P. 37, rue Godot-de-Mauroy, Paris.</p>
+            </trait>
+          </desc>
+          <item n="341" xml:id="PCP_1897_TEI_e138_i341">
+            <num>341</num>
+            <title>Une Rue à Biskra.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="342" xml:id="PCP_1897_TEI_e138_i342">
+            <num>342</num>
+            <title>Une Rue à Sidi-Barkat.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="343" xml:id="PCP_1897_TEI_e138_i343">
+            <num>343</num>
+            <title>La Cuisson du Méchoui.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="344" xml:id="PCP_1897_TEI_e138_i344">
+            <num>344</num>
+            <title>Retour du Désert.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="139" xml:id="PCP_1897_TEI_e139" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4596/31,745,428,141/full/0/default.jpg">
+          <desc>
+            <name>LEE FERGUSON (Eugène)</name>
+            <trait>
+              <p>1338, W. Street, Washington.</p>
+            </trait>
+          </desc>
+          <item n="345" xml:id="PCP_1897_TEI_e139_i345">
+            <num>345</num>
+            <title>En Juin.</title><desc>D.</desc>
+          </item>
+          <item n="346" xml:id="PCP_1897_TEI_e139_i346">
+            <num>346</num>
+            <title>Étude d'enfant.</title><desc>D.</desc>
+          </item>
+          <item n="347" xml:id="PCP_1897_TEI_e139_i347">
+            <num>347</num>
+            <title>Lys de Pâques.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="140" xml:id="PCP_1897_TEI_e140" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4597/80,115,430,121/full/0/default.jpg">
+          <desc>
+            <name>LEHIDEUX VERNIMMEN (André)</name>
+            <trait>
+              <p>P. C. P. 155, boulevard Haussmann, Paris.</p>
+            </trait>
+          </desc>
+          <item n="348" xml:id="PCP_1897_TEI_e140_i348">
+            <num>348</num>
+            <title>Matinée d'automne (Lac Léman).</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="141" xml:id="PCP_1897_TEI_e141" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4597/88,254,415,222/full/0/default.jpg">
+          <desc>
+            <name>LEHNERT (Mlle Hildegard)</name>
+            <trait>
+              <p>52, Steglitzerstrasse W., Berlin.</p>
+            </trait>
+          </desc>
+          <item n="349" xml:id="PCP_1897_TEI_e141_i349">
+            <num>349</num>
+            <title>Étude de lys.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="350" xml:id="PCP_1897_TEI_e141_i350">
+            <num>350</num>
+            <title>Étude de clématites.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="351" xml:id="PCP_1897_TEI_e141_i351">
+            <num>351</num>
+            <title>Femmes plumant des oies.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="352" xml:id="PCP_1897_TEI_e141_i352">
+            <num>352</num>
+            <title>Troupeau de brebis rentrant.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="353" xml:id="PCP_1897_TEI_e141_i353">
+            <num>353</num>
+            <title>Établissement de bains.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="354" xml:id="PCP_1897_TEI_e141_i354">
+            <num>354</num>
+            <title>Soleil couchant.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="355" xml:id="PCP_1897_TEI_e141_i355">
+            <num>355</num>
+            <title>Grillage de roses.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="142" xml:id="PCP_1897_TEI_e142" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4597/88,498,432,156/full/0/default.jpg">
+          <desc>
+            <name>LEMAIRE (E.)</name>
+            <trait>
+              <p>14, rue de la Préfecture, Tours.</p>
+            </trait>
+          </desc>
+          <item n="356" xml:id="PCP_1897_TEI_e142_i356">
+            <num>356</num>
+            <title>Le vieux Pont de Saint-Germain-sur-Vienne.</title><desc>A. Br.</desc>
+          </item>
+          <item n="357" xml:id="PCP_1897_TEI_e142_i357">
+            <num>357</num>
+            <title>Une Vue de L'Anglui, à Angles (Vienne).</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="143" xml:id="PCP_1897_TEI_e143" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4597/78,675,439,199/full/0/default.jpg">
+          <desc>
+            <name>LE ROUX (Paul)</name>
+            <trait>
+              <p>P. C. P. - S. A. E. 48, boulevard Malesherbes, Paris.</p>
+            </trait>
+          </desc>
+          <item n="358" xml:id="PCP_1897_TEI_e143_i358">
+            <num>358</num>
+            <title>A la Grande-Chartreuse.</title>
+          </item>
+          <item n="359" xml:id="PCP_1897_TEI_e143_i359">
+            <num>359</num>
+            <title>Environs d’Uriage.</title>
+          </item>
+          <item n="360" xml:id="PCP_1897_TEI_e143_i360">
+            <num>360</num>
+            <title>Laffrey (Dauphiné).</title>
+          </item>
+          <item n="361" xml:id="PCP_1897_TEI_e143_i361">
+            <num>361</num>
+            <title>Marée basse (Vendée).</title>
+          </item>
+          <item n="362" xml:id="PCP_1897_TEI_e143_i362">
+            <num>362</num>
+            <title>Régates à l'Aiguillon-sur-Mer (Vendée).</title>
+          </item>
+          <item n="363" xml:id="PCP_1897_TEI_e143_i363">
+            <num>363</num>
+            <title>Bords de la Seine.</title>
+          </item>
+        </entry>
+        <entry n="144" xml:id="PCP_1897_TEI_e144" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4598/53,126,448,115/full/0/default.jpg">
+          <desc>
+            <name>LESSING (Madame Alma)</name>
+            <trait>
+              <p>14, Victoria Strasse, Berlin.</p>
+            </trait>
+          </desc>
+          <item n="364" xml:id="PCP_1897_TEI_e144_i364">
+            <num>364</num>
+            <title>Philémon et Beaucis.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="365" xml:id="PCP_1897_TEI_e144_i365">
+            <num>365</num>
+            <title>Nature morte.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="145" xml:id="PCP_1897_TEI_e145" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4598/41,316,453,124/full/0/default.jpg">
+          <desc>
+            <name>LEVISTRE (Georges)</name>
+            <trait>
+              <p>57, rue de Sèvres, Clamart (Seine).</p>
+            </trait>
+          </desc>
+          <item n="366" xml:id="PCP_1897_TEI_e145_i366">
+            <num>366</num>
+            <title>La Béthune à Saint-Waast d'Equiqueville.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="146" xml:id="PCP_1897_TEI_e146" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4598/44,505,443,188/full/0/default.jpg">
+          <desc>
+            <name>MAGNITOT (G. de)</name>
+            <trait>
+              <p>P. C. P. Château de Magnitot, par Magny-en-Vexin (Seine-et-Oise).</p>
+            </trait>
+          </desc>
+          <item n="367" xml:id="PCP_1897_TEI_e146_i367">
+            <num>367</num>
+            <title>Une Perdrix.</title><desc>A. Br.</desc>
+          </item>
+          <item n="368" xml:id="PCP_1897_TEI_e146_i368">
+            <num>368</num>
+            <title>Une Bécasse.</title><desc>A. Br.</desc>
+          </item>
+          <item n="369" xml:id="PCP_1897_TEI_e146_i369">
+            <num>369</num>
+            <title>Les Marais de Carentan.</title><desc>A. Br.</desc>
+          </item>
+          <item n="369" xml:id="PCP_1897_TEI_e146_i369b">
+            <num>369</num>
+            <title>bis Les Marais de Carentan.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="147" xml:id="PCP_1897_TEI_e147" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4598/42,754,445,132/full/0/default.jpg">
+          <desc>
+            <name>MAGRON (Henri)</name>
+            <trait>
+              <p>S. CAENNAISE DE PH. 41, rue Neuve-Saint-Jean, Caen.</p>
+            </trait>
+          </desc>
+          <item n="370" xml:id="PCP_1897_TEI_e147_i370">
+            <num>370</num>
+            <title>Vieille Fille.</title><desc>A. Br.</desc>
+          </item>
+          <item n="371" xml:id="PCP_1897_TEI_e147_i371">
+            <num>371</num>
+            <title>Aux Champs.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="148" xml:id="PCP_1897_TEI_e148" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4599/80,101,440,176/full/0/default.jpg">
+          <desc>
+            <name>MAITLAND (Viscount)</name>
+            <trait>
+              <p>2, Belgrave Road, Londres.</p>
+            </trait>
+          </desc>
+          <item n="372" xml:id="PCP_1897_TEI_e148_i372">
+            <num>372</num>
+            <title>"Au Abbey once, a regal forliers now, Encircled by insulling rebel powers".</title><desc>D.</desc>
+          </item>
+          <item n="373" xml:id="PCP_1897_TEI_e148_i373">
+            <num>373</num>
+            <title>Étude de tête.</title><desc>D.</desc>
+          </item>
+          <item n="374" xml:id="PCP_1897_TEI_e148_i374">
+            <num>374</num>
+            <title>Loch-Ailort.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="149" xml:id="PCP_1897_TEI_e149" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4599/87,305,436,94/full/0/default.jpg">
+          <desc>
+            <name>MALATIER (Louis)</name>
+            <trait>
+              <p>P. C. P. - S. F. P. Chervinges, par Villefranche (Rhône).</p>
+            </trait>
+          </desc>
+          <item n="375" xml:id="PCP_1897_TEI_e149_i375">
+            <num>375</num>
+            <title>Une fausse Maille.</title><desc>Ph. D.</desc>
+          </item>
+        </entry>
+        <entry n="150" xml:id="PCP_1897_TEI_e150" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4599/84,426,429,120/full/0/default.jpg">
+          <desc>
+            <name>MANBY (Thomas)</name>
+            <trait>
+              <p>L. R. 140, Haverstock Hill, Londres.</p>
+            </trait>
+          </desc>
+          <item n="376" xml:id="PCP_1897_TEI_e150_i376">
+            <num>376</num>
+            <title>Aurore. Étude de tête.</title><desc>A. Br.</desc>
+          </item>
+          <item n="377" xml:id="PCP_1897_TEI_e150_i377">
+            <num>377</num>
+            <title>Gloriana. Étude de tête.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="151" xml:id="PCP_1897_TEI_e151" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4599/74,576,419,121/full/0/default.jpg">
+          <desc>
+            <name>MANNHEIM (Jules)</name>
+            <trait>
+              <p>7, rue Saint-Georges, Paris.</p>
+            </trait>
+          </desc>
+          <item n="378" xml:id="PCP_1897_TEI_e151_i378">
+            <num>378</num>
+            <title>Dans la Mâture.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="379" xml:id="PCP_1897_TEI_e151_i379">
+            <num>379</num>
+            <title>Sur le Quai.</title><desc>D. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="152" xml:id="PCP_1897_TEI_e152" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4599/74,719,443,135/full/0/default.jpg">
+          <desc>
+            <name>MANWARING (E.-E)</name>
+            <trait>
+              <p>73, Lansdowne Place, Hove, Brighton.</p>
+            </trait>
+          </desc>
+          <item n="380" xml:id="PCP_1897_TEI_e152_i380">
+            <num>380</num>
+            <title>L’Homme à la Faulx.</title><desc>A. Br.</desc>
+          </item>
+          <item n="381" xml:id="PCP_1897_TEI_e152_i381">
+            <num>381</num>
+            <title>Brume d’hiver.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="153" xml:id="PCP_1897_TEI_e153" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4601/32,133,469,101/full/0/default.jpg">
+          <desc>
+            <name>MARCHANT (Mademoiselle P.)</name>
+            <trait>
+              <p>12, rue de Lorraine, Saint-Germain-en-Laye.</p>
+            </trait>
+          </desc>
+          <item n="382" xml:id="PCP_1897_TEI_e153_i382">
+            <num>382</num>
+            <title>Tricoteuse bretonne.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="154" xml:id="PCP_1897_TEI_e154" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4601/39,273,455,157/full/0/default.jpg">
+          <desc>
+            <name>MAROZEAU (Paul)</name>
+            <trait>
+              <p>P. C. P. 71, avenue Victor-Hugo, Paris.</p>
+            </trait>
+          </desc>
+          <item n="383" xml:id="PCP_1897_TEI_e154_i383">
+            <num>383</num>
+            <title>Coin d’atelier.</title><desc>A. Br.</desc>
+          </item>
+          <item n="384" xml:id="PCP_1897_TEI_e154_i384">
+            <num>384</num>
+            <title>Marine. Côtes de Norwège.</title><desc>A. Br.</desc>
+          </item>
+          <item n="385" xml:id="PCP_1897_TEI_e154_i385">
+            <num>385</num>
+            <title>Déchirure dans les nuages. Côtes de Norwège, 60° nord.</title><desc> A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="155" xml:id="PCP_1897_TEI_e155" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4601/38,462,445,115/full/0/default.jpg">
+          <desc>
+            <name>MARSH (Fred)</name>
+            <trait>
+              <p>7, Caxton Terrace, Henley-on-Thames (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="386" xml:id="PCP_1897_TEI_e155_i386">
+            <num>386</num>
+            <title>Le Gaz.</title>
+          </item>
+        </entry>
+        <entry n="156" xml:id="PCP_1897_TEI_e156" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4601/37,613,450,133/full/0/default.jpg">
+          <desc>
+            <name>MARTIN (Paul)</name>
+            <trait>
+              <p>9, Alival Road, Wandsworth, Londres.</p>
+            </trait>
+          </desc>
+          <item n="387" xml:id="PCP_1897_TEI_e156_i387">
+            <num>387</num>
+            <title>Les Chambres du Parlement (Londres).</title>
+          </item>
+          <item n="388" xml:id="PCP_1897_TEI_e156_i388">
+            <num>388</num>
+            <title>Une Soirée pluvieuse sur le quai (Londres).</title>
+          </item>
+        </entry>
+        <entry n="157" xml:id="PCP_1897_TEI_e157" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4601/34,778,442,122/full/0/default.jpg">
+          <desc>
+            <name>MASKELL (Alfred)</name>
+            <trait>
+              <p>P. C. P. - L. R. Torr's cottage, Ilfracombe (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="389" xml:id="PCP_1897_TEI_e157_i389">
+            <num>389</num>
+            <title>Fleur de printemps.</title>
+          </item>
+          <item n="390" xml:id="PCP_1897_TEI_e157_i390">
+            <num>390</num>
+            <title>Tête de jeune fille.</title>
+          </item>
+        </entry>
+        <entry n="158" xml:id="PCP_1897_TEI_e158" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4602/88,101,412,240/full/0/default.jpg">
+          <desc>
+            <name>MATHIES MASUREN</name>
+            <trait>
+              <p>Neue Kunstakademie, Karlsruhe. (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="391" xml:id="PCP_1897_TEI_e158_i391">
+            <num>391</num>
+            <title>Portrait.</title><desc>D.</desc>
+          </item>
+          <item n="392" xml:id="PCP_1897_TEI_e158_i392">
+            <num>392</num>
+            <title>Portrait.</title><desc> D.</desc>
+          </item>
+          <item n="393" xml:id="PCP_1897_TEI_e158_i393">
+            <num>393</num>
+            <title>Portrait.</title><desc>D.</desc>
+          </item>
+          <item n="394" xml:id="PCP_1897_TEI_e158_i394">
+            <num>394</num>
+            <title>Portrait.</title><desc>D.</desc>
+          </item>
+          <item n="395" xml:id="PCP_1897_TEI_e158_i395">
+            <num>395</num>
+            <title>Portrait.</title><desc>D.</desc>
+          </item>
+          <item n="396" xml:id="PCP_1897_TEI_e158_i396">
+            <num>396</num>
+            <title>Portrait.</title><desc>D.</desc>
+          </item>
+          <item n="397" xml:id="PCP_1897_TEI_e158_i397">
+            <num>397</num>
+            <title>Paysage.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="159" xml:id="PCP_1897_TEI_e159" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4602/95,404,425,100/full/0/default.jpg">
+          <desc>
+            <name>MATHIEU (Emmanuel)</name>
+            <trait>
+              <p>P. C. P. 20, rue des Capucines, Paris.</p>
+            </trait>
+          </desc>
+          <item n="398" xml:id="PCP_1897_TEI_e159_i398">
+            <num>398</num>
+            <title>Le Café en grand'halte.</title><desc>A. Br. Vu.</desc>
+          </item>
+        </entry>
+        <entry n="160" xml:id="PCP_1897_TEI_e160" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4602/91,566,419,118/full/0/default.jpg">
+          <desc>
+            <name>MAZIBOURG (Carle de)</name>
+            <trait>
+              <p>S. F. P. 46, rue Galilée, Paris.</p>
+            </trait>
+          </desc>
+          <item n="399" xml:id="PCP_1897_TEI_e160_i399">
+            <num>399</num>
+            <title>Mlle Cléo de Mérode.</title><desc>A. S.</desc>
+          </item>
+          <item n="400" xml:id="PCP_1897_TEI_e160_i400">
+            <num>400</num>
+            <title>Jeune Femme au chien.</title><desc>A. S.</desc>
+          </item>
+        </entry>
+        <entry n="161" xml:id="PCP_1897_TEI_e161" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4602/88,749,439,115/full/0/default.jpg">
+          <desc>
+            <name>MILLON (Georges)</name>
+            <trait>
+              <p>14, rue de l’Oratoire, Boulogne-s-Mer (Pas-de-Calais).</p>
+            </trait>
+          </desc>
+          <item n="401" xml:id="PCP_1897_TEI_e161_i401">
+            <num>401</num>
+            <title>Wissant (Pas-de-Calais).</title><desc>D. G. cl.</desc>
+          </item>
+        </entry>
+        <entry n="162" xml:id="PCP_1897_TEI_e162" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4603/21,133,466,174/full/0/default.jpg">
+          <desc>
+            <name>MILLON (Joseph)</name>
+            <trait>
+              <p>9, rue du Château, Boulogne-sur-Mer (Pas-de-Calais).</p>
+            </trait>
+          </desc>
+          <item n="402" xml:id="PCP_1897_TEI_e162_i402">
+            <num>402</num>
+            <title>La Source. </title><desc>A. Br.</desc>
+          </item>
+          <item n="403" xml:id="PCP_1897_TEI_e162_i403">
+            <num>403</num>
+            <title>Novembre. </title><desc>A. Br.</desc>
+          </item>
+          <item n="404" xml:id="PCP_1897_TEI_e162_i404">
+            <num>404</num>
+            <title>Sortie du port, matin. </title><desc>A. Br.</desc>
+          </item>
+          <item n="405" xml:id="PCP_1897_TEI_e162_i405">
+            <num>405</num>
+            <title>Sortie du port, soir.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="163" xml:id="PCP_1897_TEI_e163" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4603/15,378,458,140/full/0/default.jpg">
+          <desc>
+            <name>MIRABAUD (Gustave)</name>
+            <trait>
+              <p>P. C. P. 56, rue de Provence, Paris.</p>
+            </trait>
+          </desc>
+          <item n="406" xml:id="PCP_1897_TEI_e163_i406">
+            <num>406</num>
+            <title>Coucher de soleil, à Biarritz.</title><desc>A.</desc>
+          </item>
+          <item n="407" xml:id="PCP_1897_TEI_e163_i407">
+            <num>407</num>
+            <title>Falaise, à Biarritz.</title><desc>A.</desc>
+          </item>
+          <item n="408" xml:id="PCP_1897_TEI_e163_i408">
+            <num>408</num>
+            <title>Étude de mer, à Biarritz.</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="164" xml:id="PCP_1897_TEI_e164" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4603/21,583,452,138/full/0/default.jpg">
+          <desc>
+            <name>MIRABAUD (Robert)</name>
+            <trait>
+              <p>86, avenue de Villiers, Paris.</p>
+            </trait>
+          </desc>
+          <item n="409" xml:id="PCP_1897_TEI_e164_i409">
+            <num>409</num>
+            <title>Nègres plongeant dans la première Cararacte du Nil.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="410" xml:id="PCP_1897_TEI_e164_i410">
+            <num>410</num>
+            <title>Nuages sur les montagnes de Thèbes.</title><desc>A. Al.</desc>
+          </item>
+        </entry>
+        <entry n="165" xml:id="PCP_1897_TEI_e165" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4603/13,792,446,101/full/0/default.jpg">
+          <desc>
+            <name>MORTUREUX (Albert)</name>
+            <trait>
+              <p>P. C. P. 4, Avenue Marceau, Paris.</p>
+            </trait>
+          </desc>
+          <item n="411" xml:id="PCP_1897_TEI_e165_i411">
+            <num>411</num>
+            <title>Neige et Dégel.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="166" xml:id="PCP_1897_TEI_e166" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4604/98,101,446,196/full/0/default.jpg">
+          <desc>
+            <name>NAUDOT (Paul)</name>
+            <trait>
+              <p>P. C. P. 35, rue Washington, Paris.</p>
+            </trait>
+          </desc>
+          <item n="412" xml:id="PCP_1897_TEI_e166_i412">
+            <num>412</num>
+            <title>Une Pêcherie sur les côtes de Norvège.</title><desc>A. Ch.</desc>
+          </item>
+          <item n="413" xml:id="PCP_1897_TEI_e166_i413">
+            <num>413</num>
+            <title>Dans les faubourg de Grenade (Espagne).</title><desc>A. Ch.</desc>
+          </item>
+          <item n="414" xml:id="PCP_1897_TEI_e166_i414">
+            <num>414</num>
+            <title>Un Coin du Port à Bergen (Norvège).</title><desc>A. S.</desc>
+          </item>
+        </entry>
+        <entry n="167" xml:id="PCP_1897_TEI_e167" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4604/84,363,463,158/full/0/default.jpg">
+          <desc>
+            <name>NIEPORT (Otto)</name>
+            <trait>
+              <p>31, Fedelhören, Brême (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="415" xml:id="PCP_1897_TEI_e167_i415">
+            <num>415</num>
+            <title>Sur le Chemin de la Ferme.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="416" xml:id="PCP_1897_TEI_e167_i416">
+            <num>416</num>
+            <title>Silence du soir.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="417" xml:id="PCP_1897_TEI_e167_i417">
+            <num>417</num>
+            <title>Calme du Soir.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="418" xml:id="PCP_1897_TEI_e167_i418">
+            <num>418</num>
+            <title>Clair de lune. </title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="168" xml:id="PCP_1897_TEI_e168" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4604/78,576,473,126/full/0/default.jpg">
+          <desc>
+            <name>NORRIE (Willam)</name>
+            <trait>
+              <p>28, Cross Street, Fraserburgh (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="419" xml:id="PCP_1897_TEI_e168_i419">
+            <num>419</num>
+            <title>Près du Feu.</title>
+          </item>
+        </entry>
+        <entry n="169" xml:id="PCP_1897_TEI_e169" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4604/61,766,435,101/full/0/default.jpg">
+          <desc>
+            <name>ORIGET (Emmanuel)</name>
+            <trait>
+              <p>73, rue de Miromesnil, Paris.</p>
+            </trait>
+          </desc>
+          <item n="420" xml:id="PCP_1897_TEI_e169_i420">
+            <num>420</num>
+            <title>Effet de neige.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="170" xml:id="PCP_1897_TEI_e170" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4606/35,140,455,181/full/0/default.jpg">
+          <desc>
+            <name>PALMER (Hubert)</name>
+            <trait>
+              <p>South Beach Lodge-Great Yarmouth, Norfolk (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="421" xml:id="PCP_1897_TEI_e170_i421">
+            <num>421</num>
+            <title>Jour de pluie, à Londres.</title><desc>D.</desc>
+          </item>
+          <item n="422" xml:id="PCP_1897_TEI_e170_i422">
+            <num>422</num>
+            <title>Giboulée d’Avril.</title><desc>D.</desc>
+          </item>
+          <item n="423" xml:id="PCP_1897_TEI_e170_i423">
+            <num>423</num>
+            <title>Coucher de Soleil (Breydon Water).</title><desc>D.</desc>
+          </item>
+          <item n="424" xml:id="PCP_1897_TEI_e170_i424">
+            <num>424</num>
+            <title>Fin d’un jour d’hiver.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="171" xml:id="PCP_1897_TEI_e171" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4606/27,389,453,129/full/0/default.jpg">
+          <desc>
+            <name>PANCOAST (C.-R.)</name>
+            <trait>
+              <p>1213, Filbert Street, Philadelphie, (États-Unis).</p>
+            </trait>
+          </desc>
+          <item n="425" xml:id="PCP_1897_TEI_e171_i425">
+            <num>425</num>
+            <title>Le Brise-Lames de Delaware.</title>
+          </item>
+        </entry>
+        <entry n="172" xml:id="PCP_1897_TEI_e172" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4606/27,582,446,107/full/0/default.jpg">
+          <desc>
+            <name>PARSONS (Harry)</name>
+            <trait>
+              <p>15, Upper Gray Street, Édinbourgh.</p>
+            </trait>
+          </desc>
+          <item n="426" xml:id="PCP_1897_TEI_e172_i426">
+            <num>426</num>
+            <title>Les Amis.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="173" xml:id="PCP_1897_TEI_e173" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4606/23,746,453,160/full/0/default.jpg">
+          <desc>
+            <name>PAULI (Robert)</name>
+            <trait>
+              <p>P. C. P. -S. P. DE LILLE. 23, rue Saint-Sébastien, Lille (Nord).</p>
+            </trait>
+          </desc>
+          <item n="427" xml:id="PCP_1897_TEI_e173_i427">
+            <num>427</num>
+            <title>Renée.</title><desc>A. Br. Vu.</desc>
+          </item>
+          <item n="428" xml:id="PCP_1897_TEI_e173_i428">
+            <num>428</num>
+            <title>Un vieux Lascar.</title><desc>A. Br.</desc>
+          </item>
+          <item n="429" xml:id="PCP_1897_TEI_e173_i429">
+            <num>429</num>
+            <title>Étude.</title><desc>A. Br.</desc>
+          </item>
+          <item n="430" xml:id="PCP_1897_TEI_e173_i430">
+            <num>430</num>
+            <title>Étude en flou.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="174" xml:id="PCP_1897_TEI_e174" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4607/90,125,430,135/full/0/default.jpg">
+          <desc>
+            <name>PECTOR (S.)</name>
+            <trait>
+              <p>S. F. P. - S. A. E. 9, rue Lincoln, Paris.</p>
+            </trait>
+          </desc>
+          <item n="431" xml:id="PCP_1897_TEI_e174_i431">
+            <num>431</num>
+            <title>A Alligny (Rhône).</title><desc>A. Br.</desc>
+          </item>
+          <item n="432" xml:id="PCP_1897_TEI_e174_i432">
+            <num>432</num>
+            <title>Une Vue à Saint-Lesnard (Haute Vienne).</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="175" xml:id="PCP_1897_TEI_e175" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4607/98,326,395,121/full/0/default.jpg">
+          <desc>
+            <name>PETIT (Charles)</name>
+            <trait>
+              <p>P. C. P. 30, avenue de Messine, Paris.</p>
+            </trait>
+          </desc>
+          <item n="433" xml:id="PCP_1897_TEI_e175_i433">
+            <num>433</num>
+            <title>Barque de pêche.</title><desc>A. Br.</desc>
+          </item>
+          <item n="434" xml:id="PCP_1897_TEI_e175_i434">
+            <num>434</num>
+            <title>Dans le Champs.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="176" xml:id="PCP_1897_TEI_e176" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4607/84,509,443,145/full/0/default.jpg">
+          <desc>
+            <name>PONTON D'AMÉCOURT (Vte de)</name>
+            <trait>
+              <p>S. F. P. 35, rue de la Source, Nancy (Meurthe-et-Moselle).</p>
+            </trait>
+          </desc>
+          <item n="435" xml:id="PCP_1897_TEI_e176_i435">
+            <num>435</num>
+            <title>Le Gapeau, près Toulon.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="177" xml:id="PCP_1897_TEI_e177" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4607/91,719,432,172/full/0/default.jpg">
+          <desc>
+            <name>POST (W.-B.)</name>
+            <trait>
+              <p>111 et 113, West, 38 th Street, New-York.</p>
+            </trait>
+          </desc>
+          <item n="436" xml:id="PCP_1897_TEI_e177_i436">
+            <num>436</num>
+            <title>Après le Coucher du Soleil. </title><desc>D. Pl.</desc>
+          </item>
+          <item n="437" xml:id="PCP_1897_TEI_e177_i437">
+            <num>437</num>
+            <title>Effet de nuages (Iles Bermudes). </title><desc>D. Pl.</desc>
+          </item>
+          <item n="438" xml:id="PCP_1897_TEI_e177_i438">
+            <num>438</num>
+            <title>Étang de Kézar. </title><desc>D. Pl.</desc>
+          </item>
+          <item n="439" xml:id="PCP_1897_TEI_e177_i439">
+            <num>439</num>
+            <title>Étang dans le Maine.</title><desc> D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="178" xml:id="PCP_1897_TEI_e178" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4608/46,140,448,150/full/0/default.jpg">
+          <desc>
+            <name>PUTTEMANS (Ch.)</name>
+            <trait>
+              <p>A. B. DE PH. 59, rue du Moulin, Bruxelles.</p>
+            </trait>
+          </desc>
+          <item n="440" xml:id="PCP_1897_TEI_e178_i440">
+            <num>440</num>
+            <title>Mer houleuse.</title><desc>A. Br.</desc>
+          </item>
+          <item n="441" xml:id="PCP_1897_TEI_e178_i441">
+            <num>441</num>
+            <title>Le Ruisseau.</title><desc>D. Br.</desc>
+          </item>
+          <item n="442" xml:id="PCP_1897_TEI_e178_i442">
+            <num>442</num>
+            <title>Le grand Marais à Genck.</title><desc>A. Br.</desc>
+          </item>
+          <item n="443" xml:id="PCP_1897_TEI_e178_i443">
+            <num>443</num>
+            <title>En Campine.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="179" xml:id="PCP_1897_TEI_e179" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4608/42,323,372,283/full/0/default.jpg">
+          <desc>
+            <name>PUYO (C.)</name>
+            <trait>
+              <p>P. C. P. - L. R. 73, avenue Bosquet, Paris.</p>
+            </trait>
+          </desc>
+          <item n="444" xml:id="PCP_1897_TEI_e179_i444">
+            <num>444</num>
+            <title>Profil.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="445" xml:id="PCP_1897_TEI_e179_i445">
+            <num>445</num>
+            <title>Un Chapeau.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="446" xml:id="PCP_1897_TEI_e179_i446">
+            <num>446</num>
+            <title>Causerie nocture.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="447" xml:id="PCP_1897_TEI_e179_i447">
+            <num>447</num>
+            <title>Deuil.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="448" xml:id="PCP_1897_TEI_e179_i448">
+            <num>448</num>
+            <title>Figure décorative.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="449" xml:id="PCP_1897_TEI_e179_i449">
+            <num>449</num>
+            <title>Gaité.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="450" xml:id="PCP_1897_TEI_e179_i450">
+            <num>450</num>
+            <title>Liseuse.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="451" xml:id="PCP_1897_TEI_e179_i451">
+            <num>451</num>
+            <title>Portrait. </title><desc>Gb.</desc>
+          </item>
+          <item n="452" xml:id="PCP_1897_TEI_e179_i452">
+            <num>452</num>
+            <title>Paysage.</title><desc>Gb.</desc>
+          </item>
+          <item n="453" xml:id="PCP_1897_TEI_e179_i453">
+            <num>453</num>
+            <title>Tête d'étude.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="180" xml:id="PCP_1897_TEI_e180" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4608/45,627,423,123/full/0/default.jpg">
+          <desc>
+            <name>QUENTIN (J.)</name>
+            <trait>
+              <p>Sainte-Catherine-Lez-Arras (Pas-de-Calais).</p>
+            </trait>
+          </desc>
+          <item n="454" xml:id="PCP_1897_TEI_e180_i454">
+            <num>454</num>
+            <title>Brume de décembre.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="181" xml:id="PCP_1897_TEI_e181" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4608/48,763,400,142/full/0/default.jpg">
+          <desc>
+            <name>RABOURDIN (Édouard)</name>
+            <trait>
+              <p>83, boulevard Malesherbes, Paris. P. C. P.</p>
+            </trait>
+          </desc>
+          <item n="455" xml:id="PCP_1897_TEI_e181_i455">
+            <num>455</num>
+            <title>Dans le Parc.</title><desc>A. Br.</desc>
+          </item>
+          <item n="456" xml:id="PCP_1897_TEI_e181_i456">
+            <num>456</num>
+            <title>Une bonne Digestion.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="182" xml:id="PCP_1897_TEI_e182" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4609/99,128,421,98/full/0/default.jpg">
+          <desc>
+            <name>REGURON</name>
+            <trait>
+              <p>Rampe Poulic-al-lor, Brest (Finistère).</p>
+            </trait>
+          </desc>
+          <item n="457" xml:id="PCP_1897_TEI_e182_i457">
+            <num>457</num>
+            <title>Lecure.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="183" xml:id="PCP_1897_TEI_e183" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4609/105,271,405,115/full/0/default.jpg">
+          <desc>
+            <name>RISTON (Victor)</name>
+            <trait>
+              <p>3, rue d'Essey, Malzéville, Nancy (Meurthe-et-Moselle).</p>
+            </trait>
+          </desc>
+          <item n="458" xml:id="PCP_1897_TEI_e183_i458">
+            <num>458</num>
+            <title>Le Soir, à marée basse.</title><desc>A. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="184" xml:id="PCP_1897_TEI_e184" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4609/88,429,432,177/full/0/default.jpg">
+          <desc>
+            <name>ROBINSON (Ralph-W.)</name>
+            <trait>
+              <p>C. C. L. - L. R. Redhill (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="459" xml:id="PCP_1897_TEI_e184_i459">
+            <num>459</num>
+            <title>"Midst, the changeless piping of the wind".</title>
+          </item>
+          <item n="460" xml:id="PCP_1897_TEI_e184_i460">
+            <num>460</num>
+            <title>Un Village au bord de la mer.</title>
+          </item>
+          <item n="461" xml:id="PCP_1897_TEI_e184_i461">
+            <num>461</num>
+            <title>Marée descendante.</title>
+          </item>
+          <item n="462" xml:id="PCP_1897_TEI_e184_i462">
+            <num>462</num>
+            <title>Fresh from de ebbing wave.</title>
+          </item>
+        </entry>
+        <entry n="185" xml:id="PCP_1897_TEI_e185" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4609/83,650,430,99/full/0/default.jpg">
+          <desc>
+            <name>ROCHAMBEAU (Vicomte de)</name>
+            <trait>
+              <p>P. C. P. 68, rue de Miromesnil, Paris.</p>
+            </trait>
+          </desc>
+          <item n="463" xml:id="PCP_1897_TEI_e185_i463">
+            <num>463</num>
+            <title>Le Pont de Cazan.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="186" xml:id="PCP_1897_TEI_e186" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4609/87,794,362,97/full/0/default.jpg">
+          <desc>
+            <name>ROSSIGNOL (A.)</name>
+            <trait>
+              <p>P. C. P. 21, rue Galvani, Paris.</p>
+            </trait>
+          </desc>
+          <item n="464" xml:id="PCP_1897_TEI_e186_i464">
+            <num>464</num>
+            <title>Fleurs des champs.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="187" xml:id="PCP_1897_TEI_e187" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4610/34,126,442,160/full/0/default.jpg">
+          <desc>
+            <name>ROTHSCHILD (Bon Nathaniel de)</name>
+            <trait>
+              <p>P. C. P. - C. C. V. - L. R. I Glestomaugasse, 14, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="465" xml:id="PCP_1897_TEI_e187_i465">
+            <num>465</num>
+            <title>Le Port de Naples.</title>
+          </item>
+          <item n="466" xml:id="PCP_1897_TEI_e187_i466">
+            <num>466</num>
+            <title>Le Port de Mate.</title>
+          </item>
+        </entry>
+        <entry n="188" xml:id="PCP_1897_TEI_e188" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4610/33,323,440,100/full/0/default.jpg">
+          <desc>
+            <name>ROUART (A.)</name>
+            <trait>
+              <p>36, rue de Lisbonne, Paris.</p>
+            </trait>
+          </desc>
+          <item n="467" xml:id="PCP_1897_TEI_e188_i467">
+            <num>467</num>
+            <title>Coup d’épervier sur la Loire.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="189" xml:id="PCP_1897_TEI_e189" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4610/41,455,432,119/full/0/default.jpg">
+          <desc>
+            <name>ROY (Georges)</name>
+            <trait>
+              <p>P. C. P. 71, rue de Monceau, Paris.</p>
+            </trait>
+          </desc>
+          <item n="468" xml:id="PCP_1897_TEI_e189_i468">
+            <num>468</num>
+            <title>Coucher de soleil, à Ostende. </title><desc>A. Ch.</desc>
+          </item>
+          <item n="469" xml:id="PCP_1897_TEI_e189_i469">
+            <num>469</num>
+            <title>Coucher de soleil, à Ostende.</title><desc>A. Ch.</desc>
+          </item>
+        </entry>
+        <entry n="190" xml:id="PCP_1897_TEI_e190" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4610/41,599,418,101/full/0/default.jpg">
+          <desc>
+            <name>RUSS (Ludwig)</name>
+            <trait>
+              <p>A. B. DE PH. 16, U. d. Linden, Berlin.</p>
+            </trait>
+          </desc>
+          <item n="470" xml:id="PCP_1897_TEI_e190_i470">
+            <num>470</num>
+            <title>Bord de rivière.</title><desc>D.</desc>
+          </item>
+        </entry>
+        <entry n="191" xml:id="PCP_1897_TEI_e191" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4610/39,729,427,164/full/0/default.jpg">
+          <desc>
+            <name>SACRÉ (Edmond)</name>
+            <trait>
+              <p>A. B. DE PH. 1, rue de la Calandre, Gand.</p>
+            </trait>
+          </desc>
+          <item n="471" xml:id="PCP_1897_TEI_e191_i471">
+            <num>471</num>
+            <title>A la pêche.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="472" xml:id="PCP_1897_TEI_e191_i472">
+            <num>472</num>
+            <title>Première Neige en Flandre.</title><desc>D. Ch.</desc>
+          </item>
+          <item n="473" xml:id="PCP_1897_TEI_e191_i473">
+            <num>473</num>
+            <title>Cour de ferme (givre).</title><desc>D. Ch.</desc>
+          </item>
+          <item n="474" xml:id="PCP_1897_TEI_e191_i474">
+            <num>474</num>
+            <title>Givre ensoleillé.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="192" xml:id="PCP_1897_TEI_e192" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4611/92,124,421,109/full/0/default.jpg">
+          <desc>
+            <name>SALANSON</name>
+            <trait>
+              <p>235, faubourg Saint-Honoré, Paris.</p>
+            </trait>
+          </desc>
+          <item n="475" xml:id="PCP_1897_TEI_e192_i475">
+            <num>475</num>
+            <title>Londres, Piccadilly, un jour de neige.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="193" xml:id="PCP_1897_TEI_e193" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4611/90,271,406,94/full/0/default.jpg">
+          <desc>
+            <name>SAZIE (Léon)</name>
+            <trait>
+              <p>20, passage de l'Industrie, Paris.</p>
+            </trait>
+          </desc>
+          <item n="476" xml:id="PCP_1897_TEI_e193_i476">
+            <num>476</num>
+            <title>Le Gardien de l'allée.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="194" xml:id="PCP_1897_TEI_e194" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4611/95,397,405,155/full/0/default.jpg">
+          <desc>
+            <name>SCHARF (Otto)</name>
+            <trait>
+              <p>L. R. 68, Steckendorferstrasse, Crefeld, (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="477" xml:id="PCP_1897_TEI_e194_i477">
+            <num>477</num>
+            <title>Pastorelle.</title><desc>Pl.</desc>
+          </item>
+          <item n="478" xml:id="PCP_1897_TEI_e194_i478">
+            <num>478</num>
+            <title>Portrait.</title><desc>Gb.</desc>
+          </item>
+          <item n="479" xml:id="PCP_1897_TEI_e194_i479">
+            <num>479</num>
+            <title>Octobre.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="195" xml:id="PCP_1897_TEI_e195" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4611/91,583,415,115/full/0/default.jpg">
+          <desc>
+            <name>SCHEIDIUS (H.-E.)</name>
+            <trait>
+              <p>80, Patersgang, Arnhem (Hollande).</p>
+            </trait>
+          </desc>
+          <item n="480" xml:id="PCP_1897_TEI_e195_i480">
+            <num>480</num>
+            <title>Effet de nuages.</title><desc>G. Cl.</desc>
+          </item>
+          <item n="481" xml:id="PCP_1897_TEI_e195_i481">
+            <num>481</num>
+            <title>Clair de lune.</title><desc>G. Cl.</desc>
+          </item>
+        </entry>
+        <entry n="196" xml:id="PCP_1897_TEI_e196" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4611/88,726,432,154/full/0/default.jpg">
+          <desc>
+            <name>SCHOELLER (Philipp von)</name>
+            <trait>
+              <p>C. C. V. I, Bauermarkt. 13, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="482" xml:id="PCP_1897_TEI_e196_i482">
+            <num>482</num>
+            <title>Cécile.</title><desc>A. Pl. D.</desc>
+          </item>
+          <item n="483" xml:id="PCP_1897_TEI_e196_i483">
+            <num>483</num>
+            <title>Étude hollandaise.</title><desc>Ch. V.</desc>
+          </item>
+          <item n="483" xml:id="PCP_1897_TEI_e196_i483b">
+            <num>483</num>
+            <title>bis Paysage près de Camogli (Italie).</title><desc>A. Ch. V.</desc>
+          </item>
+        </entry>
+        <entry n="197" xml:id="PCP_1897_TEI_e197" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4612/29,115,444,140/full/0/default.jpg">
+          <desc>
+            <name>SCHULTZ HENCKE</name>
+            <trait>
+              <p>90, Koniggrazenstrasse, (Berlin).</p>
+            </trait>
+          </desc>
+          <item n="484" xml:id="PCP_1897_TEI_e197_i484">
+            <num>484</num>
+            <title>Rudolf Virchow au travail.</title><desc>Al.</desc>
+          </item>
+          <item n="484" xml:id="PCP_1897_TEI_e197_i484b">
+            <num>484</num>
+            <title>bis Le Soir au Lietzensee.</title>
+          </item>
+          <item n="485" xml:id="PCP_1897_TEI_e197_i485">
+            <num>485</num>
+            <title>Bords du Wannsee.</title><desc>G. cl.</desc>
+          </item>
+        </entry>
+        <entry n="198" xml:id="PCP_1897_TEI_e198" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4612/31,290,452,123/full/0/default.jpg">
+          <desc>
+            <name>SCOLIK (Charles)</name>
+            <trait>
+              <p>VIII, Piaristengasse, 48, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="485" xml:id="PCP_1897_TEI_e198_i485">
+            <num>485</num>
+            <title>bis A la Fontaine.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="199" xml:id="PCP_1897_TEI_e199" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4612/34,433,435,152/full/0/default.jpg">
+          <desc>
+            <name>SELB (V.)</name>
+            <trait>
+              <p>45, avenue Moretus, Anvers.</p>
+            </trait>
+          </desc>
+          <item n="486" xml:id="PCP_1897_TEI_e199_i486">
+            <num>486</num>
+            <title>La Charité, s. v. p.</title><desc>A. Br.</desc>
+          </item>
+          <item n="487" xml:id="PCP_1897_TEI_e199_i487">
+            <num>487</num>
+            <title>Aux Chutes du Rhin.</title><desc>A. Br.</desc>
+          </item>
+          <item n="488" xml:id="PCP_1897_TEI_e199_i488">
+            <num>488</num>
+            <title>Pêcheurs au Bourget.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="200" xml:id="PCP_1897_TEI_e200" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4612/31,606,456,148/full/0/default.jpg">
+          <desc>
+            <name>SEWALL (Emma-D.)</name>
+            <trait>
+              <p>1120, Washington Street, Bath Maine (U. S. A.).</p>
+            </trait>
+          </desc>
+          <item n="489" xml:id="PCP_1897_TEI_e200_i489">
+            <num>489</num>
+            <title>La Chercheuse.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="490" xml:id="PCP_1897_TEI_e200_i490">
+            <num>490</num>
+            <title>Le Maréchal.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="201" xml:id="PCP_1897_TEI_e201" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4612/46,779,402,111/full/0/default.jpg">
+          <desc>
+            <name>SIMON (Th.)</name>
+            <trait>
+              <p>9, rue Clavel, Paris.</p>
+            </trait>
+          </desc>
+          <item n="491" xml:id="PCP_1897_TEI_e201_i491">
+            <num>491</num>
+            <title>L'Eure à Chartres.</title><desc>D. Gb.</desc>
+          </item>
+        </entry>
+        <entry n="202" xml:id="PCP_1897_TEI_e202" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4613/85,108,415,152/full/0/default.jpg">
+          <desc>
+            <name>SINCLAIR (James-A.)</name>
+            <trait>
+              <p>26, Charing Cross Road (Londres).</p>
+            </trait>
+          </desc>
+          <item n="492" xml:id="PCP_1897_TEI_e202_i492">
+            <num>492</num>
+            <title>Lac de Lugano. </title><desc>Ch.</desc>
+          </item>
+          <item n="493" xml:id="PCP_1897_TEI_e202_i493">
+            <num>493</num>
+            <title>"Un Décadent".</title><desc>Ch.</desc>
+          </item>
+          <item n="494" xml:id="PCP_1897_TEI_e202_i494">
+            <num>494</num>
+            <title>Hollandaise.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="203" xml:id="PCP_1897_TEI_e203" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4613/85,285,374,182/full/0/default.jpg">
+          <desc>
+            <name>SMEDLEY ASTON (W.)</name>
+            <trait>
+              <p>Birmingham (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="495" xml:id="PCP_1897_TEI_e203_i495">
+            <num>495</num>
+            <title>La Fin du jour.</title>
+          </item>
+          <item n="496" xml:id="PCP_1897_TEI_e203_i496">
+            <num>496</num>
+            <title>Le Soir.</title>
+          </item>
+          <item n="497" xml:id="PCP_1897_TEI_e203_i497">
+            <num>497</num>
+            <title>Marée basse.</title>
+          </item>
+          <item n="498" xml:id="PCP_1897_TEI_e203_i498">
+            <num>498</num>
+            <title>L'Épave.</title>
+          </item>
+          <item n="499" xml:id="PCP_1897_TEI_e203_i499">
+            <num>499</num>
+            <title>Étude de premier plan.</title>
+          </item>
+        </entry>
+        <entry n="204" xml:id="PCP_1897_TEI_e204" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4613/86,493,417,120/full/0/default.jpg">
+          <desc>
+            <name>SMERDON ROE (Charles)</name>
+            <trait>
+              <p>5, Market Hill, Cambridge (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="500" xml:id="PCP_1897_TEI_e204_i500">
+            <num>500</num>
+            <title>La Maison du pêcheur.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="205" xml:id="PCP_1897_TEI_e205" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4613/86,622,333,111/full/0/default.jpg">
+          <desc>
+            <name>STETTINER (Richard)</name>
+            <trait>
+              <p>5, Victoriastrasse, Berlin.</p>
+            </trait>
+          </desc>
+          <item n="500" xml:id="PCP_1897_TEI_e205_i500">
+            <num>500</num>
+            <title>bis Dans mon Jardin.</title>
+          </item>
+          <item n="501" xml:id="PCP_1897_TEI_e205_i501">
+            <num>501</num>
+            <title>Ma nièce Ève.</title>
+          </item>
+        </entry>
+        <entry n="206" xml:id="PCP_1897_TEI_e206" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4613/81,770,412,118/full/0/default.jpg">
+          <desc>
+            <name>STIEGLITZ (Alfred)</name>
+            <trait>
+              <p>L. R. 58, East, 66 th Street, New-York.</p>
+            </trait>
+          </desc>
+          <item n="501" xml:id="PCP_1897_TEI_e206_i501">
+            <num>501</num>
+            <title>bis Panneau décoratif.</title><desc>Ch.</desc>
+          </item>
+          <item n="502" xml:id="PCP_1897_TEI_e206_i502">
+            <num>502</num>
+            <title>Gossip, Katwyk.</title><desc>Ch.</desc>
+          </item>
+        </entry>
+        <entry n="207" xml:id="PCP_1897_TEI_e207" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4615/38,133,459,165/full/0/default.jpg">
+          <desc>
+            <name>STOCKERT (Robert Ritter von)</name>
+            <trait>
+              <p>C. C. V. Camera Club, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="503" xml:id="PCP_1897_TEI_e207_i503">
+            <num>503</num>
+            <title>Fleurs.</title>
+          </item>
+          <item n="504" xml:id="PCP_1897_TEI_e207_i504">
+            <num>504</num>
+            <title>Fleurs.</title>
+          </item>
+          <item n="505" xml:id="PCP_1897_TEI_e207_i505">
+            <num>505</num>
+            <title>Piédilsrtasse.</title>
+          </item>
+        </entry>
+        <entry n="208" xml:id="PCP_1897_TEI_e208" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4615/63,321,420,284/full/0/default.jpg">
+          <desc>
+            <name>SUTCLIFFE (Franck M.)</name>
+            <trait>
+              <p>L. R. Whitby, Yorkshire (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="506" xml:id="PCP_1897_TEI_e208_i506">
+            <num>506</num>
+            <title>Brouillard.</title><desc>Ch.</desc>
+          </item>
+          <item n="507" xml:id="PCP_1897_TEI_e208_i507">
+            <num>507</num>
+            <title>Port de mer abandonné.</title><desc>Pl.</desc>
+          </item>
+          <item n="508" xml:id="PCP_1897_TEI_e208_i508">
+            <num>508</num>
+            <title>Triste réalité.</title><desc>Ch.</desc>
+          </item>
+          <item n="509" xml:id="PCP_1897_TEI_e208_i509">
+            <num>509</num>
+            <title>Insulaires.</title><desc>Ch.</desc>
+          </item>
+          <item n="510" xml:id="PCP_1897_TEI_e208_i510">
+            <num>510</num>
+            <title>Moutons.</title><desc>Ch.</desc>
+          </item>
+          <item n="511" xml:id="PCP_1897_TEI_e208_i511">
+            <num>511</num>
+            <title>Effet de Soleil.</title><desc>Pl.</desc>
+          </item>
+          <item n="512" xml:id="PCP_1897_TEI_e208_i512">
+            <num>512</num>
+            <title>Le Bout du Dock.</title><desc>Ch.</desc>
+          </item>
+          <item n="513" xml:id="PCP_1897_TEI_e208_i513">
+            <num>513</num>
+            <title>Pastorale.</title><desc>Ch.</desc>
+          </item>
+          <item n="514" xml:id="PCP_1897_TEI_e208_i514">
+            <num>514</num>
+            <title>Kashleen.</title><desc>Pl.</desc>
+          </item>
+          <item n="515" xml:id="PCP_1897_TEI_e208_i515">
+            <num>515</num>
+            <title>Lulu.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="209" xml:id="PCP_1897_TEI_e209" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4615/57,631,430,139/full/0/default.jpg">
+          <desc>
+            <name>TAYLOR (G.-W.)</name>
+            <trait>
+              <p>59, Plumstead, Common Road, Plumstead, Londres.</p>
+            </trait>
+          </desc>
+          <item n="516" xml:id="PCP_1897_TEI_e209_i516">
+            <num>516</num>
+            <title>L'Estuaire.</title><desc>A. Br.</desc>
+          </item>
+          <item n="517" xml:id="PCP_1897_TEI_e209_i517">
+            <num>517</num>
+            <title>Marée basse.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="210" xml:id="PCP_1897_TEI_e210" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4615/56,796,417,100/full/0/default.jpg">
+          <desc>
+            <name>TETART (Madame Maurice)</name>
+            <trait>
+              <p>27, boulevard Malesherbes, Paris.</p>
+            </trait>
+          </desc>
+          <item n="518" xml:id="PCP_1897_TEI_e210_i518">
+            <num>518</num>
+            <title>Troupeau de Moutons.</title><desc>A. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="211" xml:id="PCP_1897_TEI_e211" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4616/88,110,415,102/full/0/default.jpg">
+          <desc>
+            <name>THOMAS (W.)</name>
+            <trait>
+              <p>3, Herne Place, Herne Hill, Londres.</p>
+            </trait>
+          </desc>
+          <item n="519" xml:id="PCP_1897_TEI_e211_i519">
+            <num>519</num>
+            <title>Matinée d'hiver.</title>
+          </item>
+        </entry>
+        <entry n="212" xml:id="PCP_1897_TEI_e212" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4616/85,234,421,135/full/0/default.jpg">
+          <desc>
+            <name>THORÉ (Ad.-G. de)</name>
+            <trait>
+              <p>33, rue de la Sangle, Mantes (Seine-et-Oise).</p>
+            </trait>
+          </desc>
+          <item n="520" xml:id="PCP_1897_TEI_e212_i520">
+            <num>520</num>
+            <title>Tête d'étude.</title><desc>D. Br.</desc>
+          </item>
+          <item n="521" xml:id="PCP_1897_TEI_e212_i521">
+            <num>521</num>
+            <title>Tête d’étude.</title><desc>D. Br.</desc>
+          </item>
+        </entry>
+        <entry n="213" xml:id="PCP_1897_TEI_e213" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4616/81,400,422,118/full/0/default.jpg">
+          <desc>
+            <name>TOURANCHET (Claudius)</name>
+            <trait>
+              <p>25, avenue des Vass, Colombes.</p>
+            </trait>
+          </desc>
+          <item n="522" xml:id="PCP_1897_TEI_e213_i522">
+            <num>522</num>
+            <title>Portrait de Mr E. F.</title><desc>D. Gb.</desc>
+          </item>
+          <item n="523" xml:id="PCP_1897_TEI_e213_i523">
+            <num>523</num>
+            <title>Le Commissionnaire du coin.</title><desc>D. Gb.</desc>
+          </item>
+        </entry>
+        <entry n="214" xml:id="PCP_1897_TEI_e214" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4616/74,546,398,94/full/0/default.jpg">
+          <desc>
+            <name>TOUTAIN (André)</name>
+            <trait>
+              <p>P. C. P. 20, Place Vendôme, Paris.</p>
+            </trait>
+          </desc>
+          <item n="524" xml:id="PCP_1897_TEI_e214_i524">
+            <num>524</num>
+            <title>Un Canal à Venise.</title>
+          </item>
+        </entry>
+        <entry n="215" xml:id="PCP_1897_TEI_e215" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4616/83,668,423,213/full/0/default.jpg">
+          <desc>
+            <name>TYSZKIEWICZ (comte)</name>
+            <trait>
+              <p>P. C. P. 2 bis, rue Boccador, Paris.</p>
+            </trait>
+          </desc>
+          <item n="525" xml:id="PCP_1897_TEI_e215_i525">
+            <num>525</num>
+            <title>Étude de tête d'homme.</title>
+          </item>
+          <item n="526" xml:id="PCP_1897_TEI_e215_i526">
+            <num>526</num>
+            <title>Le Fumeur.</title>
+          </item>
+          <item n="527" xml:id="PCP_1897_TEI_e215_i527">
+            <num>527</num>
+            <title>Une Scène d’intérieur Empire.</title>
+          </item>
+          <item n="528" xml:id="PCP_1897_TEI_e215_i528">
+            <num>528</num>
+            <title>Mendiants à la porte du couvent de Berdyczew.</title>
+          </item>
+          <item n="529" xml:id="PCP_1897_TEI_e215_i529">
+            <num>529</num>
+            <title>Troupeau de vaches au bord de la Mewiaza.</title>
+          </item>
+          <item n="530" xml:id="PCP_1897_TEI_e215_i530">
+            <num>530</num>
+            <title>Dessous d'oliviers, à Nice.</title>
+          </item>
+          <item n="531" xml:id="PCP_1897_TEI_e215_i531">
+            <num>531</num>
+            <title>Dessous d’oliviers, à Nice, avec montons.</title>
+          </item>
+          <item n="532" xml:id="PCP_1897_TEI_e215_i532">
+            <num>532</num>
+            <title>Une Orientale.</title>
+          </item>
+        </entry>
+        <entry n="216" xml:id="PCP_1897_TEI_e216" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4617/70,202,406,126/full/0/default.jpg">
+          <desc>
+            <name>UBELMANN (Robert)</name>
+            <trait>
+              <p>92, rue de Maubeuge, Paris.</p>
+            </trait>
+          </desc>
+          <item n="533" xml:id="PCP_1897_TEI_e216_i533">
+            <num>533</num>
+            <title>Repas aux Champs.</title><desc>A. Br.</desc>
+          </item>
+          <item n="334" xml:id="PCP_1897_TEI_e216_i334">
+            <num>334</num>
+            <title>Dans les Montagnes.</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="217" xml:id="PCP_1897_TEI_e217" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4617/66,354,438,115/full/0/default.jpg">
+          <desc>
+            <name>URFF (S.)</name>
+            <trait>
+              <p>8, Frankfurterlandstrasse, Hanau (Allemagne).</p>
+            </trait>
+          </desc>
+          <item n="535" xml:id="PCP_1897_TEI_e217_i535">
+            <num>535</num>
+            <title>La Forêt en Hiver.</title><desc>A.</desc>
+          </item>
+        </entry>
+        <entry n="218" xml:id="PCP_1897_TEI_e218" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4617/70,497,434,140/full/0/default.jpg">
+          <desc>
+            <name>VAN-LOO-SMET</name>
+            <trait>
+              <p>74, rue de Flandre, Gand (Belgique).</p>
+            </trait>
+          </desc>
+          <item n="536" xml:id="PCP_1897_TEI_e218_i536">
+            <num>536</num>
+            <title>Méditation.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="537" xml:id="PCP_1897_TEI_e218_i537">
+            <num>537</num>
+            <title>L'Esclave.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="537" xml:id="PCP_1897_TEI_e218_i537b">
+            <num>537</num>
+            <title>bis Dans l'Atelier.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="219" xml:id="PCP_1897_TEI_e219" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4617/65,659,425,101/full/0/default.jpg">
+          <desc>
+            <name>VERWAEST (le docteur A.)</name>
+            <trait>
+              <p>169, rue Saint-Jacques, Paris.</p>
+            </trait>
+          </desc>
+          <item n="538" xml:id="PCP_1897_TEI_e219_i538">
+            <num>538</num>
+            <title>Sous bois, à Saint-Chéron.</title><desc>Pl.</desc>
+          </item>
+        </entry>
+        <entry n="220" xml:id="PCP_1897_TEI_e220" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4617/63,777,442,109/full/0/default.jpg">
+          <desc>
+            <name>VILLESTREUX (Cte de la)</name>
+            <trait>
+              <p>S. A. E. 9, rue Jacques-Lemercier, Versailles.</p>
+            </trait>
+          </desc>
+          <item n="539" xml:id="PCP_1897_TEI_e220_i539">
+            <num>539</num>
+            <title>Vue sur le Naerofjord (Norwège)</title><desc>A. Br.</desc>
+          </item>
+        </entry>
+        <entry n="221" xml:id="PCP_1897_TEI_e221" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4618/70,108,419,163/full/0/default.jpg">
+          <desc>
+            <name>VINEY (René)</name>
+            <trait>
+              <p>3, rue Berbisey, Dijon (Côte-d'Or).</p>
+            </trait>
+          </desc>
+          <item n="540" xml:id="PCP_1897_TEI_e221_i540">
+            <num>540</num>
+            <title>Le Soir, à Chambolle.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="541" xml:id="PCP_1897_TEI_e221_i541">
+            <num>541</num>
+            <title>Sous les pins.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="542" xml:id="PCP_1897_TEI_e221_i542">
+            <num>542</num>
+            <title>Effet du matin.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="543" xml:id="PCP_1897_TEI_e221_i543">
+            <num>543</num>
+            <title>Étude de Saules.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="222" xml:id="PCP_1897_TEI_e222" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4618/73,288,447,125/full/0/default.jpg">
+          <desc>
+            <name>WALDBERG (Baron Jules de)</name>
+            <trait>
+              <p>C. C. V. I Doblhoffgasse, 7, Vienne (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="544" xml:id="PCP_1897_TEI_e222_i544">
+            <num>544</num>
+            <title>Paysage.</title><desc>Ab.</desc>
+          </item>
+          <item n="545" xml:id="PCP_1897_TEI_e222_i545">
+            <num>545</num>
+            <title>Fiametta.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="223" xml:id="PCP_1897_TEI_e223" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4618/71,431,449,123/full/0/default.jpg">
+          <desc>
+            <name>WALLON (E.)</name>
+            <trait>
+              <p>S. F. P. - S. A. E. 65, rue de Prony, Paris.</p>
+            </trait>
+          </desc>
+          <item n="546" xml:id="PCP_1897_TEI_e223_i546">
+            <num>546</num>
+            <title>Dans le Brouillard.</title><desc>D. Br.</desc>
+          </item>
+          <item n="547" xml:id="PCP_1897_TEI_e223_i547">
+            <num>547</num>
+            <title>Rue couverte, à San Remo.</title><desc>A. Br. Vu.</desc>
+          </item>
+        </entry>
+        <entry n="224" xml:id="PCP_1897_TEI_e224" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4618/78,576,442,135/full/0/default.jpg">
+          <desc>
+            <name>WARRON (William-James)</name>
+            <trait>
+              <p>The Manor House, Farnley, Leeds. (Angleterre).</p>
+            </trait>
+          </desc>
+          <item n="548" xml:id="PCP_1897_TEI_e224_i548">
+            <num>548</num>
+            <title>"Even the weariest River winds somewhere safe to sea".</title>
+          </item>
+        </entry>
+        <entry n="225" xml:id="PCP_1897_TEI_e225" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4618/78,730,418,144/full/0/default.jpg">
+          <desc>
+            <name>WATSON (Miss Margaret)</name>
+            <trait>
+              <p>Florence (Italie).</p>
+            </trait>
+          </desc>
+          <item n="549" xml:id="PCP_1897_TEI_e225_i549">
+            <num>549</num>
+            <title>La Rivière aux roseaux.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="550" xml:id="PCP_1897_TEI_e225_i550">
+            <num>550</num>
+            <title>Rives de sable.</title><desc>D. Pl.</desc>
+          </item>
+          <item n="551" xml:id="PCP_1897_TEI_e225_i551">
+            <num>551</num>
+            <title>Marais.</title><desc>D. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="226" xml:id="PCP_1897_TEI_e226" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4620/32,119,430,177/full/0/default.jpg">
+          <desc>
+            <name>WATZEK</name>
+            <trait>
+              <p>C. C. V. VI, Esterhazygasse 15/a, Wien (Autriche).</p>
+            </trait>
+          </desc>
+          <item n="552" xml:id="PCP_1897_TEI_e226_i552">
+            <num>552</num>
+            <title>Sur l’Elbe.</title><desc>Gb.</desc>
+          </item>
+          <item n="553" xml:id="PCP_1897_TEI_e226_i553">
+            <num>553</num>
+            <title>Port de Hambourg.</title><desc>Gb.</desc>
+          </item>
+          <item n="554" xml:id="PCP_1897_TEI_e226_i554">
+            <num>554</num>
+            <title>Bateaux à voiles.</title><desc>Gb.</desc>
+          </item>
+          <item n="555" xml:id="PCP_1897_TEI_e226_i555">
+            <num>555</num>
+            <title>Kiebitz.</title><desc>Gb.</desc>
+          </item>
+        </entry>
+        <entry n="227" xml:id="PCP_1897_TEI_e227" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4620/41,343,439,122/full/0/default.jpg">
+          <desc>
+            <name>WEIER (W.-C.)</name>
+            <trait>
+              <p>3, Utrechtsche Straat, Arnhem (Hollande).</p>
+            </trait>
+          </desc>
+          <item n="556" xml:id="PCP_1897_TEI_e227_i556">
+            <num>556</num>
+            <title>Entrée de forêt.</title>
+          </item>
+        </entry>
+        <entry n="228" xml:id="PCP_1897_TEI_e228" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4620/39,511,441,168/full/0/default.jpg">
+          <desc>
+            <name>WELFORD (Madame Jeanie A)</name>
+            <trait>
+              <p>15, Faringdon avenue, Londres.</p>
+            </trait>
+          </desc>
+          <item n="557" xml:id="PCP_1897_TEI_e228_i557">
+            <num>557</num>
+            <title>Fleurs sauvages.</title>
+          </item>
+          <item n="558" xml:id="PCP_1897_TEI_e228_i558">
+            <num>558</num>
+            <title>Sur le Bord de la rivière.</title>
+          </item>
+          <item n="559" xml:id="PCP_1897_TEI_e228_i559">
+            <num>559</num>
+            <title>Juillet.</title>
+          </item>
+          <item n="560" xml:id="PCP_1897_TEI_e228_i560">
+            <num>560</num>
+            <title>Enfant dans les bois.</title>
+          </item>
+        </entry>
+        <entry n="229" xml:id="PCP_1897_TEI_e229" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4620/51,721,415,167/full/0/default.jpg">
+          <desc>
+            <name>WELFORD (Walter-D.)</name>
+            <trait>
+              <p>15, Faringdon avenue, Londres.</p>
+            </trait>
+          </desc>
+          <item n="561" xml:id="PCP_1897_TEI_e229_i561">
+            <num>561</num>
+            <title>Dans les Fleurs.</title>
+          </item>
+          <item n="562" xml:id="PCP_1897_TEI_e229_i562">
+            <num>562</num>
+            <title>Retour du troupeau.</title>
+          </item>
+          <item n="563" xml:id="PCP_1897_TEI_e229_i563">
+            <num>563</num>
+            <title>Le long de l’étang.</title>
+          </item>
+          <item n="564" xml:id="PCP_1897_TEI_e229_i564">
+            <num>564</num>
+            <title>L'Approche de l'orage.</title>
+          </item>
+        </entry>
+        <entry n="230" xml:id="PCP_1897_TEI_e230" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4621/90,111,350,129/full/0/default.jpg">
+          <desc>
+            <name>WERSCHNEIDER</name>
+            <trait>
+              <p>51, avenue de Villiers, Paris.</p>
+            </trait>
+          </desc>
+          <item n="565" xml:id="PCP_1897_TEI_e230_i565">
+            <num>565</num>
+            <title>Clair de lune.</title>
+          </item>
+          <item n="566" xml:id="PCP_1897_TEI_e230_i566">
+            <num>566</num>
+            <title>Laitière normande.</title>
+          </item>
+        </entry>
+        <entry n="231" xml:id="PCP_1897_TEI_e231" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4621/85,264,411,108/full/0/default.jpg">
+          <desc>
+            <name>WICKY (Arnold)</name>
+            <trait>
+              <p>Berne (Suisse).</p>
+            </trait>
+          </desc>
+          <item n="567" xml:id="PCP_1897_TEI_e231_i567">
+            <num>567</num>
+            <title>Portrait de M. F.</title><desc>A. Pl.</desc>
+          </item>
+        </entry>
+        <entry n="232" xml:id="PCP_1897_TEI_e232" source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:4621/84,386,422,118/full/0/default.jpg">
+          <desc>
+            <name>WILKINSON (B.-Gay)</name>
+            <trait>
+              <p>L. R. 151, Bermondsey Street, Londres.</p>
+            </trait>
+          </desc>
+          <item n="568" xml:id="PCP_1897_TEI_e232_i568">
+            <num>568</num>
+            <title>Mise à la mer.</title>
+          </item>
+        </entry>
+      </list>
+    </body>
+  </text>
+</TEI>

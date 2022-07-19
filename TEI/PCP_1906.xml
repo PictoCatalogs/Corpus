@@ -174,7 +174,7 @@
                                                   <entry n="7" xml:id="PCP_1906_e7"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6960/full/full/0/default.jpg">
                                                   <desc><name>ASTIER (Ed.)</name><trait>
-                                                  <p> P. C. P. - S. P. DE MAR¬SEILLE. 11, rue de la Grande-Armée, Marseille (Bouches-du-Rhône)</p>
+                                                  <p> P. C. P. - S. P. DE MARSEILLE. 11, rue de la Grande-Armée, Marseille (Bouches-du-Rhône)</p>
                                                   </trait></desc>
                                                   <item n="18" xml:id="PCP_1906_e7_i18"><num>18</num><title>Panneau.</title><desc> A. Br.</desc></item>
                                                   <item n="19" xml:id="PCP_1906_e7_i19"><num>19</num><title>Reflets.</title><desc>D.</desc></item>
@@ -516,7 +516,7 @@
                                                   <desc><name>CAUTIN (Marcel)</name><trait>
                                                   <p>55, rue de Châteaudrun, Paris.</p>
                                                   </trait></desc>
-                                                  <item n="112" xml:id="PCP_1906_e48_i112"><num>112</num><title>Saint-Jean-Pied-de-Port. — Une Porte des Rem¬parts. </title><desc>D. Gb.</desc></item>
+                                                  <item n="112" xml:id="PCP_1906_e48_i112"><num>112</num><title>Saint-Jean-Pied-de-Port. — Une Porte des Remparts. </title><desc>D. Gb.</desc></item>
                                                   </entry>
                                                   <entry n="49" xml:id="PCP_1906_e49"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6970/full/full/0/default.jpg">
@@ -682,7 +682,7 @@
                                                   <entry n="69" xml:id="PCP_1906_e69"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6974/full/full/0/default.jpg">
                                                   <desc><name>CULLET (E.)</name><trait>
-                                                  <p> S. P. DE MAR¬ SEILLE. 38, rue Savournine, Marseille (Bouches-du-Rhône).</p>
+                                                  <p> S. P. DE MAR SEILLE. 38, rue Savournine, Marseille (Bouches-du-Rhône).</p>
                                                   </trait></desc>
                                                   <item n="154" xml:id="PCP_1906_e69_i154"><num>154</num><title>Repos.</title><desc> D. Ch. V.</desc></item>
                                                   <item n="155" xml:id="PCP_1906_e69_i155"><num>155</num><title>Bords du Rhône.</title><desc> D. Ch. V.</desc></item>
@@ -848,7 +848,7 @@
                                                   </entry>
                                                   <entry n="89" xml:id="PCP_1906_e89"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6979/full/full/0/default.jpg">
-                                                  <desc><name>DURAND-L</name><trait>
+                                                  <desc><name>DURAND-L'HERMEROUT</name><trait>
                                                   <p>Villa des Violettes, 87 bis, avenue de la République, Vincennes (Seine).</p>
                                                   </trait></desc>
                                                   <item n="201" xml:id="PCP_1906_e89_i201"><num>201</num><title>Le Vieux Chemineau.</title><desc> Gb.</desc></item>
@@ -856,10 +856,10 @@
                                                   <entry n="90" xml:id="PCP_1906_e90"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6979/full/full/0/default.jpg">
                                                   <desc><name>DYKES (Robert)</name><trait>
-                                                  <p> Villa Medusa, Borwell Road, Édim¬bourg (Écosse).</p>
+                                                  <p> Villa Medusa, Borwell Road, Édimbourg (Écosse).</p>
                                                   </trait></desc>
                                                   <item n="202" xml:id="PCP_1906_e90_i202"><num>202</num><title>Le Jardin de Paris, la nuit. A. Br.</title><desc> A. Br.</desc></item>
-                                                  <item n="203" xml:id="PCP_1906_e90_i203"><num>203</num><title>Attaque de torpilleurs sur la Flotte anglaise de la Manche et l'Escadre de croiseurs, à mi¬nuit, le 31 mai 1905, à Queensferry, Ébim¬bourg.</title></item>
+                                                  <item n="203" xml:id="PCP_1906_e90_i203"><num>203</num><title>Attaque de torpilleurs sur la Flotte anglaise de la Manche et l'Escadre de croiseurs, à minuit, le 31 mai 1905, à Queensferry, Ébimbourg.</title></item>
                                                   </entry>
                                                   <entry n="91" xml:id="PCP_1906_e91"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6981/full/full/0/default.jpg">
@@ -1080,7 +1080,7 @@
                                                   <entry n="115" xml:id="PCP_1906_e115"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6986/full/full/0/default.jpg">
                                                   <desc><name>GOMEZ GIMENO (A.)</name><trait>
-                                                  <p> P. C. P. 7, rue Lafaurie-de-Montbadon, Bor¬deaux (Gironde).</p>
+                                                  <p> P. C. P. 7, rue Lafaurie-de-Montbadon, Bordeaux (Gironde).</p>
                                                   </trait></desc>
                                                   <item n="276" xml:id="PCP_1906_e115_i276"><num>276</num><title>Brouillard en rade, Bordeaux.</title><desc> D. Ch. V.</desc></item>
                                                   <item n="277" xml:id="PCP_1906_e115_i277"><num>277</num><title>Effet de brume. Marine.</title><desc> D. Gb.</desc></item>
@@ -1229,7 +1229,7 @@
                                                   </entry>
                                                   <entry n="132" xml:id="PCP_1906_e132"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/6991/full/full/0/default.jpg">
-                                                  <desc><name>HUSSEL (Chalotte)</name><trait>
+                                                  <desc><name>HUSSEL (Charlotte)</name><trait>
                                                   <p> Arcisstrasse, 22, Munich (Bavière).</p>
                                                   </trait></desc>
                                                   <item n="324" xml:id="PCP_1906_e132_i324"><num>324</num><title>Portrait de M. le Dr H.</title></item>
@@ -1631,7 +1631,7 @@
                                                   <entry n="179" xml:id="PCP_1906_e179"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/7004/full/full/0/default.jpg">
                                                   <desc><name>MAUGER (E.)</name><trait>
-                                                  <p>12, rue d’Anvers, Rouen (Seine-infé¬rieure).</p>
+                                                  <p>12, rue d’Anvers, Rouen (Seine-inférieure).</p>
                                                   </trait></desc>
                                                   <item n="443" xml:id="PCP_1906_e179_i443"><num>443</num><title>Neige et Brume. </title><desc> D. Ch.</desc></item>
                                                   </entry>
@@ -1880,8 +1880,8 @@
                                                   </entry>
                                                   <entry n="208" xml:id="PCP_1906_e208"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/7012/full/full/0/default.jpg">
-                                                  <desc><name>PRIN</name><trait>
-                                                  <p>16, rue du Pré-aux-Clercs, Paris.</p>
+                                                  <desc><name>PRIN D'ORIGNY</name><trait>
+                                                  <p>P. C. P.- S. A. E. 16, rue du Pré-aux-Clercs, Paris.</p>
                                                   </trait></desc>
                                                   <item n="519" xml:id="PCP_1906_e208_i519"><num>519</num><title>Étude.</title><desc> D. Ar.</desc></item>
                                                   <item n="520" xml:id="PCP_1906_e208_i520"><num>520</num><title>Étude.</title><desc> D. Ar.</desc></item>
@@ -1915,7 +1915,7 @@
                                                   <entry n="211" xml:id="PCP_1906_e211"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/7012/full/full/0/default.jpg">
                                                   <desc><name>QUENTIN (J.)</name><trait>
-                                                  <p> Sainte-Catherine-lès-Arras (Pas-de-Ca¬lais).</p>
+                                                  <p> Sainte-Catherine-lès-Arras (Pas-de-Calais).</p>
                                                   </trait></desc>
                                                   <item n="535" xml:id="PCP_1906_e211_i535"><num>535</num><title>Pêcheuse d'Équihen (Pas-de-Calais).</title><desc> A. Br.</desc></item>
                                                   </entry>
@@ -2315,8 +2315,8 @@
                                                   </entry>
                                                   <entry n="258" xml:id="PCP_1906_e258"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/7026/full/full/0/default.jpg">
-                                                  <desc><name>VANDERKIND</name><trait>
-                                                  <p>97, avenue Brugmann, Bruxelles.</p>
+                                                  <desc><name>VANDERKINDÈRE</name><trait>
+                                                  <p> A. B. DE PH. 97, avenue Brugmann, Bruxelles.</p>
                                                   </trait></desc>
                                                   <item n="653" xml:id="PCP_1906_e258_i653"><num>653</num><title>Un Chemin de la Campine.</title><desc> A. Br.</desc></item>
                                                   <item n="654" xml:id="PCP_1906_e258_i654"><num>654</num><title>Les Iris blancs.</title><desc> A. Br.</desc></item>
@@ -2334,7 +2334,7 @@
                                                   <entry n="260" xml:id="PCP_1906_e260"
                                                   source="https://cdm16028.contentdm.oclc.org/digital/iiif/p15324coll19/7027/full/full/0/default.jpg">
                                                   <desc><name>VIEUILLE (G.)</name><trait>
-                                                  <p> S. F. P. Villa des Arts, 10, rue Dalayrac, Fon¬tenay-sous-Bois (Seine).</p>
+                                                  <p> S. F. P. Villa des Arts, 10, rue Dalayrac, Fontenay-sous-Bois (Seine).</p>
                                                   </trait></desc>
                                                   <item n="659" xml:id="PCP_1906_e260_i659"><num>659</num><title>Avant la Pose.</title><desc> D. Br.</desc></item>
                                                   <item n="660" xml:id="PCP_1906_e260_i660"><num>660</num><title>Pensées lointaines.</title><desc> D. Br.</desc></item>

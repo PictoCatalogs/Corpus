@@ -15,9 +15,7 @@
                                                   </publisher>
                                                   <date when="2022"/>
                                                   <availability>
-                                                  <licence
-                                                  target="https://creativecommons.org/licenses/by/4.0/"
-                                                  >CC-BY</licence>
+                                                  <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
                                                   <licence target="https://www.metmuseum.org/information/terms-and-conditions"/>
                                                   </availability>
                                                   </publicationStmt>
@@ -102,7 +100,7 @@
                                                   <entry n="2" xml:id="PCP_1894_e2"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2988/full/full/0/default.jpg">
                                                   <desc><name>ALFIERI (Bernard),</name><trait>
-                                                  <p> Northwood Crickle¬wood, Londres.</p>
+                                                  <p> Northwood Cricklewood, Londres.</p>
                                                   </trait></desc>
                                                   <item n="6" xml:id="PCP_1894_e2_i6"><num>6</num><title>— Sur les Falaises.</title></item>
                                                   <item n="7" xml:id="PCP_1894_e2_i7"><num>7</num><title>— La Hutte des sabotiers.</title></item>
@@ -140,8 +138,8 @@
                                                   </entry>
                                                   <entry n="6" xml:id="PCP_1894_e6"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2989/full/full/0/default.jpg">
-                                                  <desc><name>BAILLOT d'ESTIVAUX DE WILLE¬MONNE,</name><trait>
-                                                  <p> 2, rue des Pavillons, Château¬roux (Indre).</p>
+                                                  <desc><name>BAILLOT d'ESTIVAUX DE WILLEMONNE,</name><trait>
+                                                  <p> 2, rue des Pavillons, Châteauroux (Indre).</p>
                                                   </trait></desc>
                                                   <item n="21" xml:id="PCP_1894_e6_i21"><num>21</num><title>— Le Donjon de Prunget.</title></item>
                                                   <item n="22" xml:id="PCP_1894_e6_i22"><num>22</num><title>— Rêverie dans les pins.</title></item>
@@ -213,14 +211,14 @@
                                                   <entry n="14" xml:id="PCP_1894_e14"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2990/full/full/0/default.jpg">
                                                   <desc><name>BERL (O.),</name><trait>
-                                                  <p> I. Shottenring, 7, Vienne (Au¬triche).</p>
+                                                  <p> I. Shottenring, 7, Vienne (Autriche).</p>
                                                   </trait></desc>
                                                   <item n="45" xml:id="PCP_1894_e14_i45"><num>45</num><title>— Plage près de Gênes.</title></item>
                                                   </entry>
                                                   <entry n="15" xml:id="PCP_1894_e15"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2991/full/full/0/default.jpg">
                                                   <desc><name>BERT (Auguste),</name><trait>
-                                                  <p> 18, rue Raymond IV, Tou¬louse (Haute-Garonne).</p>
+                                                  <p> 18, rue Raymond IV, Toulouse (Haute-Garonne).</p>
                                                   </trait></desc>
                                                   <item n="46" xml:id="PCP_1894_e15_i46"><num>46</num><title>— Souvenir de Tanger. Étude.</title></item>
                                                   <item n="47" xml:id="PCP_1894_e15_i47"><num>47</num><title>— Souvenir de Tanger. Étude.</title></item>
@@ -268,8 +266,8 @@
                                                   <desc><name>BOIVIN (André),</name><trait>
                                                   <p> 64, rue de Lisbonne, Paris.</p>
                                                   </trait></desc>
-                                                  <item n="62" xml:id="PCP_1894_e20_i62"><num>62</num><title>— Vallée de la Rabette.</title></item> 
-                                                  <item n="63" xml:id="PCP_1894_e20_i63"><num>63</num><title>— Rivière de la Selle, près de Rochefort.</title></item>
+                                                   <item n="62" xml:id="PCP_1894_e20_i62"><num>62</num><title>— Rivière de la Selle, près de Rochefort.</title></item> 
+                                                   <item n="63" xml:id="PCP_1894_e20_i63"><num>63</num><title>— Vallée de la Rabette.</title></item>
                                                   <item n="64" xml:id="PCP_1894_e20_i64"><num>64</num><title>— Chaumière du « Coin du bois ».</title></item>
                                                   <item n="65" xml:id="PCP_1894_e20_i65"><num>65</num><title>— Chemin creux.</title></item>
                                                   </entry>
@@ -328,12 +326,12 @@
                                                   <p>64, rue de la Victoire, Paris.</p>
                                                   </trait></desc>
                                                   <item n="85" xml:id="PCP_1894_e26_i85"><num>85</num><title>— Vaches allant au pâturage.</title></item>
-                                                  <item n="86" xml:id="PCP_1894_e26_i86"><num>86</num><title>— Un coin du petit bras de la Seine à Maisons</title></item>
+                                                  <item n="86" xml:id="PCP_1894_e26_i86"><num>86</num><title>— Un coin du petit bras de la Seine à Maisons Laffitte.</title></item>
                                                   </entry>
                                                   <entry n="27" xml:id="PCP_1894_e27"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2993/full/full/0/default.jpg">
                                                   <desc><name>BRÉMARD (Maurice),</name><trait>
-                                                  <p> 41 boulevard Hauss¬mann, Paris.</p>
+                                                  <p> 41 boulevard Haussmann, Paris.</p>
                                                   </trait></desc>
                                                   <item n="87" xml:id="PCP_1894_e27_i87"><num>87</num><title>— Crépuscule.</title></item>
                                                   <item n="88" xml:id="PCP_1894_e27_i88"><num>88</num><title>— Maître François, cordier à Berck.</title></item>
@@ -478,7 +476,7 @@
                                                   <entry n="43" xml:id="PCP_1894_e43"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2996/full/full/0/default.jpg">
                                                   <desc><name>CLARKSON (Mlle Émilie), </name><trait>
-                                                  <p>Holcroft Post¬dam street, Lawrence C., New-York.</p>
+                                                  <p>Holcroft Postdam street, Lawrence C., New-York.</p>
                                                   </trait></desc>
                                                   <item n="134" xml:id="PCP_1894_e43_i134"><num>134</num><title>— Miroir de l'eau.</title></item>
                                                   <item n="135" xml:id="PCP_1894_e43_i135"><num>135</num><title>— Un bon Coin.</title></item>
@@ -516,7 +514,7 @@
                                                   <entry n="47" xml:id="PCP_1894_e47"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2997/full/full/0/default.jpg">
                                                   <desc><name>COUTANT (P.),</name><trait>
-                                                  <p> 8, rue du Pont-Neuf, Par¬thenay (Deux-Sèvres).</p>
+                                                  <p> 8, rue du Pont-Neuf, Parthenay (Deux-Sèvres).</p>
                                                   </trait></desc>
                                                   <item n="148" xml:id="PCP_1894_e47_i148"><num>148</num><title>— Moulin à Saint-Paul, près Parthenay.</title></item>
                                                   <item n="149" xml:id="PCP_1894_e47_i149"><num>149</num><title>— Prairie. Étude de frênes.</title></item>
@@ -603,7 +601,7 @@
                                                   <entry n="55" xml:id="PCP_1894_e55"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2998/full/full/0/default.jpg">
                                                   <desc><name>DAWES (W.),</name><trait>
-                                                  <p> Bexley Heath, Kent (Angle¬terre).</p>
+                                                  <p> Bexley Heath, Kent (Angleterre).</p>
                                                   </trait></desc>
                                                   <item n="186" xml:id="PCP_1894_e55_i186"><num>186</num><title>— En route pour le marché.</title></item>
                                                   </entry>
@@ -621,7 +619,7 @@
                                                   <entry n="57" xml:id="PCP_1894_e57"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:2999/full/full/0/default.jpg">
                                                   <desc><name>DEMENTIEFF (P.),</name><trait>
-                                                  <p> Grande Podiatches¬kaïa, n° 7, log. 14, Saint-Pétersbourg.</p>
+                                                  <p> Grande Podiatcheskaïa, n° 7, log. 14, Saint-Pétersbourg.</p>
                                                   </trait></desc>
                                                   <item n="192" xml:id="PCP_1894_e57_i192"><num>192</num><title>— Après l'orage.</title></item>
                                                   <item n="193" xml:id="PCP_1894_e57_i193"><num>193</num><title>— Les Bouleaux.</title></item>
@@ -707,7 +705,7 @@
                                                   <entry n="65" xml:id="PCP_1894_e65"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3001/full/full/0/default.jpg">
                                                   <desc><name>EYMIN (Georges),</name><trait>
-                                                  <p> boulevard de la Répu¬blique, Vienne (Isère).</p>
+                                                  <p> boulevard de la République, Vienne (Isère).</p>
                                                   </trait></desc>
                                                   <item n="230" xml:id="PCP_1894_e65_i230"><num>230</num><title>— Patineurs sur les bords du Rhône.</title></item>
                                                   <item n="231" xml:id="PCP_1894_e65_i231"><num>231</num><title>— Intérieur de ferme en Dauphiné.</title></item>
@@ -722,7 +720,7 @@
                                                   <entry n="67" xml:id="PCP_1894_e67"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3001/full/full/0/default.jpg">
                                                   <desc><name>FRAISSE (Joseph),</name><trait>
-                                                  <p> 3, quai du Port-Mail¬lard, Nantes (Loire-Inférieure).</p>
+                                                  <p> 3, quai du Port-Maillard, Nantes (Loire-Inférieure).</p>
                                                   </trait></desc>
                                                   <item n="233" xml:id="PCP_1894_e67_i233"><num>233</num><title>—Étude d’arbres.</title></item>
                                                   <item n="234" xml:id="PCP_1894_e67_i234"><num>234</num><title>— Régates en Loire.</title></item>
@@ -762,7 +760,7 @@
                                                   <entry n="71" xml:id="PCP_1894_e71"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3002/full/full/0/default.jpg">
                                                   <desc><name>GLAIS (Jules),</name><trait>
-                                                  <p> château de Kerenclos-Mu¬zillac (Morbihan).</p>
+                                                  <p> château de Kerenclos-Muzillac (Morbihan).</p>
                                                   </trait></desc>
                                                   <item n="250" xml:id="PCP_1894_e71_i250"><num>250</num><title>— Sans Asile.</title></item>
                                                   </entry>
@@ -777,7 +775,7 @@
                                                   <entry n="73" xml:id="PCP_1894_e73"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3002/full/full/0/default.jpg">
                                                   <desc><name>GREGER (Karl),</name><trait>
-                                                  <p> 17, Gordon street, Isling¬ton, Londres.</p>
+                                                  <p> 17, Gordon street, Islington, Londres.</p>
                                                   </trait></desc>
                                                   <item n="253" xml:id="PCP_1894_e73_i253"><num>253</num><title>— Le Soir, pays de Galles.</title></item>
                                                   <item n="253" xml:id="PCP_1894_e73_i253b"><num>253 bis</num><title>— Le Retour.</title></item>
@@ -793,7 +791,7 @@
                                                   <entry n="74" xml:id="PCP_1894_e74"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3003/full/full/0/default.jpg">
                                                   <desc><name>GRIFFITHS (Evan),</name><trait>
-                                                  <p>Saint-Columb, (Angle¬terre).</p>
+                                                  <p>Saint-Columb, (Angleterre).</p>
                                                   </trait></desc>
                                                   <item n="259" xml:id="PCP_1894_e74_i259"><num>259</num><title>— Sur le Rivage.</title></item>
                                                   <item n="260" xml:id="PCP_1894_e74_i260"><num>260</num><title>— Vagues.</title></item>
@@ -801,7 +799,7 @@
                                                   <entry n="75" xml:id="PCP_1894_e75"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3003/full/full/0/default.jpg">
                                                   <desc><name>GUILLAUME (Georges),</name><trait>
-                                                  <p> 24, rue Ray¬nouard, Paris.</p>
+                                                  <p> 24, rue Raynouard, Paris.</p>
                                                   </trait></desc>
                                                   <item n="261" xml:id="PCP_1894_e75_i261"><num>261</num><title>— Les Oliviers.</title></item>
                                                   <item n="262" xml:id="PCP_1894_e75_i262"><num>262</num><title>— La Voiture du pêcheur.</title></item>
@@ -848,7 +846,7 @@
                                                   <entry n="80" xml:id="PCP_1894_e80"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3004/full/full/0/default.jpg">
                                                   <desc><name>HOFFMANN (Carl Friedrich),</name><trait>
-                                                  <p>VIII/I Stol¬zenthalergasse, 26, Vienne (Autriche).</p>
+                                                  <p>VIII/I Stolzenthalergasse, 26, Vienne (Autriche).</p>
                                                   </trait></desc>
                                                   <item n="278" xml:id="PCP_1894_e80_i278"><num>278</num><title>— Pensées mondaines.</title></item>
                                                   </entry>
@@ -973,7 +971,7 @@
                                                   <entry n="92" xml:id="PCP_1894_e92"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3006/full/full/0/default.jpg">
                                                   <desc><name>LEPRÊTRE (E.),</name><trait>
-                                                  <p> 1, rue Saint-Denis-Gode¬froy, Lille (Nord).</p>
+                                                  <p> 1, rue Saint-Denis-Godefroy, Lille (Nord).</p>
                                                   </trait></desc>
                                                   <item n="331" xml:id="PCP_1894_e92_i331"><num>331</num><title>— Corvette.</title></item>
                                                   <item n="332" xml:id="PCP_1894_e92_i332"><num>332</num><title>— Moulin à Vent, à Landas.</title></item>
@@ -983,14 +981,14 @@
                                                   <entry n="93" xml:id="PCP_1894_e93"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3007/full/full/0/default.jpg">
                                                   <desc><name>LIEBIEG (Baron Alfred),</name><trait>
-                                                  <p> Vienne (Au¬triche).</p>
+                                                  <p> Vienne (Autriche).</p>
                                                   </trait></desc>
                                                   <item n="335" xml:id="PCP_1894_e93_i335"><num>335</num><title>— Portrait d'enfant.</title></item>
                                                   </entry>
                                                   <entry n="94" xml:id="PCP_1894_e94"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3007/full/full/0/default.jpg">
                                                   <desc><name>LINTOTT (Bernard),</name><trait>
-                                                  <p> 11, the Carfax, Hors¬ham (Angleterre).</p>
+                                                  <p> 11, the Carfax, Horsham (Angleterre).</p>
                                                   </trait></desc>
                                                   <item n="336" xml:id="PCP_1894_e94_i336"><num>336</num><title>— Marée montante.</title></item>
                                                   </entry>
@@ -1019,7 +1017,7 @@
                                                   <entry n="98" xml:id="PCP_1894_e98"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3007/full/full/0/default.jpg">
                                                   <desc><name>MALATIER (Louis),</name><trait>
-                                                  <p> Chervinge, par Ville¬franche (Rhône).</p>
+                                                  <p> Chervinge, par Villefranche (Rhône).</p>
                                                   </trait></desc>
                                                   <item n="341" xml:id="PCP_1894_e98_i341"><num>341</num><title>— Nos bonnes petites Sœurs.</title></item>
                                                   <item n="342" xml:id="PCP_1894_e98_i342"><num>342</num><title>— Grapillage.</title></item>
@@ -1041,7 +1039,7 @@
                                                   <entry n="101" xml:id="PCP_1894_e101"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3008/full/full/0/default.jpg">
                                                   <desc><name>MASKELL(Alfred),</name><trait>
-                                                  <p> Spencer Terrace, Sun¬bury on Thames (Angleterre).</p>
+                                                  <p> Spencer Terrace, Sunbury on Thames (Angleterre).</p>
                                                   </trait></desc>
                                                   <item n="345" xml:id="PCP_1894_e101_i345"><num>345</num><title>— Toccata.</title></item>
                                                   <item n="346" xml:id="PCP_1894_e101_i346"><num>346</num><title>— Portrait de G. Davison.</title></item>
@@ -1138,8 +1136,8 @@
                                                   </entry>
                                                   <entry n="111" xml:id="PCP_1894_e111"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3010/full/full/0/default.jpg">
-                                                  <desc><name>PARKINSON NORTON (Jean-Guil¬laume),</name><trait>
-                                                  <p> 70, Winterstreet, Sheffield (Angle¬terre).</p>
+                                                  <desc><name>PARKINSON NORTON (Jean-Guillaume),</name><trait>
+                                                  <p> 70, Winterstreet, Sheffield (Angleterre).</p>
                                                   </trait></desc>
                                                   <item n="382" xml:id="PCP_1894_e111_i382"><num>382</num><title>— Vallée de la Riveline.</title></item>
                                                   <item n="383" xml:id="PCP_1894_e111_i383"><num>383</num><title>— Solitude.</title></item>
@@ -1244,7 +1242,7 @@
                                                   <entry n="123" xml:id="PCP_1894_e123"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3012/full/full/0/default.jpg">
                                                   <desc><name>ROBINSON (H.-P.),</name><trait>
-                                                  <p>Tunbridge Wells (An¬gleterre).</p>
+                                                  <p>Tunbridge Wells (Angleterre).</p>
                                                   </trait></desc>
                                                   <item n="414" xml:id="PCP_1894_e123_i414"><num>414</num><title>— L'Attente de pêcheurs.</title></item>
                                                   <item n="415" xml:id="PCP_1894_e123_i415"><num>415</num><title>— Temps orageux.</title></item>
@@ -1264,7 +1262,7 @@
                                                   <entry n="125" xml:id="PCP_1894_e125"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3012/full/full/0/default.jpg">
                                                   <desc><name>ROTHSCHILD (Baron Albert de),</name><trait>
-                                                  <p>Neu¬gasse, Vienne (Autriche).</p>
+                                                  <p>Neugasse, Vienne (Autriche).</p>
                                                   </trait></desc>
                                                   <item n="422" xml:id="PCP_1894_e125_i422"><num>422</num><title>— Tête d'étude dans le style italien du XVIe siècle.</title></item>
                                                   <item n="423" xml:id="PCP_1894_e125_i423"><num>423</num><title>— Vue de Wardhofen (Basse Autriche).</title></item>
@@ -1314,7 +1312,7 @@
                                                   </entry>
                                                   <entry n="130" xml:id="PCP_1894_e130"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3014/full/full/0/default.jpg">
-                                                  <desc><name>RUFFO (Antoine), Prince della SCA¬LETTA</name><trait>
+                                                  <desc><name>RUFFO (Antoine), Prince della SCALETTA</name><trait>
                                                   <p> Villino Ruffo Scaletta, porte du Peuple, Rome.</p>
                                                   </trait></desc>
                                                   <item n="443" xml:id="PCP_1894_e130_i443"><num>443</num><title>— Un Évêque.</title></item>
@@ -1381,21 +1379,21 @@
                                                   <entry n="137" xml:id="PCP_1894_e137"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3015/full/full/0/default.jpg">
                                                   <desc><name>SOHST (A.-A.),</name><trait>
-                                                  <p> Newsky 79, Saint-Péters¬bourg.</p>
+                                                  <p> Newsky 79, Saint-Pétersbourg.</p>
                                                   </trait></desc>
                                                   <item n="467" xml:id="PCP_1894_e137_i467"><num>467</num><title>— La Moris.</title></item>
                                                   </entry>
                                                   <entry n="138" xml:id="PCP_1894_e138"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3015/full/full/0/default.jpg">
                                                   <desc><name>SOULAN (Joseph),</name><trait>
-                                                  <p> Bonrepos, par Saint¬Lys (Haute-Garonne).</p>
+                                                  <p> Bonrepos, par SaintLys (Haute-Garonne).</p>
                                                   </trait></desc>
                                                   <item n="468" xml:id="PCP_1894_e138_i468"><num>468</num><title>— Les deux petits Mendiants.</title></item>
                                                   </entry>
                                                   <entry n="139" xml:id="PCP_1894_e139"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3015/full/full/0/default.jpg">
                                                   <desc><name>SRNA,</name><trait>
-                                                  <p> I Elisabethstrasse 1, Vienne (Au¬triche).</p>
+                                                  <p> I Elisabethstrasse 1, Vienne (Autriche).</p>
                                                   </trait></desc>
                                                   <item n="469" xml:id="PCP_1894_e139_i469"><num>469</num><title>— Sur la Route.</title></item>
                                                   <item n="470" xml:id="PCP_1894_e139_i470"><num>470</num><title>— Chasseur des Alpes.</title></item>
@@ -1406,7 +1404,7 @@
                                                   </entry>
                                                   <entry n="140" xml:id="PCP_1894_e140"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3015/full/full/0/default.jpg">
-                                                  <desc><name>STEGLITZ,</name><trait>
+                                                  <desc><name>STIEGLITZ,</name><trait>
                                                   <p> 14, East 60th street, New-York.</p>
                                                   </trait></desc>
                                                   <item n="475" xml:id="PCP_1894_e140_i475"><num>475</num><title>— Les Joueurs de cartes.</title></item>
@@ -1423,7 +1421,7 @@
                                                   <entry n="142" xml:id="PCP_1894_e142"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3016/full/full/0/default.jpg">
                                                   <desc><name>STRAKOSCH, </name><trait>
-                                                  <p>Hobenau, près Vienne (Au¬triche).</p>
+                                                  <p>Hobenau, près Vienne (Autriche).</p>
                                                   </trait></desc>
                                                   <item n="479" xml:id="PCP_1894_e142_i479"><num>479</num><title>— Enfants au jeu.</title></item>
                                                   <item n="480" xml:id="PCP_1894_e142_i480"><num>480</num><title>— Rue de village.</title></item>
@@ -1503,7 +1501,7 @@
                                                   <entry n="152" xml:id="PCP_1894_e152"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3017/full/full/0/default.jpg">
                                                   <desc><name>VEER (Georges de),</name><trait>
-                                                  <p> villa Henriette. Vel¬perweg, 94, Arnheim (Pays-Bas).</p>
+                                                  <p> villa Henriette. Velperweg, 94, Arnheim (Pays-Bas).</p>
                                                   </trait></desc>
                                                   <item n="498" xml:id="PCP_1894_e152_i498"><num>498</num><title>— Vue des environs d'Arnheim.</title></item>
                                                   </entry>
@@ -1517,7 +1515,7 @@
                                                   <entry n="154" xml:id="PCP_1894_e154"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:3018/full/full/0/default.jpg">
                                                   <desc><name>WARNEUKE,</name><trait>
-                                                  <p> 153, Sanchiehall street, Glas¬gow (Écosse).</p>
+                                                  <p> 153, Sanchiehall street, Glasgow (Écosse).</p>
                                                   </trait></desc>
                                                   <item n="500" xml:id="PCP_1894_e154_i500"><num>500</num><title>— Shylock.</title></item>
                                                   </entry>

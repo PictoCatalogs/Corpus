@@ -27,13 +27,13 @@
                                                   </publicationStmt>
                                                   <sourceDesc>
                                                   <bibl type="exhibition_catalog">
-                                                  <title>Catalogue des oeuvres exposées au 11e Salon international de Photographie du Photo-Club de Paris</title>
+                                                  <title>Catalogue des oeuvres exposées au septième salon international de photographie / du Photo-Club de Paris</title>
                                                   <author/>
                                                   <editor/>
                                                   <publisher>Photo-Club de Paris</publisher>
                                                   <pubPlace>44, rue des Mathurins, Paris</pubPlace>
                                                   <date when="1902">1902</date>
-                                                  <extent>1 vol (87 p.), [10] leaves of plates : illustrations ; 18 cm</extent>
+                                                  <extent>87 pages, [10] leaves of plates : illustrations ; 18 cm</extent>
                                                   <relatedItem>
                                                   <msDesc>
                                                   <msIdentifier>
@@ -41,7 +41,7 @@
                                                   </msIdentifier>
                                                   <additional>
                                                   <surrogates>
-                                                  <ref facs="https://libmma.contentdm.oclc.org/iiif/info/p15324coll19/307/manifest.json"/>
+                                                  <ref facs="https://cdm16028.contentdm.oclc.org/iiif/p15324coll19:307/manifest.json"/>
                                                   <name role="digitisation">Metropolitan Museum of Art (New York, N.Y.)</name>
                                                   </surrogates>
                                                   </additional>
@@ -59,15 +59,13 @@
                                                   <place>
                                                   <head/>
                                                   <placeName>
-                                                  <orgName type="other_type">Photo-Club de
-                                                  Paris</orgName>
+                                                  <orgName type="other_type">Photo-Club de Paris</orgName>
                                                   <!-- Two addresses are encoded: the first one is indicated in the printout and the second one
                                                                                                                                                                                                                                                   corresponds to its standardized version -->
                                                   <choice>
                                                   <orig>
                                                   <address n="address_from_source">
-                                                  <addrLine>Siège de la Société, 44, rue des
-                                                  Mathurins</addrLine>
+                                                  <addrLine>Siège de la Société, 44, rue des Mathurins</addrLine>
                                                   </address>
                                                   </orig>
                                                   <reg>
@@ -522,7 +520,7 @@
                                                   </entry>
                                                   <entry n="49" xml:id="PCP_1902_e49"
                                                   source="cat_pcp_1902.pdf_page_22.png">
-                                                  <desc><name>CHOISEUL. PRASLIN (Marq. de).</name><trait>
+                                                  <desc><name>CHOISEUL PRASLIN (Marq. de).</name><trait>
                                                   <p>P. C. P. 54, avenue Marceau, Paris.</p>
                                                   </trait></desc>
                                                   <item n="112" xml:id="PCP_1902_e49_i112"><num>112</num><title>Coucher de soleil. Lucerne.</title><desc> A.</desc></item>
@@ -1331,7 +1329,7 @@
                                                   <desc><name>MABIRE (Edmond).</name><trait>
                                                   <p>6, rue de Madrid, Paris.</p>
                                                   </trait></desc>
-                                                  <item n="342" xml:id="PCP_1902_e146_i342"><num>342</num><title>Portrait de M. B. A. Br.</title><desc> B. A. Br.</desc></item>
+                                                  <item n="342" xml:id="PCP_1902_e146_i342"><num>342</num><title>Portrait de M. B.</title><desc> A. Br.</desc></item>
                                                   </entry>
                                                   <entry n="147" xml:id="PCP_1902_e147"
                                                   source="cat_pcp_1902.pdf_page_47.png">
@@ -1892,9 +1890,9 @@
                                                   <desc><name>TYSZKIEWICZ (Comte B.).</name><trait>
                                                   <p> P. C. P. - S. A. E. 2 bis, rue Boccador, Paris.</p>
                                                   </trait></desc>
-                                                  <item n="501" xml:id="PCP_1902_e213_i501"><num>501</num><title>Paysan japonais en costume de mauvais temps.</title></item>
+                                                  <item n="501" xml:id="PCP_1902_e213_i501"><num>501</num><title>Paysan japonais en costume de mauvais temps.</title><desc>A. Ch.</desc></item>
                                                   <item n="502" xml:id="PCP_1902_e213_i502"><num>502</num><title>Pèlerin japonais.</title><desc> A. Ch.</desc></item>
-                                                  <item n="503" xml:id="PCP_1902_e213_i503"><num>503</num><title>La Fête des Cerisiers en fleurs à Tokio (21 avril).</title></item>
+                                                  <item n="503" xml:id="PCP_1902_e213_i503"><num>503</num><title>La Fête des Cerisiers en fleurs à Tokio (21 avril).</title><desc>A. Ch.</desc></item>
                                                   <item n="504" xml:id="PCP_1902_e213_i504"><num>504</num><title>Vieux Murs de Nankin.</title><desc> A. Ch.</desc></item>
                                                   <item n="505" xml:id="PCP_1902_e213_i505"><num>505</num><title>Jonque de Guerre</title><desc> Ch.</desc></item>
                                                   </entry>

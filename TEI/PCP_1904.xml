@@ -6,9 +6,7 @@
                       <teiHeader>
                                             <fileDesc>
                                                   <titleStmt>
-                                                  <title>Catalogue des oeuvres exposées au septième
-                                                  salon international de photographie / du
-                                                  Photo-Club de Paris</title>
+                                                  <title>Catalogue des oeuvres exposées au neuvième salon international de photographie / du Photo-Club de Paris</title>
                                                   <editor role="metadata">
                                                   <persName>Frédérine Pradier</persName>
                                                   </editor>
@@ -33,28 +31,22 @@
                                                   </publicationStmt>
                                                   <sourceDesc>
                                                   <bibl type="exhibition_catalog">
-                                                  <title>Catalogue des oeuvres exposées au 11e Salon
-                                                  international de Photographie du Photo-Club de
-                                                  Paris</title>
+                                                  <title>Catalogue des oeuvres exposées au neuvième Salon international de Photographie du Photo-Club de Paris</title>
                                                   <author/>
                                                   <editor/>
                                                   <publisher>Photo-Club de Paris</publisher>
                                                   <pubPlace>44, rue des Mathurins, Paris</pubPlace>
-                                                  <date when="1902">1902</date>
-                                                  <extent>1 vol (87 p.), [10] leaves of plates :
-                                                  illustrations ; 18 cm</extent>
+                                                  <date when="1904">1904</date>
+                                                  <extent>101 p., [11] leaves of plates : ill. ; 18 cm</extent>
                                                   <relatedItem>
                                                   <msDesc>
                                                   <msIdentifier>
-                                                  <repository>Metropolitan Museum of Art (New York,
-                                                  N.Y.)</repository>
+                                                  <repository>Metropolitan Museum of Art (New York, N.Y.)</repository>
                                                   </msIdentifier>
                                                   <additional>
                                                   <surrogates>
-                                                  <ref
-                                                  facs="https://libmma.contentdm.oclc.org/iiif/info/p15324coll19/307/manifest.json"/>
-                                                  <name role="digitisation">Metropolitan Museum of
-                                                  Art (New York, N.Y.)</name>
+                                                  <ref facs="https://cdm16028.contentdm.oclc.org/iiif/p15324coll19/manifest.json"/>
+                                                  <name role="digitisation">Metropolitan Museum of Art (New York, N.Y.)</name>
                                                   </surrogates>
                                                   </additional>
                                                   </msDesc>
@@ -62,9 +54,8 @@
                                                   </bibl>
                                                   <listEvent>
                                                   <event type="exhibition" subtype="fixed"
-                                                  from="1902-05-01" to="1902-06-01">
-                                                  <head>Salon international de photographie du
-                                                  Photo-Club de Paris, septième année</head>
+                                                  from="1904-05-03" to="1904-06-05">
+                                                  <head>Salon international de photographie du Photo-Club de Paris, septième année</head>
                                                   <head type="society">Photo-Club de Paris</head>
                                                   <desc>
                                                   <listPlace>
@@ -72,20 +63,18 @@
                                                   <place>
                                                   <head/>
                                                   <placeName>
-                                                  <orgName type="other_type">Photo-Club de
-                                                  Paris</orgName>
+                                                  <orgName type="other_type">Petit Palais des Champs-Élysées</orgName>
                                                   <!-- Two addresses are encoded: the first one is indicated in the printout and the second one
                                                                                                                                                                                                                                                   corresponds to its standardized version -->
                                                   <choice>
                                                   <orig>
                                                   <address n="address_from_source">
-                                                  <addrLine>Siège de la Société, 44, rue des
-                                                  Mathurins</addrLine>
+                                                  <addrLine>Petit Palais des Champs-Élysées</addrLine>
                                                   </address>
                                                   </orig>
                                                   <reg>
                                                   <address n="section_address">
-                                                  <street>44, rue des Mathurins</street>
+                                                  <street>Avenue Winston Churchill</street>
                                                   <addrLine n="locality"/>
                                                   <settlement>Paris</settlement>
                                                   <country>France</country>
@@ -648,7 +637,7 @@
                                                   </entry>
                                                   <entry n="61" xml:id="PCP_1904_e61"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:5161/full/full/0/default.jpg">
-                                                  <desc><name>CLARENCE</name><trait>
+                                                  <desc><name>CLARENCE H. WHITE</name><trait>
                                                   <p>P. S. E. U. - L. R. Newark, Ohio (E. U. A.).</p>
                                                   </trait></desc>
                                                   <item n="153" xml:id="PCP_1904_e61_i153"><num>153</num><title>Les deux Sœurs. </title><desc> Pl.</desc></item>
@@ -1126,7 +1115,7 @@
                                                   </entry>
                                                   <entry n="118" xml:id="PCP_1904_e118"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:5175/full/full/0/default.jpg">
-                                                  <desc><name>GILIBERT (AIbert).</name><trait>
+                                                  <desc><name>GILIBERT (Albert).</name><trait>
                                                   <p> P. C. P. - S. A. E. 55, rue de Prony, Paris.</p>
                                                   </trait></desc>
                                                   <item n="288" xml:id="PCP_1904_e118_i288"><num>288</num><title>Les Charrons.</title></item>
@@ -2008,8 +1997,8 @@
                                                   </entry>
                                                   <entry n="222" xml:id="PCP_1904_e222"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:5203/full/full/0/default.jpg">
-                                                  <desc><name>PRIN</name><trait>
-                                                  <p>16, rue du Pré-aux-Clercs, Paris.</p>
+                                                  <desc><name>PRIN D'ORIGNY</name><trait>
+                                                  <p> P. C. P. - S. A. E. 16, rue du Pré-aux-Clercs, Paris.</p>
                                                   </trait></desc>
                                                   <item n="546" xml:id="PCP_1904_e222_i546"><num>546</num><title>La Lecture.</title><desc> A. Ch. Fr.</desc></item>
                                                   <item n="547" xml:id="PCP_1904_e222_i547"><num>547</num><title>Étude.</title><desc> A. Ch. Fr.</desc></item>
@@ -2452,7 +2441,7 @@
                                                   <entry n="272" xml:id="PCP_1904_e272"
                                                   source="https://cdm16028.contentdm.oclc.org/iiif/2/p15324coll19:5216/full/full/0/default.jpg">
                                                   <desc><name>THOMSON (Robert).</name><trait>
-                                                  <p>66, Newington Road, Edimbourg</p>
+                                                  <p>66, Newington Road, Edimbourg (Écosse).</p>
                                                   </trait></desc>
                                                   <item n="689" xml:id="PCP_1904_e272_i689"><num>689</num><title>Une route en Écosse.</title><desc> Br.</desc></item>
                                                   <item n="690" xml:id="PCP_1904_e272_i690"><num>690</num><title>Passage du pont.</title><desc> Br.</desc></item>
