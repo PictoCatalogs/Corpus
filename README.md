@@ -1,12 +1,11 @@
-# Pictorialist Photography Exhibition Catalogs, 1891-1914
+# Pictorialist Photography Exhibition Catalogs
 ___
 
 ## Project
 
 This project aims to encode and study Pictorialist Photography Exhibition Catalogs from the Metropolitan Museum of Art Library (Joyce F. Menschel Photography Library), available [here](https://www.metmuseum.org/art/libraries-and-research-centers/watson-digital-collections/rare-materials-in-the-met-libraries/pictorialist-photography-exhibition-catalogs-1891-1914). 
 
-This repository is under construction. For the moment, it only contains catalogs of the Photo-Club de Paris exhibitions. 
-
+This repository contains the various files resulting from the processing of the Photo-Club de Paris (PCP) catalogues.
 ## Workflow 
 
 <p align="center">
