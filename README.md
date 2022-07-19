@@ -15,35 +15,12 @@ This repository is under construction. For the moment, it only contains catalogs
 
 ## Repository
 
-```
-├── CSV
-│     ├─ PCP_1894.csv
-│     ├─ PCP_1896.csv
-│     ├─ PCP_1898.csv
-│     └─ PCP_1906.csv
-│
-├── TEI
-│     ├─ PCP_1894.xml
-│     ├─ PCP_1896.xml
-│     ├─ PCP_1898.xml
-│     └─ PCP_1906.xml
-│
-└─ README.md
-```
-
-## Credits
-This repository is developed by Frédérine Pradier. This work is mainly based on the datasets and workflows provided by Juliette Janès and Caroline Corbières for the Artl@s project. 
-
-Juliette Janes, Simon Gabay, Béatrice Joyeux-Prunel, extractionCatalogs: Python data extractor for exhibition catalogs, 2021, Paris: ENS Paris https://github.com/Juliettejns/TEIcatalogs/
-
-Juliette Janes, Simon Gabay, Béatrice Joyeux-Prunel, TEICatalogs: Corpus of encoded 19th and 20th catalogs, 2021, Paris: ENS Paris https://github.com/Juliettejns/TEIcatalogs/
-
-Juliette Janes, Simon Gabay, Béatrice Joyeux-Prunel, HTRCatalogs: Dataset for Historical Catalogs Segmentation and HTR, 2021, Paris: ENS Paris https://github.com/Juliettejns/cataloguesSegmentationOCR/
-
-Caroline Corbières, Simon Gabay and Béatrice Joyeux-Prunel, Worklow to encode exhibition catalogues, 2020, https://github.com/carolinecorbieres/ArtlasCatalogues.
+`CSV`: CSV files containing exhibition catalogue entries  
+`TEI`: XML TEI files containing exhibition catalogue entries  
+`extended_tsv`: TSV files containing exhibition catalogue entries, cleaned and enriched with OpenRefine
 
 ## Licence
-XML-TEI files and CSV files are made available under a [CC-BY](https://creativecommons.org/licenses/by/2.0/fr/) licence.
+XML-TEI files, CSV files and TSV files are made available under a [CC-BY](https://creativecommons.org/licenses/by/2.0/fr/) licence.
 
 The materials that were used to create these files are in the public domain and are made available by the Metropolitan Museum of Art under a [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr) licence.
 
