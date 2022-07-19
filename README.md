@@ -25,9 +25,8 @@ The materials that were used to create these files are in the public domain and 
 
 ## Cite this repository
 
+Frédérine Pradier, Simon Gabay, Béatrice Joyeux-Prunel, *PictoCatalogs : Corpus of Encoded Pictorialist Photography Exhibition Catalogs*, 2022, Geneva: University of Geneva
 
 ## Contacts
 
 frederine.pradier@etu-unige.ch
-# PictoCatalogs.github.io
-# Corpus
