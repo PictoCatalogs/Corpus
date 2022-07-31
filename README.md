@@ -5,7 +5,6 @@ ___
 
 This project aims to encode and study Pictorialist Photography Exhibition Catalogs from the Metropolitan Museum of Art Library (Joyce F. Menschel Photography Library), available [here](https://www.metmuseum.org/art/libraries-and-research-centers/watson-digital-collections/rare-materials-in-the-met-libraries/pictorialist-photography-exhibition-catalogs-1891-1914). 
 
-This repository contains the various files resulting from the processing of the Photo-Club de Paris (PCP) catalogues.
 ## Workflow 
 
 <p align="center">
@@ -14,10 +13,10 @@ This repository contains the various files resulting from the processing of the 
 
 ## Repository
 
-`CSV`: CSV files containing exhibition catalogue entries  
-`TEI`: XML TEI files containing exhibition catalogue entries  
-`extended_tsv`: TSV files containing exhibition catalogue entries, cleaned and enriched with OpenRefine
-
+`CSV`: CSV files containing exhibition catalogue entries (Photo-Club de Paris exhibitions from 1894 to 1906).
+`TEI`: XML TEI files containing exhibition catalogue entries (Photo-Club de Paris exhibitions from 1894 to 1906).  
+`extended_tsv`: contains TSV files with exhibition catalogues entries (cleaned and enriched with OpenRefine), an Excel file with various data from the catalogues, and the TSV file exported from Tropy to study the iconography of the whole corpus.
+`data_viz` : contains the visualisations generated from the data.
 ### Credits
 
 This repository is developed by Frédérine Pradier, University of Geneva. This work has benefited greatly from the datasets and workflows provided by Juliette Janès, Esteban Sánchez Oeconomo and Caroline Corbières for the [Artl@s project](https://artlas.huma-num.fr).
@@ -30,7 +29,7 @@ Caroline Corbières, Simon Gabay and Béatrice Joyeux-Prunel, *Worklow to encode
 
 ## Thanks to
 
-This project greatly benefited from the active help of Simon Gabay and Esteban Sánchez Oeconomo. 
+This project greatly benefited from the active help of Simon Gabay, Béatrice Joyeux-Prunel and Esteban Sánchez Oeconomo. 
 
 ## Licence
 XML-TEI files, CSV files and TSV files are made available under a [CC-BY](https://creativecommons.org/licenses/by/2.0/fr/) licence.
